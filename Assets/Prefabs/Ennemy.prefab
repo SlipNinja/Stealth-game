@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3064493401516687054}
   - component: {fileID: 3064493401516687053}
   - component: {fileID: 3064493401516687048}
+  - component: {fileID: 3872436676645377330}
   - component: {fileID: 3064493401516687043}
   - component: {fileID: 3064493401516687052}
   m_Layer: 0
@@ -105,6 +106,19 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!114 &3872436676645377330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064493401516687042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a630dde287d4c3498badf616e9db782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepPrefab: {fileID: 1208791837096145021, guid: 375dfa6abfd03e64fbc2945944f3917f, type: 3}
 --- !u!195 &3064493401516687043
 NavMeshAgent:
   m_ObjectHideFlags: 0
