@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1083137540" Language="SFX" Hash="3408808499">
+			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
+			<ShortName>FOX</ShortName>
+			<Path>FOX.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="11613578" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_6F79AB2A.wem</Path>
+				</File>
+				<File Id="26268755" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_279E65B6.wem</Path>
+				</File>
+				<File Id="115107440" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_A3B42BA3.wem</Path>
+				</File>
+				<File Id="288137750" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_B702BE24.wem</Path>
+				</File>
+				<File Id="438705581" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_05A3DDEC.wem</Path>
+				</File>
+				<File Id="461416601" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_C53B4766.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1229948536" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
+			<ShortName>ENVIRONMENT</ShortName>
+			<Path>ENVIRONMENT.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="662292339">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2145253833" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
+			<ShortName>ATMOSPHERE</ShortName>
+			<Path>ATMOSPHERE.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2242381963" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENEMIES</ObjectPath>
+			<ShortName>ENEMIES</ShortName>
+			<Path>ENEMIES.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
