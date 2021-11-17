@@ -19,7 +19,9 @@
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="ENEMIES" ID="{A003DA17-E0F2-4B98-B705-A9B18DB0BB7E}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
