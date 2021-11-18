@@ -10600,7 +10600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2132543151952734877, guid: d37854436b92fc1438b4baa9bd33982d, type: 3}
       propertyPath: m_Name
-      value: fox_animated_walk_cycle Variant
+      value: Fox (player)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37854436b92fc1438b4baa9bd33982d, type: 3}
