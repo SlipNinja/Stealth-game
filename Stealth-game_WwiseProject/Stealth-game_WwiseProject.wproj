@@ -11536,6 +11536,15 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\FOX">
+					<WorkUnit Name="FOX" ID="{C0FD08D3-E539-447F-A5C2-69CA4A1801DA}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\FOX\MOVEMENT">
+					<WorkUnit Name="MOVEMENT" ID="{A47AD8DC-8E2F-4B18-936B-368A9635570A}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\FOX\MOVEMENT\FS">
+					<WorkUnit Name="FS" ID="{589DA802-5365-413C-9B69-1FA36656D2BC}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>

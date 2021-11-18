@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1083137540" Language="SFX" Hash="3669007237">
+			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
+			<ShortName>FOX</ShortName>
+			<Path>FOX.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="11613578" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_822DEC3B.wem</Path>
+				</File>
+				<File Id="26268755" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_346627C1.wem</Path>
+				</File>
+				<File Id="115107440" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_C273D1AF.wem</Path>
+				</File>
+				<File Id="288137750" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_91C74759.wem</Path>
+				</File>
+				<File Id="438705581" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_D2338AF5.wem</Path>
+				</File>
+				<File Id="461416601" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_6EED44BF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1229948536" Language="SFX" Hash="3963525656">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
+			<ShortName>ENVIRONMENT</ShortName>
+			<Path>ENVIRONMENT.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4294000157">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2145253833" Language="SFX" Hash="514500195">
+			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
+			<ShortName>ATMOSPHERE</ShortName>
+			<Path>ATMOSPHERE.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2242381963" Language="SFX" Hash="2001690117">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENEMIES</ObjectPath>
+			<ShortName>ENEMIES</ShortName>
+			<Path>ENEMIES.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3755395237">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="251524950" Language="SFX">
+					<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>
+					<Path>SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="325980009" Language="SFX">
+					<ShortName>SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav</ShortName>
+					<Path>SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="373978650" Language="SFX">
+					<ShortName>SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav</ShortName>
+					<Path>SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="531876546" Language="SFX">
+					<ShortName>SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav</ShortName>
+					<Path>SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

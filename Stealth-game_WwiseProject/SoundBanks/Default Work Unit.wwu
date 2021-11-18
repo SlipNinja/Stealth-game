@@ -46,7 +46,9 @@
 						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
