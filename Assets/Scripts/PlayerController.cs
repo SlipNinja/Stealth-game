@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
 // -----------------------------------------------------------------------------------------------
     public Transform cameraHolder;
     public float mouseSensitivity;
+    public float upLimit;
+    public float downLimit;
 // -----------------------------------------------------------------------------------------------
 
     private void Awake () {
