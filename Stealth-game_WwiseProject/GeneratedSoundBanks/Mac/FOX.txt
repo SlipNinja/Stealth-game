@@ -1,0 +1,8 @@
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11613578	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_822DEC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_03		69432
+	26268755	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_346627C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_01		55104
+	115107440	Fox footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_C273D1AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_02		54348
+	288137750	Fox footsteps_05	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_91C74759.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_05		63156
+	438705581	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_D2338AF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_04		69544
+	461416601	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_6EED44BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps		74708
+
