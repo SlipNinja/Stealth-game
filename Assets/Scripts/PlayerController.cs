@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]
-    public CharacterController characterController;
 // -----------------------------------------------------------------------------------------------
     [Tooltip("Move speed in meters/second")]
     public float moveSpeed;
@@ -16,10 +14,17 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity;
     public float upLimit;
     public float downLimit;
-// -----------------------------------------------------------------------------------------------
+    // -----------------------------------------------------------------------------------------------
+    private Vector3 moveDirection = Vector3.zero;
 
-    private void Awake () {
-        characterController = GetComponent<CharacterController>();
+    Rigidbody rb;
+
+    Animator animator;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
@@ -28,19 +33,22 @@ public class PlayerController : MonoBehaviour
     }
 
     private void move() {
-        float horizontalMove = Input.GetAxis("Horizontal");
-        float verticalMove = Input.GetAxis("Vertical");
+        var horizontal = Input.GetAxis("Horizontal");
+        var vertical = Input.GetAxis("Vertical");
 
-        if(characterController.isGrounded)
+        transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
+
+        moveDirection.y -= gravity * Time.deltaTime;
+
+        if (rb.velocity.x == 0f && rb.velocity.y == 0f)
         {
-            verticalSpeed = 0;
-        } else {
-            verticalSpeed -= gravity * Time.deltaTime;
+            animator.SetBool("isWalking", false);
         }
+        else
+        {
+            animator.SetBool("isWalking", true);
 
-        Vector3 gravityMove = new Vector3(0,verticalSpeed, 0);
-        Vector3 move =  transform.forward * verticalMove + transform.right * horizontalMove;
-        characterController.Move(moveSpeed * Time.deltaTime * move + gravityMove * Time.deltaTime);
+        }
     }
 
     public void rotate(){
