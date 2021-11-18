@@ -11,10 +11,40 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1083137540" Language="SFX" Hash="3669007237">
+		<SoundBank Id="1083137540" Language="SFX" Hash="1761325457">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3351742574" Name="FOX_FS" ObjectPath="\Events\FOX\FOX_FS" DurationType="OneShot" DurationMin="0.230552" DurationMax="0.503220">
+					<IncludedMemoryFiles>
+						<File Id="11613578" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_822DEC3B.wem</Path>
+						</File>
+						<File Id="26268755" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_346627C1.wem</Path>
+						</File>
+						<File Id="115107440" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_C273D1AF.wem</Path>
+						</File>
+						<File Id="288137750" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_91C74759.wem</Path>
+						</File>
+						<File Id="438705581" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_D2338AF5.wem</Path>
+						</File>
+						<File Id="461416601" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_6EED44BF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="11613578" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
@@ -62,10 +92,32 @@
 			<ShortName>ENEMIES</ShortName>
 			<Path>ENEMIES.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3755395237">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3232898396">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4226239971" Name="Play_SNEAK_LOOP" ObjectPath="\Events\MUSIC\Play_SNEAK_LOOP" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="251524950" Language="SFX">
+							<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="325980009" Language="SFX">
+							<ShortName>SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="373978650" Language="SFX">
+							<ShortName>SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="531876546" Language="SFX">
+							<ShortName>SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="251524950" Language="SFX">
 					<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>

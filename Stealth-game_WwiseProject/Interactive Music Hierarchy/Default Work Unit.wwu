@@ -18,7 +18,7 @@
 								<Property Name="Tempo" Type="Real64" Value="80"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -392,9 +392,6 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{D3759CC4-BF66-4E11-8DB3-3E1007931EAB}" ShortID="783667145">
-									<PropertyList>
-										<Property Name="PlayMode" Type="int16" Value="1"/>
-									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{C90D1F3B-6E7F-49BC-88B1-E92A3AC64A8F}" ShortID="156267060">
 											<PropertyList>

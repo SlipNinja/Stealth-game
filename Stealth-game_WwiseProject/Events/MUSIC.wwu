@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_SNEAK_LOOP" ID="{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}">
+					<ChildrenList>
+						<Action Name="" ID="{E8B37F90-411A-45E6-9A85-0C6E01CEB385}" ShortID="289776455">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SNEAK_LOOP" ID="{9AA6877C-5A56-4D87-88CD-63859A5814CF}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

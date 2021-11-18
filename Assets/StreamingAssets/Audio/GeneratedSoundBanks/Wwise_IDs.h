@@ -11,6 +11,12 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FOX_FS = 3351742574U;
+        static const AkUniqueID PLAY_SNEAK_LOOP = 4226239971U;
+    } // namespace EVENTS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

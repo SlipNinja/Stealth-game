@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="FOX_FS" ID="{8FACFFAD-5F48-47D0-8F9F-3531C7874962}">
+					<ChildrenList>
+						<Action Name="" ID="{6120648C-A4F8-4D6C-80B4-14F2C4FD53CD}" ShortID="996703409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS" ID="{84E9219D-337E-4054-9E4A-FDC81859CCC7}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

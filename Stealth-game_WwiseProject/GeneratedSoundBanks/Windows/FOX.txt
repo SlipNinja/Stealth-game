@@ -1,3 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3351742574	FOX_FS			\FOX\FOX_FS	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11613578	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_822DEC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_03		69432
 	26268755	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_346627C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_01		55104

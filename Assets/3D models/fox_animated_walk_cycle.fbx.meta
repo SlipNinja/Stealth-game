@@ -59,7 +59,56 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.13011152
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.22150263
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.43529645
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5018587
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6352279
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7360595
+        functionName: FOX_FS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
