@@ -8,8 +8,16 @@
 =======
 				<Property Name="Event Action List\{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}\x64_Expand States" Type="string" Value=""/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<Property Name="Event Action List\{68741942-F41C-4F7F-B548-5D6DA2F8EF5F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8FACFFAD-5F48-47D0-8F9F-3531C7874962}\x64_Expand States" Type="string" Value=""/>
+=======
+				<Property Name="Event Action List\{1DC8FD6C-F2D4-4596-BE75-E58C80361360}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{68741942-F41C-4F7F-B548-5D6DA2F8EF5F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6A353EAC-3470-4D66-8ADE-ADEBB57F7708}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8FACFFAD-5F48-47D0-8F9F-3531C7874962}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C0571226-5CA8-46F8-AF81-00DA4335FC2A}\x64_Expand States" Type="string" Value=""/>
+>>>>>>> Stashed changes
 =======
 				<Property Name="Event Action List\{1DC8FD6C-F2D4-4596-BE75-E58C80361360}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{68741942-F41C-4F7F-B548-5D6DA2F8EF5F}\x64_Expand States" Type="string" Value=""/>
@@ -36,8 +44,14 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="R2lyfjEP5EaBHxTddVWSwQ=="/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="bFOXUG2wKk6UktuBFnDtsjIFAChDQGxLrdvCu8fqmU9oWYxUzqKpTpYbccx6NcGqzoPOWyoVaUikIjMp5kwysw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
+=======
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="aFmMVM6iqU6WG3HMejXBqjIFAChDQGxLrdvCu8fqmU9sU5dQbbAqTpSS24EWcO2yzoPOWyoVaUikIjMp5kwysw=="/>
+				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="v8Dj1X70/kGjNW9zNEW3eAEDbOv/////Rtt4eK+vaUWPTS1iShdnZQEDbOv/////"/>
+>>>>>>> Stashed changes
 =======
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="aFmMVM6iqU6WG3HMejXBqjIFAChDQGxLrdvCu8fqmU9sU5dQbbAqTpSS24EWcO2yzoPOWyoVaUikIjMp5kwysw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>

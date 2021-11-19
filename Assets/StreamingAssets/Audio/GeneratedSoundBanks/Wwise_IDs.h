@@ -17,7 +17,11 @@ namespace AK
     {
         static const AkUniqueID FOX_FS = 3351742574U;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         static const AkUniqueID PLAY_BIRDS_AND_TREES = 1169232266U;
+=======
+        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
+>>>>>>> Stashed changes
 =======
         static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
 >>>>>>> Stashed changes

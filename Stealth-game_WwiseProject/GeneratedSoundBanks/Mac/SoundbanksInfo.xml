@@ -12,11 +12,14 @@
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="1083137540" Language="SFX" Hash="3669007237">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
 =======
+=======
+>>>>>>> Stashed changes
 		<SoundBank Id="1083137540" GUID="{548C5968-A2CE-4EA9-961B-71CC7A35C1AA}" Language="SFX" Hash="1761325457">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
@@ -80,7 +83,11 @@
 			</IncludedMemoryFiles>
 		</SoundBank>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="1229948536" Language="SFX" Hash="2260464354">
+=======
+		<SoundBank Id="1229948536" GUID="{28000532-4043-4B6C-ADDB-C2BBC7EA994F}" Language="SFX" Hash="3162328807">
+>>>>>>> Stashed changes
 =======
 		<SoundBank Id="1229948536" GUID="{28000532-4043-4B6C-ADDB-C2BBC7EA994F}" Language="SFX" Hash="3162328807">
 >>>>>>> Stashed changes
@@ -88,6 +95,7 @@
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
 			<IncludedEvents>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				<Event Id="1487213420" Name="Play_BUSHES" ObjectPath="\Events\ENVIRONMENT\Play_BUSHES" DurationType="OneShot" DurationMin="0.838466" DurationMax="2.826945">
 					<IncludedMemoryFiles>
@@ -103,6 +111,8 @@
 							<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 							<Path>SFX\SFX_Bush_Rustle_04_88216D0A.wem</Path>
 =======
+=======
+>>>>>>> Stashed changes
 				<Event Id="1487213420" Name="Play_BUSHES" ObjectPath="\Events\ENVIRONMENT\Play_BUSHES" GUID="{6A353EAC-3470-4D66-8ADE-ADEBB57F7708}" DurationType="OneShot" DurationMin="1.587401" DurationMax="3.149803">
 					<IncludedMemoryFiles>
 						<File Id="220384248" Language="SFX">
@@ -116,6 +126,9 @@
 						<File Id="609791936" Language="SFX">
 							<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 							<Path>SFX\SFX_Bush_Rustle_04_10C4C929.wem</Path>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 						</File>
 						<File Id="724335608" Language="SFX">
@@ -125,7 +138,11 @@
 						<File Id="908701274" Language="SFX">
 							<ShortName>SFX_Bush_Rustle_03.wav</ShortName>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 							<Path>SFX\SFX_Bush_Rustle_03_8DEA2A5A.wem</Path>
+=======
+							<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 =======
 							<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
 >>>>>>> Stashed changes
@@ -137,6 +154,7 @@
 				<File Id="220384248" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_02.wav</ShortName>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<Path>SFX\SFX_Bush_Rustle_02_FBCAE6F7.wem</Path>
 				</File>
 				<File Id="396695432" Language="SFX">
@@ -147,6 +165,8 @@
 					<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 					<Path>SFX\SFX_Bush_Rustle_04_88216D0A.wem</Path>
 =======
+=======
+>>>>>>> Stashed changes
 					<Path>SFX\SFX_Bush_Rustle_02_10C4C929.wem</Path>
 				</File>
 				<File Id="396695432" Language="SFX">
@@ -156,6 +176,9 @@
 				<File Id="609791936" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 					<Path>SFX\SFX_Bush_Rustle_04_10C4C929.wem</Path>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</File>
 				<File Id="724335608" Language="SFX">
@@ -165,7 +188,11 @@
 				<File Id="908701274" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_03.wav</ShortName>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<Path>SFX\SFX_Bush_Rustle_03_8DEA2A5A.wem</Path>
+=======
+					<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 =======
 					<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
 >>>>>>> Stashed changes
@@ -178,7 +205,11 @@
 			<Path>Init.bnk</Path>
 		</SoundBank>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="2145253833" Language="SFX" Hash="3814595459">
+=======
+		<SoundBank Id="2145253833" GUID="{5097536C-B06D-4E2A-9492-DB811670EDB2}" Language="SFX" Hash="1684771299">
+>>>>>>> Stashed changes
 =======
 		<SoundBank Id="2145253833" GUID="{5097536C-B06D-4E2A-9492-DB811670EDB2}" Language="SFX" Hash="1684771299">
 >>>>>>> Stashed changes
@@ -187,12 +218,15 @@
 			<Path>ATMOSPHERE.bnk</Path>
 			<IncludedEvents>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<Event Id="1169232266" Name="Play_BIRDS_AND_TREES" ObjectPath="\Events\ATMOSPHERE\Play_BIRDS_AND_TREES" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="297211381" Language="SFX">
 							<ShortName>Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1.wav</ShortName>
 							<Path>SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem</Path>
 =======
+=======
+>>>>>>> Stashed changes
 				<Event Id="2661844156" Name="Play_BIRDS_TREES" ObjectPath="\Events\ATMOSPHERE\Play_BIRDS_TREES" GUID="{1DC8FD6C-F2D4-4596-BE75-E58C80361360}" MaxAttenuation="250.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="964006555" Language="SFX">
@@ -206,6 +240,9 @@
 						<File Id="815573549" Language="SFX">
 							<ShortName>TUNDRA WIND.wav</ShortName>
 							<Path>SFX\TUNDRA WIND_293859C2.wem</Path>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 						</File>
 					</IncludedMemoryFiles>
@@ -213,10 +250,13 @@
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<File Id="297211381" Language="SFX">
 					<ShortName>Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1.wav</ShortName>
 					<Path>SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem</Path>
 =======
+=======
+>>>>>>> Stashed changes
 				<File Id="815573549" Language="SFX">
 					<ShortName>TUNDRA WIND.wav</ShortName>
 					<Path>SFX\TUNDRA WIND_293859C2.wem</Path>
@@ -224,6 +264,9 @@
 				<File Id="964006555" Language="SFX">
 					<ShortName>Ambience, Forest, Birds, Wind In Trees 1 SND0432.wav</ShortName>
 					<Path>SFX\Ambience, Forest, Birds, Wind In Trees 1 SND0432_50354A04.wem</Path>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</File>
 			</IncludedMemoryFiles>
@@ -234,11 +277,14 @@
 			<Path>ENEMIES.bnk</Path>
 		</SoundBank>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="3991942870" Language="SFX" Hash="3755395237">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 =======
+=======
+>>>>>>> Stashed changes
 		<SoundBank Id="3991942870" GUID="{5BCE83CE-152A-4869-A422-3329E64C32B3}" Language="SFX" Hash="3232898396">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
