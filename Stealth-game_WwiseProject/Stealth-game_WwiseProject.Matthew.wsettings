@@ -4,6 +4,14 @@
 		<UserProjectSettings Name="" ID="{2A9221C4-7C99-4042-9C24-ECD89C7587A4}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Users\Matthew\OneDrive\Documents\REAPER Media\Game Jams\GJLJam\"/>
+<<<<<<< Updated upstream
+=======
+				<Property Name="Event Action List\{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{68741942-F41C-4F7F-B548-5D6DA2F8EF5F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8FACFFAD-5F48-47D0-8F9F-3531C7874962}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FEE3322F-780F-45D5-BFEA-ABB5000AD80F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
+>>>>>>> Stashed changes
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -19,7 +27,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="R2lyfjEP5EaBHxTddVWSwQ=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="aFmMVM6iqU6WG3HMejXBqs6DzlsqFWlIpCIzKeZMMrM="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="bFOXUG2wKk6UktuBFnDtsjIFAChDQGxLrdvCu8fqmU9oWYxUzqKpTpYbccx6NcGqzoPOWyoVaUikIjMp5kwysw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="Interactive Music\x64_{5C2E0C4A-C429-4C23-828F-2CC34DAD7084} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwtZyEIWsi5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{8670EB88-B6C5-42AC-8DC7-84C006AE8BEA} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2ZmZmZmpmFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

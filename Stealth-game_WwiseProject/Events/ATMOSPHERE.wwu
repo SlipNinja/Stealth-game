@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ATMOSPHERE" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_BIRDS_AND_TREES" ID="{FEE3322F-780F-45D5-BFEA-ABB5000AD80F}">
+					<ChildrenList>
+						<Action Name="" ID="{778B74A6-0F7D-4141-82F1-0DF4EA5B7E41}" ShortID="607415007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BIRDS_AND_TREES" ID="{246E8996-8FA4-4228-BC99-1E79A02BEE50}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

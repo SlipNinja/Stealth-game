@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1487213420	Play_BUSHES			\ENVIRONMENT\Play_BUSHES	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	220384248	SFX_Bush_Rustle_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SFX_Bush_Rustle_02_FBCAE6F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BUSHES\SFX_Bush_Rustle_02		247328
+	396695432	SFX_Bush_Rustle_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SFX_Bush_Rustle_01_48E7EDA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BUSHES\SFX_Bush_Rustle_01		175952
+	609791936	SFX_Bush_Rustle_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SFX_Bush_Rustle_04_88216D0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BUSHES\SFX_Bush_Rustle_04		419396
+	724335608	SFX_Bush_Rustle_05	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SFX_Bush_Rustle_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BUSHES\SFX_Bush_Rustle_05		352864
+	908701274	SFX_Bush_Rustle_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SFX_Bush_Rustle_03_8DEA2A5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BUSHES\SFX_Bush_Rustle_03		313608
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1169232266	Play_BIRDS_AND_TREES			\ATMOSPHERE\Play_BIRDS_AND_TREES	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	297211381	BIRDS_AND_TREES	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOSPHERE\BIRDS & TREES\BIRDS_AND_TREES		5562168
+
