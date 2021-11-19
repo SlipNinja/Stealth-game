@@ -226,11 +226,15 @@
 				</ActorMixer>
 				<ActorMixer Name="ATMOSPHERE" ID="{546DEA72-3645-4D55-B0F4-581CC85D5334}" ShortID="866344446">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="BIRDS_TREES" ID="{C0B6D228-46CE-45CC-85EF-3806205C2D77}" WorkUnitID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
 						</Reference>
@@ -239,6 +243,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
+<<<<<<< Updated upstream
 						<Folder Name="BIRDS &amp; TREES" ID="{A335A8D2-29CC-422F-A228-40A292556F45}" ShortID="171729575">
 							<ChildrenList>
 								<Sound Name="BIRDS_AND_TREES" ID="{246E8996-8FA4-4228-BC99-1E79A02BEE50}" ShortID="639751203">
@@ -283,6 +288,99 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+=======
+						<Sound Name="BIRDS_&amp;_TREES" ID="{745CB778-97B3-43D1-9583-700F0B379C65}" ShortID="872157963">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="BIRDS_TREES" ID="{C0B6D228-46CE-45CC-85EF-3806205C2D77}" WorkUnitID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience, Forest, Birds, Wind In Trees 1 SND0432" ID="{74FEBA51-2AD5-4142-A599-C635516264DE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.68990232117052"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience, Forest, Birds, Wind In Trees 1 SND0432.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="964006555"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{38926EC5-B9DB-43B2-AFBC-2E2CBAFB9FA3}"/>
+							</PositioningInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience, Forest, Birds, Wind In Trees 1 SND0432" ID="{74FEBA51-2AD5-4142-A599-C635516264DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TUNDRA WIND" ID="{71F0B5E3-4622-48E6-9F65-19A4B639496D}" ShortID="787298939">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{953E818C-0A65-4C1E-9796-B88D114FE06D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TUNDRA WIND" ID="{BE1F2E4E-4020-400A-94E4-30EE3172F409}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.19472543352601"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.48771676300578"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.13114161849711"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>TUNDRA WIND.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815573549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TUNDRA WIND" ID="{BE1F2E4E-4020-400A-94E4-30EE3172F409}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+>>>>>>> Stashed changes
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -300,16 +398,28 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
+<<<<<<< Updated upstream
 						<RandomSequenceContainer Name="BUSHES" ID="{BF68D3AA-F7BB-4937-A8B5-8E70284D69D0}" ShortID="75283236">
+=======
+						<RandomSequenceContainer Name="BUSHES" ID="{F83C71F3-154E-4978-A24F-8EFFE34E1573}" ShortID="235923389">
+>>>>>>> Stashed changes
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
+<<<<<<< Updated upstream
 											<Modifier Name="" ID="{C8895569-796E-4041-A7B1-1E286BF409A1}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="300"/>
 													<Property Name="Min" Type="Real64" Value="-300"/>
+=======
+											<Modifier Name="" ID="{8445044F-8B13-4552-AAAF-1F1E1CE81B6C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="400"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+>>>>>>> Stashed changes
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -326,7 +436,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
+<<<<<<< Updated upstream
 								<Sound Name="SFX_Bush_Rustle_02" ID="{2EE486B7-AA14-4475-B017-54D98617F470}" ShortID="441131888">
+=======
+								<Sound Name="SFX_Bush_Rustle_03" ID="{93CE75D0-34EF-4CF6-B0B5-425DF7EF32FA}" ShortID="1069155873">
+>>>>>>> Stashed changes
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -336,6 +450,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< Updated upstream
 										<AudioFileSource Name="SFX_Bush_Rustle_02" ID="{7AE82DF3-F7EF-4A65-8750-3BB884325A28}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.158959537572254"/>
@@ -347,15 +462,29 @@
 											<AudioFile>SFX_Bush_Rustle_02.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="220384248"/>
+=======
+										<AudioFileSource Name="SFX_Bush_Rustle_03" ID="{3C0ACA0F-101B-4EFF-8802-70FE23AB76A4}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bush_Rustle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908701274"/>
+>>>>>>> Stashed changes
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
+<<<<<<< Updated upstream
 										<ActiveSource Name="SFX_Bush_Rustle_02" ID="{7AE82DF3-F7EF-4A65-8750-3BB884325A28}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Bush_Rustle_03" ID="{1DE775E5-E8D3-4A70-9B51-085540227798}" ShortID="689662279">
+=======
+										<ActiveSource Name="SFX_Bush_Rustle_03" ID="{3C0ACA0F-101B-4EFF-8802-70FE23AB76A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bush_Rustle_04" ID="{6B8ECAC3-26C6-4245-B5A7-D148AC119768}" ShortID="205118867">
+>>>>>>> Stashed changes
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -365,6 +494,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< Updated upstream
 										<AudioFileSource Name="SFX_Bush_Rustle_03" ID="{EBFF21BB-CC02-47B4-9C33-91CE90B7CB2B}">
 											<PropertyList>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -375,15 +505,29 @@
 											<AudioFile>SFX_Bush_Rustle_03.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="908701274"/>
+=======
+										<AudioFileSource Name="SFX_Bush_Rustle_04" ID="{B0657E25-CC23-496D-87A9-9DAF3C11475C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bush_Rustle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609791936"/>
+>>>>>>> Stashed changes
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
+<<<<<<< Updated upstream
 										<ActiveSource Name="SFX_Bush_Rustle_03" ID="{EBFF21BB-CC02-47B4-9C33-91CE90B7CB2B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Bush_Rustle_04" ID="{9A66FF0C-B2F3-4877-9A56-46C5B591C5BE}" ShortID="469219785">
+=======
+										<ActiveSource Name="SFX_Bush_Rustle_04" ID="{B0657E25-CC23-496D-87A9-9DAF3C11475C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bush_Rustle_05" ID="{5F19085F-60A3-475A-B883-6B62E2D96056}" ShortID="853974844">
+>>>>>>> Stashed changes
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -393,6 +537,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< Updated upstream
 										<AudioFileSource Name="SFX_Bush_Rustle_04" ID="{06904170-A38B-4A65-A619-4AB671E396AB}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="0.122832369942197"/>
@@ -403,15 +548,29 @@
 											<AudioFile>SFX_Bush_Rustle_04.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="609791936"/>
+=======
+										<AudioFileSource Name="SFX_Bush_Rustle_05" ID="{2D9A4334-4114-49D0-9CC9-EB20FBFEE9A1}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bush_Rustle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="724335608"/>
+>>>>>>> Stashed changes
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
+<<<<<<< Updated upstream
 										<ActiveSource Name="SFX_Bush_Rustle_04" ID="{06904170-A38B-4A65-A619-4AB671E396AB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Bush_Rustle_05" ID="{1C8FDEB8-2905-4F1B-AD99-BEB6A9FEB952}" ShortID="668031341">
+=======
+										<ActiveSource Name="SFX_Bush_Rustle_05" ID="{2D9A4334-4114-49D0-9CC9-EB20FBFEE9A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bush_Rustle_01" ID="{A6941B7B-9191-4DB5-9AAB-35A66042F9CC}" ShortID="1027010911">
+>>>>>>> Stashed changes
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -421,20 +580,35 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< Updated upstream
 										<AudioFileSource Name="SFX_Bush_Rustle_05" ID="{0544D981-DACF-42AB-B828-529E2DFBCFB1}">
 											<Language>SFX</Language>
 											<AudioFile>SFX_Bush_Rustle_05.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="724335608"/>
+=======
+										<AudioFileSource Name="SFX_Bush_Rustle_01" ID="{534B4297-9C16-463A-9355-F4D8CCE9122A}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bush_Rustle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396695432"/>
+>>>>>>> Stashed changes
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
+<<<<<<< Updated upstream
 										<ActiveSource Name="SFX_Bush_Rustle_05" ID="{0544D981-DACF-42AB-B828-529E2DFBCFB1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Bush_Rustle_01" ID="{61EFDB27-CD1D-4C03-AC71-627A9DBDD5D9}" ShortID="752343208">
+=======
+										<ActiveSource Name="SFX_Bush_Rustle_01" ID="{534B4297-9C16-463A-9355-F4D8CCE9122A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bush_Rustle_02" ID="{FC5B58FE-8518-42BA-A989-99BB243F7EF7}" ShortID="437835926">
+>>>>>>> Stashed changes
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -444,6 +618,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< Updated upstream
 										<AudioFileSource Name="SFX_Bush_Rustle_01" ID="{2A2ACF7B-C54A-4DF3-B334-C153D66CD0C8}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.130057803468208"/>
@@ -456,12 +631,23 @@
 											<AudioFile>SFX_Bush_Rustle_01.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="396695432"/>
+=======
+										<AudioFileSource Name="SFX_Bush_Rustle_02" ID="{6A62AEE2-55E8-4545-B057-5CE7D76E0CA9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bush_Rustle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="220384248"/>
+>>>>>>> Stashed changes
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
+<<<<<<< Updated upstream
 										<ActiveSource Name="SFX_Bush_Rustle_01" ID="{2A2ACF7B-C54A-4DF3-B334-C153D66CD0C8}" Platform="Linked"/>
+=======
+										<ActiveSource Name="SFX_Bush_Rustle_02" ID="{6A62AEE2-55E8-4545-B057-5CE7D76E0CA9}" Platform="Linked"/>
+>>>>>>> Stashed changes
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

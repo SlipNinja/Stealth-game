@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="ATMOSPHERE" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" PersistMode="Standalone">
+=======
+<WwiseDocument Type="WorkUnit" ID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ATMOSPHERE" ID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" PersistMode="Standalone">
+>>>>>>> Stashed changes
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="13"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
+<<<<<<< Updated upstream
 				<Event Name="Play_BIRDS_AND_TREES" ID="{FEE3322F-780F-45D5-BFEA-ABB5000AD80F}">
 					<ChildrenList>
 						<Action Name="" ID="{778B74A6-0F7D-4141-82F1-0DF4EA5B7E41}" ShortID="607415007">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BIRDS_AND_TREES" ID="{246E8996-8FA4-4228-BC99-1E79A02BEE50}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+=======
+				<Event Name="Play_BIRDS_TREES" ID="{1DC8FD6C-F2D4-4596-BE75-E58C80361360}">
+					<ChildrenList>
+						<Action Name="" ID="{F6DA427E-46C7-49B7-9E9D-0217BB03FC70}" ShortID="518497010">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BIRDS_&amp;_TREES" ID="{745CB778-97B3-43D1-9583-700F0B379C65}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TUNDRA_WIND" ID="{C0571226-5CA8-46F8-AF81-00DA4335FC2A}">
+					<ChildrenList>
+						<Action Name="" ID="{767D5FBF-6E18-468D-80D0-3276087DECD8}" ShortID="928974078">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TUNDRA WIND" ID="{71F0B5E3-4622-48E6-9F65-19A4B639496D}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+>>>>>>> Stashed changes
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -11,10 +11,47 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+<<<<<<< Updated upstream
 		<SoundBank Id="1083137540" Language="SFX" Hash="3669007237">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
+=======
+		<SoundBank Id="1083137540" GUID="{548C5968-A2CE-4EA9-961B-71CC7A35C1AA}" Language="SFX" Hash="1761325457">
+			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
+			<ShortName>FOX</ShortName>
+			<Path>FOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3351742574" Name="FOX_FS" ObjectPath="\Events\FOX\FOX_FS" GUID="{8FACFFAD-5F48-47D0-8F9F-3531C7874962}" DurationType="OneShot" DurationMin="0.230552" DurationMax="0.503220">
+					<IncludedMemoryFiles>
+						<File Id="11613578" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_822DEC3B.wem</Path>
+						</File>
+						<File Id="26268755" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_346627C1.wem</Path>
+						</File>
+						<File Id="115107440" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_C273D1AF.wem</Path>
+						</File>
+						<File Id="288137750" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_91C74759.wem</Path>
+						</File>
+						<File Id="438705581" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_D2338AF5.wem</Path>
+						</File>
+						<File Id="461416601" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_6EED44BF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+>>>>>>> Stashed changes
 			<IncludedMemoryFiles>
 				<File Id="11613578" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
@@ -42,11 +79,16 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="1229948536" Language="SFX" Hash="2260464354">
+=======
+		<SoundBank Id="1229948536" GUID="{28000532-4043-4B6C-ADDB-C2BBC7EA994F}" Language="SFX" Hash="3162328807">
+>>>>>>> Stashed changes
 			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
 			<IncludedEvents>
+<<<<<<< Updated upstream
 				<Event Id="1487213420" Name="Play_BUSHES" ObjectPath="\Events\ENVIRONMENT\Play_BUSHES" DurationType="OneShot" DurationMin="0.838466" DurationMax="2.826945">
 					<IncludedMemoryFiles>
 						<File Id="220384248" Language="SFX">
@@ -60,6 +102,21 @@
 						<File Id="609791936" Language="SFX">
 							<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 							<Path>SFX\SFX_Bush_Rustle_04_88216D0A.wem</Path>
+=======
+				<Event Id="1487213420" Name="Play_BUSHES" ObjectPath="\Events\ENVIRONMENT\Play_BUSHES" GUID="{6A353EAC-3470-4D66-8ADE-ADEBB57F7708}" DurationType="OneShot" DurationMin="1.587401" DurationMax="3.149803">
+					<IncludedMemoryFiles>
+						<File Id="220384248" Language="SFX">
+							<ShortName>SFX_Bush_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_Bush_Rustle_02_10C4C929.wem</Path>
+						</File>
+						<File Id="396695432" Language="SFX">
+							<ShortName>SFX_Bush_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_Bush_Rustle_01_10C4C929.wem</Path>
+						</File>
+						<File Id="609791936" Language="SFX">
+							<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_Bush_Rustle_04_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 						</File>
 						<File Id="724335608" Language="SFX">
 							<ShortName>SFX_Bush_Rustle_05.wav</ShortName>
@@ -67,7 +124,11 @@
 						</File>
 						<File Id="908701274" Language="SFX">
 							<ShortName>SFX_Bush_Rustle_03.wav</ShortName>
+<<<<<<< Updated upstream
 							<Path>SFX\SFX_Bush_Rustle_03_8DEA2A5A.wem</Path>
+=======
+							<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -75,6 +136,7 @@
 			<IncludedMemoryFiles>
 				<File Id="220384248" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_02.wav</ShortName>
+<<<<<<< Updated upstream
 					<Path>SFX\SFX_Bush_Rustle_02_FBCAE6F7.wem</Path>
 				</File>
 				<File Id="396695432" Language="SFX">
@@ -84,6 +146,17 @@
 				<File Id="609791936" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
 					<Path>SFX\SFX_Bush_Rustle_04_88216D0A.wem</Path>
+=======
+					<Path>SFX\SFX_Bush_Rustle_02_10C4C929.wem</Path>
+				</File>
+				<File Id="396695432" Language="SFX">
+					<ShortName>SFX_Bush_Rustle_01.wav</ShortName>
+					<Path>SFX\SFX_Bush_Rustle_01_10C4C929.wem</Path>
+				</File>
+				<File Id="609791936" Language="SFX">
+					<ShortName>SFX_Bush_Rustle_04.wav</ShortName>
+					<Path>SFX\SFX_Bush_Rustle_04_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 				</File>
 				<File Id="724335608" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_05.wav</ShortName>
@@ -91,45 +164,108 @@
 				</File>
 				<File Id="908701274" Language="SFX">
 					<ShortName>SFX_Bush_Rustle_03.wav</ShortName>
+<<<<<<< Updated upstream
 					<Path>SFX\SFX_Bush_Rustle_03_8DEA2A5A.wem</Path>
+=======
+					<Path>SFX\SFX_Bush_Rustle_03_10C4C929.wem</Path>
+>>>>>>> Stashed changes
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4294000157">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="4294000157">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="2145253833" Language="SFX" Hash="3814595459">
+=======
+		<SoundBank Id="2145253833" GUID="{5097536C-B06D-4E2A-9492-DB811670EDB2}" Language="SFX" Hash="1684771299">
+>>>>>>> Stashed changes
 			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
 			<ShortName>ATMOSPHERE</ShortName>
 			<Path>ATMOSPHERE.bnk</Path>
 			<IncludedEvents>
+<<<<<<< Updated upstream
 				<Event Id="1169232266" Name="Play_BIRDS_AND_TREES" ObjectPath="\Events\ATMOSPHERE\Play_BIRDS_AND_TREES" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="297211381" Language="SFX">
 							<ShortName>Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1.wav</ShortName>
 							<Path>SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem</Path>
+=======
+				<Event Id="2661844156" Name="Play_BIRDS_TREES" ObjectPath="\Events\ATMOSPHERE\Play_BIRDS_TREES" GUID="{1DC8FD6C-F2D4-4596-BE75-E58C80361360}" MaxAttenuation="250.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="964006555" Language="SFX">
+							<ShortName>Ambience, Forest, Birds, Wind In Trees 1 SND0432.wav</ShortName>
+							<Path>SFX\Ambience, Forest, Birds, Wind In Trees 1 SND0432_50354A04.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3278720975" Name="Play_TUNDRA_WIND" ObjectPath="\Events\ATMOSPHERE\Play_TUNDRA_WIND" GUID="{C0571226-5CA8-46F8-AF81-00DA4335FC2A}" MaxAttenuation="250.000000" DurationType="OneShot" DurationMin="7.268225" DurationMax="10.278822">
+					<IncludedMemoryFiles>
+						<File Id="815573549" Language="SFX">
+							<ShortName>TUNDRA WIND.wav</ShortName>
+							<Path>SFX\TUNDRA WIND_293859C2.wem</Path>
+>>>>>>> Stashed changes
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+<<<<<<< Updated upstream
 				<File Id="297211381" Language="SFX">
 					<ShortName>Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1.wav</ShortName>
 					<Path>SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem</Path>
+=======
+				<File Id="815573549" Language="SFX">
+					<ShortName>TUNDRA WIND.wav</ShortName>
+					<Path>SFX\TUNDRA WIND_293859C2.wem</Path>
+				</File>
+				<File Id="964006555" Language="SFX">
+					<ShortName>Ambience, Forest, Birds, Wind In Trees 1 SND0432.wav</ShortName>
+					<Path>SFX\Ambience, Forest, Birds, Wind In Trees 1 SND0432_50354A04.wem</Path>
+>>>>>>> Stashed changes
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2242381963" Language="SFX" Hash="2001690117">
+		<SoundBank Id="2242381963" GUID="{B43F982F-4311-46F7-A4EA-C77E6DD1612C}" Language="SFX" Hash="2001690117">
 			<ObjectPath>\SoundBanks\Default Work Unit\ENEMIES</ObjectPath>
 			<ShortName>ENEMIES</ShortName>
 			<Path>ENEMIES.bnk</Path>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="3991942870" Language="SFX" Hash="3755395237">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+=======
+		<SoundBank Id="3991942870" GUID="{5BCE83CE-152A-4869-A422-3329E64C32B3}" Language="SFX" Hash="3232898396">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4226239971" Name="Play_SNEAK_LOOP" ObjectPath="\Events\MUSIC\Play_SNEAK_LOOP" GUID="{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="251524950" Language="SFX">
+							<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="325980009" Language="SFX">
+							<ShortName>SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="373978650" Language="SFX">
+							<ShortName>SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="531876546" Language="SFX">
+							<ShortName>SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav</ShortName>
+							<Path>SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+>>>>>>> Stashed changes
 			<IncludedMemoryFiles>
 				<File Id="251524950" Language="SFX">
 					<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>

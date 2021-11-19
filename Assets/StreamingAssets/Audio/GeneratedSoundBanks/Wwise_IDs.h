@@ -16,9 +16,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOX_FS = 3351742574U;
+<<<<<<< Updated upstream
         static const AkUniqueID PLAY_BIRDS_AND_TREES = 1169232266U;
+=======
+        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
+>>>>>>> Stashed changes
         static const AkUniqueID PLAY_BUSHES = 1487213420U;
         static const AkUniqueID PLAY_SNEAK_LOOP = 4226239971U;
+        static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
     } // namespace EVENTS
 
 >>>>>>> Stashed changes

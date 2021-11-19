@@ -29,8 +29,13 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+<<<<<<< Updated upstream
 						<ObjectRef Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ENVIRONMENT" ID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" WorkUnitID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" Origin="Manual" Filter="7"/>
+=======
+						<ObjectRef Name="ENVIRONMENT" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" WorkUnitID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
+>>>>>>> Stashed changes
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -41,7 +46,11 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+<<<<<<< Updated upstream
 						<ObjectRef Name="ATMOSPHERE" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" WorkUnitID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" Origin="Manual" Filter="7"/>
+=======
+						<ObjectRef Name="ATMOSPHERE" ID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" WorkUnitID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" Origin="Manual" Filter="7"/>
+>>>>>>> Stashed changes
 						<ObjectRef Name="ATMOSPHERE" ID="{546DEA72-3645-4D55-B0F4-581CC85D5334}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
