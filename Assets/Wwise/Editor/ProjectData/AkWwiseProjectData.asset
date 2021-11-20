@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   AcousticTextureWwu: []
   AuxBusWwu: []
@@ -23,6 +24,8 @@ MonoBehaviour:
   SwitchWwu: []
   TriggerWwu: []
 =======
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -289,6 +292,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585644478655697800
     List: []
+<<<<<<< HEAD
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

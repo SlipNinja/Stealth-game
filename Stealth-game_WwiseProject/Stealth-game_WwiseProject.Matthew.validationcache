@@ -56,6 +56,7 @@
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637270543" DateHigh="0"/>
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637270543" DateHigh="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
@@ -130,6 +131,8 @@
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637343025" DateHigh="0"/>
 	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637344836" DateHigh="0"/>
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 </ValidationCache>

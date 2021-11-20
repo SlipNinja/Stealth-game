@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Event	ID	Name			Wwise Object Path	Notes
 	1487213420	Play_BUSHES			\ENVIRONMENT\Play_BUSHES	
 
@@ -23,5 +24,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 =======
 >>>>>>> Stashed changes
 
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)

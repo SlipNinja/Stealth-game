@@ -29,6 +29,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<ObjectInclusionList>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -46,6 +47,9 @@
 =======
 					<ObjectInclusionList/>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+					<ObjectInclusionList/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -54,6 +58,7 @@
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 					<ObjectInclusionList>
 <<<<<<< Updated upstream
@@ -67,6 +72,9 @@
 >>>>>>> Stashed changes
 						<ObjectRef Name="ATMOSPHERE" ID="{546DEA72-3645-4D55-B0F4-581CC85D5334}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
+=======
+					<ObjectInclusionList/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 					<ObjectInclusionList/>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
