@@ -10904,7 +10904,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1471461339644722294}
   - component: {fileID: 1432451683923559968}
-  - component: {fileID: 1432451683923559971}
   - component: {fileID: 2242932141955360451}
   - component: {fileID: 2242932141955360450}
   - component: {fileID: 2242932141955360461}
@@ -10912,6 +10911,7 @@ GameObject:
   - component: {fileID: 2242932141955360449}
   - component: {fileID: 2242932141955360448}
   - component: {fileID: 1432451683923559981}
+  - component: {fileID: 1860932439}
   m_Layer: 0
   m_Name: Fox (player)
   m_TagString: Untagged
@@ -10953,19 +10953,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 1
---- !u!65 &1432451683923559971
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2242932141955360460}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.21908513, y: 0.39397418, z: 0.5907197}
-  m_Center: {x: 0, y: 0.15205358, z: 0}
 --- !u!114 &2242932141955360451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11124,6 +11111,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &1860932439
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2242932141955360460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.07
+  m_Height: 0.38
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.03, z: 0}
 --- !u!1 &2244652381691008272
 GameObject:
   m_ObjectHideFlags: 0
