@@ -14,16 +14,20 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID DOG_FOOTSTEPS = 4060911613U;
+        static const AkUniqueID DOG_GROWL = 1201775887U;
+        static const AkUniqueID DOG_SNIFF = 127297048U;
         static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
         static const AkUniqueID PLAY_BREEZE = 3798124563U;
+        static const AkUniqueID PLAY_COLD_GUSTS = 400548325U;
         static const AkUniqueID PLAY_SNEAK_LOOP = 4226239971U;
+        static const AkUniqueID PLAY_SNOW = 4026051667U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ATMOSPHERE = 2145253833U;
-        static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID DOGS = 2012068516U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID FOX = 1083137540U;
         static const AkUniqueID MUSIC = 3991942870U;

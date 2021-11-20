@@ -1,18 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	648125588	FOX_FOOTSTEPS			\Default Work Unit\FOX_FOOTSTEPS	
-	3798124563	Play_BREEZE			\Default Work Unit\Play_BREEZE	
-	4060911613	DOG_FOOTSTEPS			\Default Work Unit\DOG_FOOTSTEPS	
-	4226239971	Play_SNEAK_LOOP			\Default Work Unit\Play_SNEAK_LOOP	
+	648125588	FOX_FOOTSTEPS			\FOX\FOX_FOOTSTEPS	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	251524950	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
-	325980009	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
-	343895469	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_788DCBFB.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_01		61564
-	373978650	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
-	387860380	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_B10B6F11.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_04		68748
-	423962272	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_78952362.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps		96700
-	531876546	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
-	582029172	Fox footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_67DD0183.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_02		60760
-	585176649	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_1DED7C87.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_03		64756
-	798893567	BREEZE	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_C5762DED.wem		\Actor-Mixer Hierarchy\ATMOSPHERE\BREEZE		4563748
+	89546834	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_D5366BA2.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_04		75936
+	688674039	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_4D61AFF7.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps		79932
+	764053429	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_9AE04C7B.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_03		65552
+	939444094	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_30D88D23.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_01		67948
+	1034904790	Fox footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Fox footsteps_A2B0A872.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_02		71148
 

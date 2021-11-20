@@ -11,20 +11,83 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1083137540" GUID="{10EFEB44-C2F2-49C9-9162-4BBBB4ACBF57}" Language="SFX" Hash="1178046334">
+		<SoundBank Id="1083137540" GUID="{8639D820-FD16-4FDD-8C0F-7B24A3690F57}" Language="SFX" Hash="1334065880">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\Default Work Unit\DOG_FOOTSTEPS" GUID="{D85AABB4-CDBF-4417-A90A-CE8574BA5151}" DurationType="OneShot" DurationMin="0.386232" DurationMax="0.820822">
+				<Event Id="648125588" Name="FOX_FOOTSTEPS" ObjectPath="\Events\FOX\FOX_FOOTSTEPS" GUID="{8278D715-1166-460D-8A9B-E830F7941A17}" DurationType="OneShot" DurationMin="0.247785" DurationMax="0.508200">
+					<IncludedMemoryFiles>
+						<File Id="89546834" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_D5366BA2.wem</Path>
+						</File>
+						<File Id="688674039" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_4D61AFF7.wem</Path>
+						</File>
+						<File Id="764053429" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_9AE04C7B.wem</Path>
+						</File>
+						<File Id="939444094" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_30D88D23.wem</Path>
+						</File>
+						<File Id="1034904790" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_A2B0A872.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="89546834" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_D5366BA2.wem</Path>
+				</File>
+				<File Id="688674039" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_4D61AFF7.wem</Path>
+				</File>
+				<File Id="764053429" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_9AE04C7B.wem</Path>
+				</File>
+				<File Id="939444094" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_30D88D23.wem</Path>
+				</File>
+				<File Id="1034904790" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_A2B0A872.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1229948536" GUID="{0D02B6C1-173A-44C1-8668-E10BB27D8CD4}" Language="SFX" Hash="3963525656">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
+			<ShortName>ENVIRONMENT</ShortName>
+			<Path>ENVIRONMENT.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="732887011">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2012068516" GUID="{CB2F5F22-09D8-4507-8038-C04195736CA2}" Language="SFX" Hash="2628568840">
+			<ObjectPath>\SoundBanks\Default Work Unit\DOGS</ObjectPath>
+			<ShortName>DOGS</ShortName>
+			<Path>DOGS.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\DOGS\DOG_FOOTSTEPS" GUID="{D85AABB4-CDBF-4417-A90A-CE8574BA5151}" MaxAttenuation="45.000000" DurationType="OneShot" DurationMin="0.386232" DurationMax="0.820822">
 					<IncludedMemoryFiles>
 						<File Id="343895469" Language="SFX">
 							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_788DCBFB.wem</Path>
+							<Path>SFX\Fox footsteps_75930EF9.wem</Path>
 						</File>
 						<File Id="387860380" Language="SFX">
 							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_B10B6F11.wem</Path>
+							<Path>SFX\Fox footsteps_379FDCAC.wem</Path>
 						</File>
 						<File Id="423962272" Language="SFX">
 							<ShortName>Fox footsteps.wav</ShortName>
@@ -32,24 +95,169 @@
 						</File>
 						<File Id="582029172" Language="SFX">
 							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_67DD0183.wem</Path>
+							<Path>SFX\Fox footsteps_132F9228.wem</Path>
 						</File>
 						<File Id="585176649" Language="SFX">
 							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_1DED7C87.wem</Path>
+							<Path>SFX\Fox footsteps_FD3ACD36.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="648125588" Name="FOX_FOOTSTEPS" ObjectPath="\Events\Default Work Unit\FOX_FOOTSTEPS" GUID="{8278D715-1166-460D-8A9B-E830F7941A17}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3798124563" Name="Play_BREEZE" ObjectPath="\Events\Default Work Unit\Play_BREEZE" GUID="{24A303F6-3822-44EB-AFFE-27261E0BF9F0}" MaxAttenuation="250.000000" DurationType="Infinite">
+				<Event Id="1201775887" Name="DOG_GROWL" ObjectPath="\Events\DOGS\DOG_GROWL" GUID="{228E0171-3A38-474A-8E94-AA4FF28BEA6D}" MaxAttenuation="45.000000" DurationType="OneShot" DurationMin="0.898501" DurationMax="5.410731">
+					<IncludedMemoryFiles>
+						<File Id="343462621" Language="SFX">
+							<ShortName>SILENCE.wav</ShortName>
+							<Path>SFX\SILENCE_E8ED30EC.wem</Path>
+						</File>
+						<File Id="653740311" Language="SFX">
+							<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
+							<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_0ED0F604.wem</Path>
+						</File>
+						<File Id="720335047" Language="SFX">
+							<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
+							<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_CA09FF78.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="127297048" Name="DOG_SNIFF" ObjectPath="\Events\DOGS\DOG_SNIFF" GUID="{D19B3BAC-14D2-4B51-A414-649724D724CA}" MaxAttenuation="45.000000" DurationType="OneShot" DurationMin="0.429019" DurationMax="0.772187">
+					<IncludedMemoryFiles>
+						<File Id="95820376" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_63BD99C9.wem</Path>
+						</File>
+						<File Id="148334968" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_D5F62BE1.wem</Path>
+						</File>
+						<File Id="702943770" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_2B0C5085.wem</Path>
+						</File>
+						<File Id="805138974" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_F3A390E0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="95820376" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_63BD99C9.wem</Path>
+				</File>
+				<File Id="148334968" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_D5F62BE1.wem</Path>
+				</File>
+				<File Id="343462621" Language="SFX">
+					<ShortName>SILENCE.wav</ShortName>
+					<Path>SFX\SILENCE_E8ED30EC.wem</Path>
+				</File>
+				<File Id="343895469" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_75930EF9.wem</Path>
+				</File>
+				<File Id="387860380" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_379FDCAC.wem</Path>
+				</File>
+				<File Id="423962272" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_78952362.wem</Path>
+				</File>
+				<File Id="582029172" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_132F9228.wem</Path>
+				</File>
+				<File Id="585176649" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_FD3ACD36.wem</Path>
+				</File>
+				<File Id="653740311" Language="SFX">
+					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
+					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_0ED0F604.wem</Path>
+				</File>
+				<File Id="702943770" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_2B0C5085.wem</Path>
+				</File>
+				<File Id="720335047" Language="SFX">
+					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
+					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_CA09FF78.wem</Path>
+				</File>
+				<File Id="805138974" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_F3A390E0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2145253833" GUID="{C8ACE16E-D0EE-441C-B000-C156AB98C3DD}" Language="SFX" Hash="1794538370">
+			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
+			<ShortName>ATMOSPHERE</ShortName>
+			<Path>ATMOSPHERE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3798124563" Name="Play_BREEZE" ObjectPath="\Events\ATMOSPHERE\Play_BREEZE" GUID="{24A303F6-3822-44EB-AFFE-27261E0BF9F0}" MaxAttenuation="250.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="798893567" Language="SFX">
 							<ShortName>Wind, Vegetation, Forest, Gusting Breeze 03 SND65700.wav</ShortName>
-							<Path>SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_C5762DED.wem</Path>
+							<Path>SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_515F46D9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4226239971" Name="Play_SNEAK_LOOP" ObjectPath="\Events\Default Work Unit\Play_SNEAK_LOOP" GUID="{BE9465D5-76A0-4C18-981D-525AD7CBE952}" DurationType="Infinite">
+				<Event Id="400548325" Name="Play_COLD_GUSTS" ObjectPath="\Events\ATMOSPHERE\Play_COLD_GUSTS" GUID="{14D7EEE8-B6F0-431F-A933-3DC19E4F7FF3}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="185170146" Language="SFX">
+							<ShortName>Light Gust Wind 1.wav</ShortName>
+							<Path>SFX\Light Gust Wind 1_10C4C929.wem</Path>
+						</File>
+						<File Id="587960268" Language="SFX">
+							<ShortName>Light Gust Wind 3.wav</ShortName>
+							<Path>SFX\Light Gust Wind 3_10C4C929.wem</Path>
+						</File>
+						<File Id="1010494587" Language="SFX">
+							<ShortName>Light Gust Wind 2.wav</ShortName>
+							<Path>SFX\Light Gust Wind 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4026051667" Name="Play_SNOW" ObjectPath="\Events\ATMOSPHERE\Play_SNOW" GUID="{96C4C95B-A24D-40F2-B42B-0D532E2C9B52}" MaxAttenuation="45.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="379644987" Language="SFX">
+							<ShortName>Sparkle FREE Sound Effect #1.wav</ShortName>
+							<Path>SFX\Sparkle FREE Sound Effect #1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="185170146" Language="SFX">
+					<ShortName>Light Gust Wind 1.wav</ShortName>
+					<Path>SFX\Light Gust Wind 1_10C4C929.wem</Path>
+				</File>
+				<File Id="379644987" Language="SFX">
+					<ShortName>Sparkle FREE Sound Effect #1.wav</ShortName>
+					<Path>SFX\Sparkle FREE Sound Effect #1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="587960268" Language="SFX">
+					<ShortName>Light Gust Wind 3.wav</ShortName>
+					<Path>SFX\Light Gust Wind 3_10C4C929.wem</Path>
+				</File>
+				<File Id="798893567" Language="SFX">
+					<ShortName>Wind, Vegetation, Forest, Gusting Breeze 03 SND65700.wav</ShortName>
+					<Path>SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_515F46D9.wem</Path>
+				</File>
+				<File Id="1010494587" Language="SFX">
+					<ShortName>Light Gust Wind 2.wav</ShortName>
+					<Path>SFX\Light Gust Wind 2_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" GUID="{33880C45-D0E4-47E9-8B61-F095DD2C3B33}" Language="SFX" Hash="1708511112">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4226239971" Name="Play_SNEAK_LOOP" ObjectPath="\Events\MUSIC\Play_SNEAK_LOOP" GUID="{C9F2CB83-A802-4C1D-A377-5B6A8BBC9504}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="251524950" Language="SFX">
 							<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>
@@ -69,84 +277,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-			</IncludedEvents>
-		</SoundBank>
-		<SoundBank Id="1229948536" GUID="{949EBECB-CFD2-4BD6-933F-C62F7E19315C}" Language="SFX" Hash="3963525656">
-			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
-			<ShortName>ENVIRONMENT</ShortName>
-			<Path>ENVIRONMENT.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="4294000157">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="2145253833" GUID="{E723CFB3-684B-4B22-8409-3AD718ECECE7}" Language="SFX" Hash="819701215">
-			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
-			<ShortName>ATMOSPHERE</ShortName>
-			<Path>ATMOSPHERE.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3798124563" Name="Play_BREEZE" ObjectPath="\Events\Default Work Unit\Play_BREEZE" GUID="{24A303F6-3822-44EB-AFFE-27261E0BF9F0}" MaxAttenuation="250.000000" DurationType="Infinite"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="798893567" Language="SFX">
-					<ShortName>Wind, Vegetation, Forest, Gusting Breeze 03 SND65700.wav</ShortName>
-					<Path>SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_C5762DED.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="2242381963" GUID="{EC6E35F8-65EE-4318-A06A-4453EDF68C73}" Language="SFX" Hash="3612378523">
-			<ObjectPath>\SoundBanks\Default Work Unit\ENEMIES</ObjectPath>
-			<ShortName>ENEMIES</ShortName>
-			<Path>ENEMIES.bnk</Path>
-			<IncludedEvents>
-				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\Default Work Unit\DOG_FOOTSTEPS" GUID="{D85AABB4-CDBF-4417-A90A-CE8574BA5151}" DurationType="OneShot" DurationMin="0.386232" DurationMax="0.820822"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="104818639" Language="SFX">
-					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
-					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_16BBDD13.wem</Path>
-				</File>
-				<File Id="343895469" Language="SFX">
-					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_788DCBFB.wem</Path>
-				</File>
-				<File Id="387860380" Language="SFX">
-					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_B10B6F11.wem</Path>
-				</File>
-				<File Id="423962272" Language="SFX">
-					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_78952362.wem</Path>
-				</File>
-				<File Id="569840626" Language="SFX">
-					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
-					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_50498005.wem</Path>
-				</File>
-				<File Id="582029172" Language="SFX">
-					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_67DD0183.wem</Path>
-				</File>
-				<File Id="585176649" Language="SFX">
-					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_1DED7C87.wem</Path>
-				</File>
-				<File Id="653740311" Language="SFX">
-					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
-					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_FAD54B3B.wem</Path>
-				</File>
-				<File Id="720335047" Language="SFX">
-					<ShortName>Animals, Dog, Snarling, Growling 1 SND1492.wav</ShortName>
-					<Path>SFX\Animals, Dog, Snarling, Growling 1 SND1492_0DB51CC0.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CD65B5BD-BF45-4AF5-8410-0DF79424A099}" Language="SFX" Hash="1549826739">
-			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
-			<ShortName>MUSIC</ShortName>
-			<Path>MUSIC.bnk</Path>
-			<IncludedEvents>
-				<Event Id="4226239971" Name="Play_SNEAK_LOOP" ObjectPath="\Events\Default Work Unit\Play_SNEAK_LOOP" GUID="{BE9465D5-76A0-4C18-981D-525AD7CBE952}" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="251524950" Language="SFX">

@@ -11,6 +11,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="FOOTSTEPS" ID="{7A8279C4-C041-41F9-A719-12DF15CEC643}" ShortID="1009046514">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>26</Value>
@@ -31,6 +32,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -38,6 +40,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
 								</Reference>
@@ -195,6 +200,12 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="GROWL" ID="{B6254DC3-28E5-4893-85A4-95D80FAA9786}" ShortID="316265002">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
 										<Value>-300</Value>
@@ -211,6 +222,13 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -218,6 +236,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
 								</Reference>
@@ -226,35 +247,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="DOG GROWL" ID="{D5ECB5A3-78ED-42B6-9628-C37E88F06289}" ShortID="481366543">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{F6655399-38AA-4079-8C56-270D7A486E79}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.271589143786127"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.957709085982658"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Animals, Dog, Snarling, Growling 1 SND1492.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="104818639"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{F6655399-38AA-4079-8C56-270D7A486E79}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="DOG GROWL_01" ID="{DEADC1D1-485E-4297-B70B-D68DE0E1F1D0}" ShortID="261163677">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
@@ -282,36 +288,14 @@
 										<ActiveSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{B853A34B-A62E-44EE-BF3D-913806922FA2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DOG GROWL_02" ID="{597E9F3C-77C6-462C-8D0B-A2E1212BDBAD}" ShortID="194396009">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{3D15CDAC-DFA1-48B8-B675-CDD410E9E7BA}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.23703689486994"/>
-												<Property Name="TrimEnd" Type="Real64" Value="3.53065886921965"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Animals, Dog, Snarling, Growling 1 SND1492.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="569840626"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{3D15CDAC-DFA1-48B8-B675-CDD410E9E7BA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="DOG GROWL_03" ID="{087CCCC2-ADE2-4980-9160-3E5032D010F3}" ShortID="971251091">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -323,6 +307,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -350,6 +339,273 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Animals, Dog, Snarling, Growling 1 SND1492" ID="{28DEAD37-191A-4813-B772-100BA97159B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SILENCE" ID="{7ED37F30-EF07-4A88-A33C-9AF759B580BF}" ShortID="978027889">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SILENCE" ID="{2C22D33D-987E-4EC8-AEB6-FF0612537D94}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.05346820809249"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SILENCE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343462621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SILENCE" ID="{2C22D33D-987E-4EC8-AEB6-FF0612537D94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SILENCE_01" ID="{D64F68DF-1829-4977-A12C-BA856C99A43B}" ShortID="12057124">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENEMIES" ID="{4C925B7B-5BE4-45E9-AE9F-B283A09F95D1}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SILENCE" ID="{4D389904-6098-4979-B190-502CC3DFC6BE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.05346820809249"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SILENCE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343462621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SILENCE" ID="{4D389904-6098-4979-B190-502CC3DFC6BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SILENCE_02" ID="{0477A98C-33AD-4A2D-9303-986601320F58}" ShortID="409299987">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENEMIES" ID="{4C925B7B-5BE4-45E9-AE9F-B283A09F95D1}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SILENCE" ID="{83F0D8F1-25E7-42E9-BD1F-1AD863979779}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.05346820809249"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SILENCE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343462621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SILENCE" ID="{83F0D8F1-25E7-42E9-BD1F-1AD863979779}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SNIFF" ID="{5808B6AE-5013-432B-A71A-97AE284B0C3A}" ShortID="862822984">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9C9617E1-6604-46C0-8484-A2B697275CF8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ENEMIES" ID="{4C925B7B-5BE4-45E9-AE9F-B283A09F95D1}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dog Sniffs Sound Effect" ID="{798238F9-717A-4B64-B2D1-8C333DD1A127}" ShortID="1037717722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{544B085E-A8BD-47C5-B455-9056CD38001E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0433864703757225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.679721369219653"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.24374548410405"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805138974"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{544B085E-A8BD-47C5-B455-9056CD38001E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dog Sniffs Sound Effect_01" ID="{51740664-F331-44DB-856C-4BA8176E2571}" ShortID="984847679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{C6CBBDD0-2E73-4DC1-9631-8B7462CCA63E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0433864703757225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.1259370484104"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.53087743858381"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148334968"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{C6CBBDD0-2E73-4DC1-9631-8B7462CCA63E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dog Sniffs Sound Effect_02" ID="{822C7070-9D47-446C-96BD-587E1A2589F0}" ShortID="673154260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{3E4114CD-798C-4948-9C21-67E94F58EDBC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0433864703757225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.58661488439306"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.16510115606936"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="702943770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{3E4114CD-798C-4948-9C21-67E94F58EDBC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dog Sniffs Sound Effect_03" ID="{292A0DD1-7444-440E-AF61-9FC99F3088C6}" ShortID="801976013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{0FBE8418-5680-448B-AB45-51E0BD1AAAAA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0433864703757225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.23530075867052"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.81378703034682"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95820376"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{0FBE8418-5680-448B-AB45-51E0BD1AAAAA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

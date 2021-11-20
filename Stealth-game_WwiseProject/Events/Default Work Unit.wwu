@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{117548D2-5DFC-42F5-9CF4-F7AD7CE3C4AC}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{117548D2-5DFC-42F5-9CF4-F7AD7CE3C4AC}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="FOX_FOOTSTEPS" ID="{8278D715-1166-460D-8A9B-E830F7941A17}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="1"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{9C67A683-E60C-440B-B494-9A0900CDE816}" ShortID="120573213">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FOOTSTEPS" ID="{0F96C6FA-E48C-45B9-AF0F-A4843FC85986}" WorkUnitID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="DOG_FOOTSTEPS" ID="{D85AABB4-CDBF-4417-A90A-CE8574BA5151}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{CC0862F0-D1EE-49ED-9683-A6D36F47E7DD}" ShortID="581832395">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FOOTSTEPS" ID="{7A8279C4-C041-41F9-A719-12DF15CEC643}" WorkUnitID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_BREEZE" ID="{24A303F6-3822-44EB-AFFE-27261E0BF9F0}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="12"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{4164CB21-AEA8-489C-8AF8-C7F47B4D1A98}" ShortID="628345140">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="BREEZE" ID="{73004A02-DE0E-438B-A09D-0B9263FED989}" WorkUnitID="{A1D573D3-C2B6-4633-8F46-EFB6EE2C67F2}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{117548D2-5DFC-42F5-9CF4-F7AD7CE3C4AC}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

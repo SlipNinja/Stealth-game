@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5304358B-7606-4F11-8CC2-02F80B963E38}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="FOX" ID="{5304358B-7606-4F11-8CC2-02F80B963E38}" PersistMode="Standalone"/>
+		<WorkUnit Name="FOX" ID="{5304358B-7606-4F11-8CC2-02F80B963E38}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="FOX_FOOTSTEPS" ID="{8278D715-1166-460D-8A9B-E830F7941A17}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9C67A683-E60C-440B-B494-9A0900CDE816}" ShortID="120573213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEPS" ID="{0F96C6FA-E48C-45B9-AF0F-A4843FC85986}" WorkUnitID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	127297048	DOG_SNIFF			\DOGS\DOG_SNIFF	
+	1201775887	DOG_GROWL			\DOGS\DOG_GROWL	
+	4060911613	DOG_FOOTSTEPS			\DOGS\DOG_FOOTSTEPS	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	95820376	Dog Sniffs Sound Effect_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_63BD99C9.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\SNIFF\Dog Sniffs Sound Effect_03		111136
+	148334968	Dog Sniffs Sound Effect_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_D5F62BE1.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\SNIFF\Dog Sniffs Sound Effect_01		77812
+	343462621	SILENCE	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SILENCE_E8ED30EC.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\GROWL\SILENCE		715096
+	343895469	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_75930EF9.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_01		61564
+	387860380	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_379FDCAC.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_04		68748
+	423962272	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_78952362.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps		96700
+	582029172	Fox footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_132F9228.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_02		60760
+	585176649	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_FD3ACD36.wem		\Actor-Mixer Hierarchy\DOGS\MOVEMENT\FOOTSTEPS\Fox footsteps_03		64756
+	653740311	DOG GROWL_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Animals, Dog, Snarling, Growling 1 SND1492_0ED0F604.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\GROWL\DOG GROWL_01		153752
+	702943770	Dog Sniffs Sound Effect_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_2B0C5085.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\SNIFF\Dog Sniffs Sound Effect_02		111132
+	720335047	DOG GROWL_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Animals, Dog, Snarling, Growling 1 SND1492_CA09FF78.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\GROWL\DOG GROWL_03		262160
+	805138974	Dog Sniffs Sound Effect	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_F3A390E0.wem		\Actor-Mixer Hierarchy\DOGS\VOCAL\SNIFF\Dog Sniffs Sound Effect		108356
+
