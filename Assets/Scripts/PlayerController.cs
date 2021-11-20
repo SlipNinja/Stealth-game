@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 // -----------------------------------------------------------------------------------------------
@@ -40,14 +40,13 @@ public class PlayerController : MonoBehaviour
 
         moveDirection.y -= gravity * Time.deltaTime;
 
-        if (rb.velocity.x == 0f && rb.velocity.y == 0f)
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            animator.SetBool("isWalking", false);
+            animator.SetBool("isWalking", true);
         }
         else
         {
-            animator.SetBool("isWalking", true);
-
+            animator.SetBool("isWalking", false);
         }
     }
 
@@ -62,5 +61,13 @@ public class PlayerController : MonoBehaviour
         if(currentRotation.x >180) currentRotation.x -= 360;
         currentRotation.x =Mathf.Clamp(currentRotation.x, upLimit, downLimit);
         cameraHolder.localRotation = Quaternion.Euler(currentRotation);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Exit")
+        {
+            SceneManager.LoadScene(SceneManager.sceneCount + 1);
+        }
     }
 }

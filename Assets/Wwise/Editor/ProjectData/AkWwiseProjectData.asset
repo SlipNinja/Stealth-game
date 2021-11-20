@@ -12,18 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25cb77f60d16e6946bf000ebb47f2415, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
-=======
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -36,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 054794d2e2b2e6408bbd4639ea3ac7a0
     GuidInternal: 
-    m_lastTime: -8585643352768413723
+    m_lastTime: -8585643322042445913
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -50,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 3304be65345eca42b0f839bb4e465735
     GuidInternal: 
-    m_lastTime: -8585643352771804487
+    m_lastTime: -8585643322046066432
     List:
     - name: ATMOSPHERE
       guid: a44d3b9aa8206747925876e9b1074a2d
@@ -148,11 +136,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ed2ee250c8b36e45b601965b3e1d0cb3
     GuidInternal: 
-    m_lastTime: -8585642682976859249
+    m_lastTime: -8585641964712200013
     List:
-    - name: ATMOSPHERE
-      guid: 6c5397506db02a4e9492db811670edb2
-      id: 2145253833
+    - name: FOX
+      guid: 68598c54cea2a94e961b71cc7a35c1aa
+      id: 1083137540
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -160,10 +148,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ed2ee250c8b36e45b601965b3e1d0cb3
-      - ElementName: ATMOSPHERE
+      - ElementName: FOX
         ObjectType: 7
-        guid: 6c5397506db02a4e9492db811670edb2
-      Path: SoundBanks\Default Work Unit\ATMOSPHERE
+        guid: 68598c54cea2a94e961b71cc7a35c1aa
+      Path: SoundBanks\Default Work Unit\FOX
     - name: ENEMIES
       guid: 2f983fb41143f746a4eac77e6dd1612c
       id: 2242381963
@@ -192,82 +180,14 @@ MonoBehaviour:
         ObjectType: 7
         guid: 3205002843406c4baddbc2bbc7ea994f
       Path: SoundBanks\Default Work Unit\ENVIRONMENT
-    - name: FOX
-      guid: 68598c54cea2a94e961b71cc7a35c1aa
-      id: 1083137540
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed2ee250c8b36e45b601965b3e1d0cb3
-      - ElementName: FOX
-        ObjectType: 7
-        guid: 68598c54cea2a94e961b71cc7a35c1aa
-      Path: SoundBanks\Default Work Unit\FOX
-    - name: MUSIC
-      guid: ce83ce5b2a156948a4223329e64c32b3
-      id: 3991942870
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed2ee250c8b36e45b601965b3e1d0cb3
-      - ElementName: MUSIC
-        ObjectType: 7
-        guid: ce83ce5b2a156948a4223329e64c32b3
-      Path: SoundBanks\Default Work Unit\MUSIC
   EventWwu:
   - PhysicalPath: Events\ATMOSPHERE.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: ATMOSPHERE
-      ObjectType: 12
-      guid: 1b57e8258a63e145b83a13f03f8b3bda
+    PathAndIcons: []
     ParentPath: Events\ATMOSPHERE
-    guid: 1b57e8258a63e145b83a13f03f8b3bda
+    guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8585642620490491124
-    List:
-    - name: Play_BIRDS_TREES
-      guid: 6cfdc81dd4f29645be75e58c80361360
-      id: 2661844156
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: ATMOSPHERE
-        ObjectType: 12
-        guid: 1b57e8258a63e145b83a13f03f8b3bda
-      - ElementName: Play_BIRDS_TREES
-        ObjectType: 3
-        guid: 6cfdc81dd4f29645be75e58c80361360
-      Path: Events\ATMOSPHERE\Play_BIRDS_TREES
-      maxAttenuation: 250
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_TUNDRA_WIND
-      guid: 261257c0a85cf846af8100da4335fc2a
-      id: 3278720975
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: ATMOSPHERE
-        ObjectType: 12
-        guid: 1b57e8258a63e145b83a13f03f8b3bda
-      - ElementName: Play_TUNDRA_WIND
-        ObjectType: 3
-        guid: 261257c0a85cf846af8100da4335fc2a
-      Path: Events\ATMOSPHERE\Play_TUNDRA_WIND
-      maxAttenuation: 250
-      maxDuration: 10.278822
-      minDuration: 7.268225
+    m_lastTime: -8585641964728297852
+    List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -279,38 +199,15 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a63dff41cee3904d980910357fb1deae
     GuidInternal: 
-    m_lastTime: -8585642621947148973
+    m_lastTime: -8585643322051407760
     List: []
   - PhysicalPath: Events\ENVIRONMENT.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: ENVIRONMENT
-      ObjectType: 12
-      guid: 2ed117ce490f2f4ab9a880df49ab626d
+    PathAndIcons: []
     ParentPath: Events\ENVIRONMENT
-    guid: 2ed117ce490f2f4ab9a880df49ab626d
+    guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8585642682977066500
-    List:
-    - name: Play_BUSHES
-      guid: ac3e356a7034664d8adeadebb57f7708
-      id: 1487213420
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: ENVIRONMENT
-        ObjectType: 12
-        guid: 2ed117ce490f2f4ab9a880df49ab626d
-      - ElementName: Play_BUSHES
-        ObjectType: 3
-        guid: ac3e356a7034664d8adeadebb57f7708
-      Path: Events\ENVIRONMENT\Play_BUSHES
-      maxAttenuation: 0
-      maxDuration: 3.149803
-      minDuration: 1.587401
+    m_lastTime: -8585641964728288728
+    List: []
   - PhysicalPath: Events\FOX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -322,7 +219,7 @@ MonoBehaviour:
     ParentPath: Events\FOX
     guid: 7e87f7a045fb7a439694c6dd97317388
     GuidInternal: 
-    m_lastTime: -8585642686028355062
+    m_lastTime: -8585643318952104845
     List:
     - name: FOX_FS
       guid: adffac8f485fd0478f9f3531c7874962
@@ -339,8 +236,8 @@ MonoBehaviour:
         guid: adffac8f485fd0478f9f3531c7874962
       Path: Events\FOX\FOX_FS
       maxAttenuation: 0
-      maxDuration: 0.50322
-      minDuration: 0.230552
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\MUSIC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -352,7 +249,7 @@ MonoBehaviour:
     ParentPath: Events\MUSIC
     guid: 964f521d629a4d43a2c0011d56e64146
     GuidInternal: 
-    m_lastTime: -8585642686028345061
+    m_lastTime: -8585643318952064942
     List:
     - name: Play_SNEAK_LOOP
       guid: 2764b415e7e90d4a8fa1c1b8d9fbfd28
@@ -383,7 +280,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e39f70446d627f4698a2403199fd4500
     GuidInternal: 
-    m_lastTime: -8585643352775835409
+    m_lastTime: -8585643322051397788
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -397,7 +294,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2923879e2991a94eb58a97fb6a1d67e8
     GuidInternal: 
-    m_lastTime: -8585643352768483752
+    m_lastTime: -8585643322042565593
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -411,7 +308,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: e75c442ee46777478606986a6a1912c1
     GuidInternal: 
-    m_lastTime: -8585643324911716150
+    m_lastTime: -8585643322042465573
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -425,14 +322,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c37df7f2c9c9cb46be07c82fa3ee7766
     GuidInternal: 
-    m_lastTime: -8585643352768423729
+    m_lastTime: -8585643322042445913
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0b0000000c00000017000000180000003300000055000000560000007d0000007e000000
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
