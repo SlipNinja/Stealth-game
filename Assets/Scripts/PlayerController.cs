@@ -38,27 +38,23 @@ public class PlayerController : MonoBehaviour
     }
 
     private void move() {
-        float horizontalMove = Input.GetAxis("Horizontal");
-        float verticalMove = Input.GetAxis("Vertical");
+        var horizontal = Input.GetAxis("Horizontal");
+        var vertical = Input.GetAxis("Vertical");
 
-        if(characterController.isGrounded)
+        if(Input.GetKey(KeyCode.LeftShift))transform.Translate(new Vector3(horizontal, 0, vertical) * (sprintSpeed * Time.deltaTime));
+        else transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
+        
+
+        moveDirection.y -= gravity * Time.deltaTime;
+
+        if (rb.velocity.x == 0f && rb.velocity.y == 0f)
         {
-            verticalSpeed = 0;
-        } else {
-            verticalSpeed -= gravity * Time.deltaTime;
+            animator.SetBool("isWalking", false);
         }
-
-        if(Input.GetKey(KeyCode.LeftShift))
+        else
         {
-            sprintMultiplier = 1.5f;
-        } else {
-            sprintMultiplier = 1f;
+            animator.SetBool("isWalking", true);
         }
-
-        Vector3 gravityMove = new Vector3(0,verticalSpeed, 0);
-        Vector3 move =  transform.forward * verticalMove + transform.right * horizontalMove;
-        move = move * sprintMultiplier;
-        characterController.Move(moveSpeed * Time.deltaTime * move + gravityMove * Time.deltaTime);
     }
 
     private void rotate(){
@@ -82,5 +78,5 @@ public class PlayerController : MonoBehaviour
             transform.Translate(transform.localPosition * _dashSpeed * Time.deltaTime);
             yield return null; 
         }
-}
+    }
 }
