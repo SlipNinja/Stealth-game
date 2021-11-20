@@ -133,16 +133,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bd4bd90c18d9f4eba3b633f2679509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  patrolSpeed: 2
+  searchSpeed: 4
+  attackSpeed: 6
+  patrolRange: 15
+  searchRange: 25
+  attackRange: 25
+  patrolAngle: 45
+  searchAngle: 55
+  attackAngle: 50
   target: {fileID: 0}
   destinations:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  range: 10
-  angle: 30
-  height: 1
   player: {fileID: 0}
+  footprints: {fileID: 0}
 --- !u!114 &3872436676645377330
 MonoBehaviour:
   m_ObjectHideFlags: 0
