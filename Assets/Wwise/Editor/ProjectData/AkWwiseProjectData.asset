@@ -12,6 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25cb77f60d16e6946bf000ebb47f2415, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+  AcousticTextureWwu: []
+  AuxBusWwu: []
+  BankWwu: []
+  EventWwu: []
+  RtpcWwu: []
+  StateWwu: []
+  SwitchWwu: []
+  TriggerWwu: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+=======
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -136,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ed2ee250c8b36e45b601965b3e1d0cb3
     GuidInternal: 
-    m_lastTime: -8585643324911616131
+    m_lastTime: -8585642682976859249
     List:
     - name: ATMOSPHERE
       guid: 6c5397506db02a4e9492db811670edb2
@@ -209,6 +221,53 @@ MonoBehaviour:
         guid: ce83ce5b2a156948a4223329e64c32b3
       Path: SoundBanks\Default Work Unit\MUSIC
   EventWwu:
+  - PhysicalPath: Events\ATMOSPHERE.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ATMOSPHERE
+      ObjectType: 12
+      guid: 1b57e8258a63e145b83a13f03f8b3bda
+    ParentPath: Events\ATMOSPHERE
+    guid: 1b57e8258a63e145b83a13f03f8b3bda
+    GuidInternal: 
+    m_lastTime: -8585642620490491124
+    List:
+    - name: Play_BIRDS_TREES
+      guid: 6cfdc81dd4f29645be75e58c80361360
+      id: 2661844156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ATMOSPHERE
+        ObjectType: 12
+        guid: 1b57e8258a63e145b83a13f03f8b3bda
+      - ElementName: Play_BIRDS_TREES
+        ObjectType: 3
+        guid: 6cfdc81dd4f29645be75e58c80361360
+      Path: Events\ATMOSPHERE\Play_BIRDS_TREES
+      maxAttenuation: 250
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TUNDRA_WIND
+      guid: 261257c0a85cf846af8100da4335fc2a
+      id: 3278720975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ATMOSPHERE
+        ObjectType: 12
+        guid: 1b57e8258a63e145b83a13f03f8b3bda
+      - ElementName: Play_TUNDRA_WIND
+        ObjectType: 3
+        guid: 261257c0a85cf846af8100da4335fc2a
+      Path: Events\ATMOSPHERE\Play_TUNDRA_WIND
+      maxAttenuation: 250
+      maxDuration: 10.278822
+      minDuration: 7.268225
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -220,8 +279,38 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a63dff41cee3904d980910357fb1deae
     GuidInternal: 
-    m_lastTime: -8585643324911756078
+    m_lastTime: -8585642621947148973
     List: []
+  - PhysicalPath: Events\ENVIRONMENT.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ENVIRONMENT
+      ObjectType: 12
+      guid: 2ed117ce490f2f4ab9a880df49ab626d
+    ParentPath: Events\ENVIRONMENT
+    guid: 2ed117ce490f2f4ab9a880df49ab626d
+    GuidInternal: 
+    m_lastTime: -8585642682977066500
+    List:
+    - name: Play_BUSHES
+      guid: ac3e356a7034664d8adeadebb57f7708
+      id: 1487213420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ENVIRONMENT
+        ObjectType: 12
+        guid: 2ed117ce490f2f4ab9a880df49ab626d
+      - ElementName: Play_BUSHES
+        ObjectType: 3
+        guid: ac3e356a7034664d8adeadebb57f7708
+      Path: Events\ENVIRONMENT\Play_BUSHES
+      maxAttenuation: 0
+      maxDuration: 3.149803
+      minDuration: 1.587401
   - PhysicalPath: Events\FOX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -233,7 +322,7 @@ MonoBehaviour:
     ParentPath: Events\FOX
     guid: 7e87f7a045fb7a439694c6dd97317388
     GuidInternal: 
-    m_lastTime: -8585643347736234158
+    m_lastTime: -8585642686028355062
     List:
     - name: FOX_FS
       guid: adffac8f485fd0478f9f3531c7874962
@@ -263,7 +352,7 @@ MonoBehaviour:
     ParentPath: Events\MUSIC
     guid: 964f521d629a4d43a2c0011d56e64146
     GuidInternal: 
-    m_lastTime: -8585643324911368533
+    m_lastTime: -8585642686028345061
     List:
     - name: Play_SNEAK_LOOP
       guid: 2764b415e7e90d4a8fa1c1b8d9fbfd28
@@ -339,7 +428,11 @@ MonoBehaviour:
     m_lastTime: -8585643352768423729
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 030000000a0000000b0000000d0000001000000011000000130000001400000033000000
+  ExpandedWaapiItemIds: 0b0000000c00000017000000180000003300000055000000560000007d0000007e000000
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

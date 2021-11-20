@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<WwiseDocument Type="WorkUnit" ID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ENVIRONMENT" ID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" PersistMode="Standalone">
+=======
+<WwiseDocument Type="WorkUnit" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ENVIRONMENT" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" PersistMode="Standalone">
+>>>>>>> Stashed changes
+=======
+<WwiseDocument Type="WorkUnit" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ENVIRONMENT" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" PersistMode="Standalone">
+>>>>>>> Stashed changes
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+				<Event Name="Play_BUSHES" ID="{68741942-F41C-4F7F-B548-5D6DA2F8EF5F}">
+					<ChildrenList>
+						<Action Name="" ID="{93EC03AC-213C-4F2D-8E98-3E1C44A0E8DA}" ShortID="397012555">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BUSHES" ID="{BF68D3AA-F7BB-4937-A8B5-8E70284D69D0}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+=======
+=======
+>>>>>>> Stashed changes
+				<Event Name="Play_BUSHES" ID="{6A353EAC-3470-4D66-8ADE-ADEBB57F7708}">
+					<ChildrenList>
+						<Action Name="" ID="{11F58B17-2E5C-4343-BDB0-DE1136059F1E}" ShortID="572828892">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BUSHES" ID="{F83C71F3-154E-4978-A24F-8EFFE34E1573}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
