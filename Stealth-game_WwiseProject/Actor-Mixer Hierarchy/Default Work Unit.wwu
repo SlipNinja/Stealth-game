@@ -229,7 +229,6 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -242,6 +241,7 @@
 							<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
 						</Reference>
 					</ReferenceList>
+<<<<<<< HEAD
 					<ChildrenList>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -388,6 +388,8 @@
 =======
 >>>>>>> Stashed changes
 					</ChildrenList>
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" ShortID="558374466">
@@ -403,6 +405,7 @@
 							<ObjectRef Name="ENVIRONMENT" ID="{171310CC-165C-4537-B8BB-EE82CCD4B3C4}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
 						</Reference>
 					</ReferenceList>
+<<<<<<< HEAD
 					<ChildrenList>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -732,6 +735,8 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="ENEMIES" ID="{A003DA17-E0F2-4B98-B705-A9B18DB0BB7E}" ShortID="563628826">

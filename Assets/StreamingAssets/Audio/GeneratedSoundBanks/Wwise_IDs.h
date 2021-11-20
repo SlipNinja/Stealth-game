@@ -11,6 +11,7 @@
 
 namespace AK
 {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     namespace EVENTS
@@ -31,6 +32,8 @@ namespace AK
     } // namespace EVENTS
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
