@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4226239971	Play_SNEAK_LOOP			\MUSIC\Play_SNEAK_LOOP	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	251524950	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
+	325980009	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
+	373978650	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
+	531876546	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
+

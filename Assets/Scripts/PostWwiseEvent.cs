@@ -6,7 +6,7 @@ public class PostWwiseEvent : MonoBehaviour
 {
     public AK.Wwise.Event MyEvent;
     // Start is called before the first frame update
-    public void PlayFootStepSound()
+    public void FOX_FS()
     {
         MyEvent.Post(gameObject);
         
