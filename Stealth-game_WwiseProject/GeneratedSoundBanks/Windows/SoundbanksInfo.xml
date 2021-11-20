@@ -11,9 +11,13 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		<SoundBank Id="1083137540" Language="SFX" Hash="3669007237">
+=======
+		<SoundBank Id="1083137540" Language="SFX" Hash="3408808499">
+>>>>>>> parent of 2e217fb (Music imported)
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
@@ -58,30 +62,31 @@
 			<IncludedMemoryFiles>
 				<File Id="11613578" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_822DEC3B.wem</Path>
+					<Path>SFX\Fox footsteps_6F79AB2A.wem</Path>
 				</File>
 				<File Id="26268755" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_346627C1.wem</Path>
+					<Path>SFX\Fox footsteps_279E65B6.wem</Path>
 				</File>
 				<File Id="115107440" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_C273D1AF.wem</Path>
+					<Path>SFX\Fox footsteps_A3B42BA3.wem</Path>
 				</File>
 				<File Id="288137750" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_91C74759.wem</Path>
+					<Path>SFX\Fox footsteps_B702BE24.wem</Path>
 				</File>
 				<File Id="438705581" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_D2338AF5.wem</Path>
+					<Path>SFX\Fox footsteps_05A3DDEC.wem</Path>
 				</File>
 				<File Id="461416601" Language="SFX">
 					<ShortName>Fox footsteps.wav</ShortName>
-					<Path>SFX\Fox footsteps_6EED44BF.wem</Path>
+					<Path>SFX\Fox footsteps_C53B4766.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -202,6 +207,9 @@
 			</IncludedMemoryFiles>
 =======
 		<SoundBank Id="1229948536" Language="SFX" Hash="3963525656">
+=======
+		<SoundBank Id="1229948536" Language="SFX">
+>>>>>>> parent of 2e217fb (Music imported)
 			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
@@ -218,6 +226,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -294,16 +303,24 @@
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 		<SoundBank Id="2145253833" Language="SFX" Hash="514500195">
+=======
+		<SoundBank Id="2145253833" Language="SFX">
+>>>>>>> parent of 2e217fb (Music imported)
 			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
 			<ShortName>ATMOSPHERE</ShortName>
 			<Path>ATMOSPHERE.bnk</Path>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="2242381963" GUID="{B43F982F-4311-46F7-A4EA-C77E6DD1612C}" Language="SFX" Hash="2001690117">
+=======
+		<SoundBank Id="2242381963" Language="SFX">
+>>>>>>> parent of 2e217fb (Music imported)
 			<ObjectPath>\SoundBanks\Default Work Unit\ENEMIES</ObjectPath>
 			<ShortName>ENEMIES</ShortName>
 			<Path>ENEMIES.bnk</Path>
 		</SoundBank>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		<SoundBank Id="3991942870" Language="SFX" Hash="3755395237">
@@ -358,6 +375,12 @@
 					<Path>SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+=======
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+>>>>>>> parent of 2e217fb (Music imported)
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
