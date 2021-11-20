@@ -1,27 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 Event	ID	Name			Wwise Object Path	Notes
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	1169232266	Play_BIRDS_AND_TREES			\ATMOSPHERE\Play_BIRDS_AND_TREES	
+	3798124563	Play_BREEZE			\ATMOSPHERE\Play_BREEZE	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	297211381	BIRDS_AND_TREES	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Ambience, Birdsong, Meadow, Summer, Birds Sing, Wind, Light Rustle In Trees SND36908 1_47D2C4C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOSPHERE\BIRDS & TREES\BIRDS_AND_TREES		5562168
-=======
-=======
->>>>>>> Stashed changes
-	2661844156	Play_BIRDS_TREES			\ATMOSPHERE\Play_BIRDS_TREES	
-	3278720975	Play_TUNDRA_WIND			\ATMOSPHERE\Play_TUNDRA_WIND	
+	798893567	BREEZE	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Wind, Vegetation, Forest, Gusting Breeze 03 SND65700_C5762DED.wem		\Actor-Mixer Hierarchy\ATMOSPHERE\BREEZE		4563748
 
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	815573549	TUNDRA WIND	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\TUNDRA WIND_293859C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOSPHERE\TUNDRA WIND		1524764
-	964006555	BIRDS_&_TREES	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Ambience, Forest, Birds, Wind In Trees 1 SND0432_50354A04.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOSPHERE\BIRDS_&_TREES		4691980
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
-=======
->>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
-=======
->>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)

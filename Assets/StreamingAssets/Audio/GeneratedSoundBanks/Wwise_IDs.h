@@ -11,32 +11,14 @@
 
 namespace AK
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
     namespace EVENTS
     {
-        static const AkUniqueID FOX_FS = 3351742574U;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        static const AkUniqueID PLAY_BIRDS_AND_TREES = 1169232266U;
-=======
-        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
->>>>>>> Stashed changes
-=======
-        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
->>>>>>> Stashed changes
-        static const AkUniqueID PLAY_BUSHES = 1487213420U;
+        static const AkUniqueID DOG_FOOTSTEPS = 4060911613U;
+        static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
+        static const AkUniqueID PLAY_BREEZE = 3798124563U;
         static const AkUniqueID PLAY_SNEAK_LOOP = 4226239971U;
-        static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
     } // namespace EVENTS
 
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
-=======
->>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

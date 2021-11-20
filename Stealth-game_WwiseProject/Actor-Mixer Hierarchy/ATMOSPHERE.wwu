@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1D573D3-C2B6-4633-8F46-EFB6EE2C67F2}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="ATMOSPHERE" ID="{A1D573D3-C2B6-4633-8F46-EFB6EE2C67F2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="BREEZE" ID="{73004A02-DE0E-438B-A09D-0B9263FED989}" ShortID="316187693">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_BREEZE_250M" ID="{83431763-D69B-4A6E-B762-02FDAB43E243}" WorkUnitID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind, Vegetation, Forest, Gusting Breeze 03 SND65700" ID="{0A4053B4-1197-4844-BFC6-9BBEFBB5DB33}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="5.8873768966763"/>
+								<Property Name="TrimEnd" Type="Real64" Value="29.6565627257948"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Wind, Vegetation, Forest, Gusting Breeze 03 SND65700.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="798893567"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind, Vegetation, Forest, Gusting Breeze 03 SND65700" ID="{0A4053B4-1197-4844-BFC6-9BBEFBB5DB33}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

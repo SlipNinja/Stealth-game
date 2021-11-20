@@ -6,7 +6,7 @@
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
@@ -18,7 +18,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
@@ -30,7 +30,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
@@ -42,7 +42,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
@@ -54,7 +54,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
@@ -66,7 +66,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{DC99FD64-2DE6-4A0F-B0B4-E96047AA8C73}" WorkUnitID="{CCAC6D7B-001E-4A92-BD9F-F5A1CE93DCF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>

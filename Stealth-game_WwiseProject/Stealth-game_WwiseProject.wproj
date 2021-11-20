@@ -11553,6 +11553,15 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER">
+					<WorkUnit Name="NULL_FOLDER" ID="{065B8796-5EE5-451A-8772-5AB6A6027722}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT">
+					<WorkUnit Name="MOVEMENT" ID="{DEDDC577-11B7-4C20-B820-C428A5AE9DEE}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT\FS">
+					<WorkUnit Name="FS" ID="{F3AC5A3E-46D3-4F9D-88AF-1E17ABDF3EDB}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>

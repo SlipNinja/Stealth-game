@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11613578	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_6F79AB2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_03		69432
 	26268755	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_279E65B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_01		55104
@@ -5,4 +6,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	288137750	Fox footsteps_05	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_B702BE24.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_05		63156
 	438705581	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_05A3DDEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps_04		69544
 	461416601	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_C53B4766.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FS\Fox footsteps		74708
+=======
+Event	ID	Name			Wwise Object Path	Notes
+	648125588	FOX_FOOTSTEPS			\FOX\FOX_FOOTSTEPS	
+>>>>>>> Stashed changes
 
