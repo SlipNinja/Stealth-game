@@ -2,6 +2,7 @@
 <WwiseDocument Type="WorkUnit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" SchemaVersion="103">
 	<Attenuations>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<WorkUnit Name="Default Work Unit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" PersistMode="Standalone">
 			<ChildrenList>
 <<<<<<< Updated upstream
@@ -156,6 +157,9 @@
 				</Attenuation>
 			</ChildrenList>
 		</WorkUnit>
+=======
+		<WorkUnit Name="Default Work Unit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" PersistMode="Standalone"/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 		<WorkUnit Name="Default Work Unit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" PersistMode="Standalone"/>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)

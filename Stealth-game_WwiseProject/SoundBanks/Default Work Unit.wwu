@@ -9,7 +9,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" WorkUnitID="{A0F7877E-FB45-437A-9694-C6DD97317388}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FOX" ID="{E28A7EE7-BCE4-43F1-AC87-E03B6EEEEF09}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -30,6 +29,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<ObjectInclusionList>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -47,6 +47,9 @@
 =======
 					<ObjectInclusionList/>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+					<ObjectInclusionList/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -55,6 +58,7 @@
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 					<ObjectInclusionList>
 <<<<<<< Updated upstream
@@ -71,6 +75,9 @@
 =======
 					<ObjectInclusionList/>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+					<ObjectInclusionList/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -81,7 +88,6 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" WorkUnitID="{1D524F96-9A62-434D-A2C0-011D56E64146}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

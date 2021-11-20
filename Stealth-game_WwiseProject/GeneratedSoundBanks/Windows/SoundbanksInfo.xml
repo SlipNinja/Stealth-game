@@ -83,6 +83,7 @@
 			</IncludedMemoryFiles>
 		</SoundBank>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		<SoundBank Id="1229948536" Language="SFX" Hash="2260464354">
@@ -205,12 +206,19 @@
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+		<SoundBank Id="1229948536" Language="SFX" Hash="3963525656">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
+			<ShortName>ENVIRONMENT</ShortName>
+			<Path>ENVIRONMENT.bnk</Path>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 		</SoundBank>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="662292339">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -278,6 +286,12 @@
 >>>>>>> Stashed changes
 				</File>
 			</IncludedMemoryFiles>
+=======
+		<SoundBank Id="2145253833" Language="SFX" Hash="514500195">
+			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>
+			<ShortName>ATMOSPHERE</ShortName>
+			<Path>ATMOSPHERE.bnk</Path>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 		<SoundBank Id="2145253833" Language="SFX" Hash="514500195">
 			<ObjectPath>\SoundBanks\Default Work Unit\ATMOSPHERE</ObjectPath>

@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="A:\Users\Matthew\OneDrive\Documents\REAPER Media\Game Jams\GJLJam\"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 				<Property Name="Event Action List\{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}\x64_Expand States" Type="string" Value=""/>
@@ -31,6 +32,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -47,6 +50,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="R2lyfjEP5EaBHxTddVWSwQ=="/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="bFOXUG2wKk6UktuBFnDtsjIFAChDQGxLrdvCu8fqmU9oWYxUzqKpTpYbccx6NcGqzoPOWyoVaUikIjMp5kwysw=="/>
@@ -56,6 +60,9 @@
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 =======
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="aFmMVM6iqU6WG3HMejXBqjIFAChDQGxLrdvCu8fqmU9sU5dQbbAqTpSS24EWcO2yzoPOWyoVaUikIjMp5kwysw=="/>
+=======
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="aFmMVM6iqU6WG3HMejXBqs6DzlsqFWlIpCIzKeZMMrM="/>
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="v8Dj1X70/kGjNW9zNEW3eAEDbOv/////Rtt4eK+vaUWPTS1iShdnZQEDbOv/////"/>
 >>>>>>> Stashed changes

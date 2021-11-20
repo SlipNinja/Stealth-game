@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Event	ID	Name			Wwise Object Path	Notes
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -20,5 +21,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 =======
 >>>>>>> Stashed changes
 
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)

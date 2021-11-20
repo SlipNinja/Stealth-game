@@ -12,6 +12,7 @@
 namespace AK
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     namespace EVENTS
@@ -32,6 +33,8 @@ namespace AK
     } // namespace EVENTS
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
     namespace BANKS

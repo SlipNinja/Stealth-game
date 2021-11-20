@@ -29,7 +29,7 @@
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="400"/>
-													<Property Name="Min" Type="Real64" Value="-400"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -38,7 +38,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -242,6 +242,7 @@
 						</Reference>
 					</ReferenceList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<ChildrenList>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -390,6 +391,8 @@
 					</ChildrenList>
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" ShortID="558374466">
@@ -405,6 +408,7 @@
 							<ObjectRef Name="ENVIRONMENT" ID="{171310CC-165C-4537-B8BB-EE82CCD4B3C4}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
 						</Reference>
 					</ReferenceList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 					<ChildrenList>
 <<<<<<< Updated upstream
@@ -735,6 +739,8 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+=======
+>>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 =======
 >>>>>>> parent of 158711a (Environment & Atmosphere SFX pt 1)
 					<ObjectLists/>
