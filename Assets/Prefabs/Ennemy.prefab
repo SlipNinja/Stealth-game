@@ -134,14 +134,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 2
-  searchSpeed: 3
-  attackSpeed: 4
-  patrolRange: 18
-  searchRange: 22
+  searchSpeed: 4
+  attackSpeed: 6
+  patrolRange: 15
+  searchRange: 25
   attackRange: 25
-  patrolAngle: 40
-  searchAngle: 50
-  attackAngle: 45
+  patrolAngle: 45
+  searchAngle: 55
+  attackAngle: 50
   target: {fileID: 0}
   destinations:
   - {fileID: 0}

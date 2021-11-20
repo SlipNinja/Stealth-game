@@ -17,7 +17,7 @@ public class EnnemyAI : MonoBehaviour
     
     public Transform target;
     public Transform[] destinations;
-    private float range, angle;
+    private float range, angle, angleNear, rangeNear;
     public Transform player;
     public Transform footprints;
     private NavMeshAgent navmesh;
@@ -34,14 +34,20 @@ public class EnnemyAI : MonoBehaviour
         searching = false;
         attacking = false;
         target = destinations[currentDestination];
+        rangeNear = 4f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        if(target)
-            navmesh.destination = target.position;// Moving
+        if(!target)
+        {
+            currentDestination = (currentDestination + 1 >= destinations.Length) ? 0 : currentDestination + 1;
+            target = destinations[currentDestination];
+        }
+        
+        navmesh.destination = target.position;// Moving
 
         if(patrolling)
         {
@@ -49,16 +55,12 @@ public class EnnemyAI : MonoBehaviour
             range = patrolRange;
             angle = patrolAngle;
 
-            if(!target)
-                target = destinations[currentDestination];
-
             float distTo = Vector3.Distance(transform.position, target.position);
             if(distTo <= 1f)//ppoint reached
             {
                 currentDestination = (currentDestination + 1 >= destinations.Length) ? 0 : currentDestination + 1;
+                target = destinations[currentDestination];
             }
-
-            target = destinations[currentDestination];
         }
         else if(searching)
         {
@@ -123,11 +125,12 @@ public class EnnemyAI : MonoBehaviour
     {
         float dist;
         bool near = false;
+        angleNear = angle * 2;
 
         foreach(Transform child in footprints)
         {
             dist = Vector3.Distance(transform.position, child.position);
-            if( dist < 5f){
+            if( dist < rangeNear){
                 near = true;
             }
             if(( dist < range) || near)
@@ -135,7 +138,7 @@ public class EnnemyAI : MonoBehaviour
                 Vector3 targetDir = child.position - transform.position;
                 float footprintAngle = Vector3.Angle(targetDir, transform.forward);
 
-                if ((footprintAngle <= angle) || near)
+                if ((footprintAngle <= angle) || (near && (footprintAngle <= angleNear)))
                 {
                     RaycastHit hit;
                     if(Physics.Raycast(transform.position, targetDir, out hit, range, 7))
@@ -156,14 +159,19 @@ public class EnnemyAI : MonoBehaviour
     void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Vector3 direction = transform.TransformDirection(Vector3.forward) * range;
+        Vector3 direction = transform.TransformDirection(Vector3.forward);
 
-        Vector3 leftdir = Quaternion.AngleAxis(angle, Vector3.up) * direction;
-        Vector3 rightdir = Quaternion.AngleAxis(-angle, Vector3.up) * direction;
+        Vector3 leftdir = Quaternion.AngleAxis(angle, Vector3.up) * direction * range;
+        Vector3 rightdir = Quaternion.AngleAxis(-angle, Vector3.up) * direction * range;
+
+        Vector3 leftdirnear = Quaternion.AngleAxis(angleNear, Vector3.up) * direction * rangeNear;
+        Vector3 rightdirnear = Quaternion.AngleAxis(-angleNear, Vector3.up) * direction * rangeNear;
 
         //Gizmos.DrawRay(transform.position, direction);
         Gizmos.DrawRay(transform.position, leftdir);
         Gizmos.DrawRay(transform.position, rightdir);
+        Gizmos.DrawRay(transform.position, leftdirnear);
+        Gizmos.DrawRay(transform.position, rightdirnear);
 
         
     }
