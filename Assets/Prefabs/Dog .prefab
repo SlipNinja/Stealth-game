@@ -24198,11 +24198,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 5
-  searchSpeed: 10
-  attackSpeed: 15
+  searchSpeed: 8
+  attackSpeed: 12
   patrolRange: 20
   searchRange: 30
-  attackRange: 35
+  attackRange: 30
   patrolAngle: 45
   searchAngle: 55
   attackAngle: 50
@@ -24226,7 +24226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a630dde287d4c3498badf616e9db782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footstepPrefab: {fileID: 1208791837096145021, guid: 375dfa6abfd03e64fbc2945944f3917f, type: 3}
+  groundOffset: 0.1
+  footstepPrefab: {fileID: 5097451495336263318, guid: 83ca8d12f20e69e45bd3812cb6656c5a, type: 3}
   footprints: {fileID: 0}
 --- !u!65 &949136605905801545
 BoxCollider:
