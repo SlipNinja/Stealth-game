@@ -9,4 +9,20 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
+
+    public void TryAgain()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.sceneCount);
+    }
 }

@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
 
+    public GameObject deathMenu;
+    public GameObject winScreen;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -68,6 +71,17 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == "Exit")
         {
             SceneManager.LoadScene(SceneManager.sceneCount + 1);
+        }
+
+        if(other.gameObject.tag == "Dog")
+        {
+            Time.timeScale = 0f;
+            deathMenu.SetActive(true);
+        }
+        if(other.gameObject.tag == "Completed")
+        {
+            Time.timeScale = 0f;
+            winScreen.SetActive(true);
         }
     }
 }
