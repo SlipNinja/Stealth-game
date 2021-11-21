@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.tag == "Exit")
         {
-            SceneManager.LoadScene(SceneManager.sceneCount + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         if(other.gameObject.tag == "Dog")
