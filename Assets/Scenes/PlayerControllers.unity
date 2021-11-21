@@ -367,7 +367,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4e7c6be88462bb4faafe9d57b8d4dc9, type: 2}
+  - {fileID: 2100000, guid: b11b7d264539c2c4384f5442ca93a28e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -490,9 +490,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1013521720}
-  - component: {fileID: 1013521722}
-  - component: {fileID: 1013521723}
   - component: {fileID: 1013521724}
+  - component: {fileID: 1013521725}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -517,46 +516,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1013521722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013521718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57e3ca10deeb9ec4eafd2fd41bdeb865, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterController: {fileID: 1013521723}
-  rb: {fileID: 1013521724}
-  moveSpeed: 8
-  gravity: 9.8
-  _dashSpeed: 10
-  _dashTime: 0.7
-  cameraHolder: {fileID: 963194228}
-  mouseSensitivity: 5
-  upLimit: 0
-  downLimit: 30
---- !u!143 &1013521723
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013521718}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1013521724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -573,6 +532,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1013521725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013521718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ab857a38ac1149a4c24f815c79663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 8
+  sprintSpeed: 16
+  gravity: 9.87
+  cameraHolder: {fileID: 963194228}
+  mouseSensitivity: 3
+  upLimit: 0
+  downLimit: 25
 --- !u!1 &1795515355
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +603,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2079d2d32e25338458680ea9dc978698, type: 2}
+  - {fileID: 2100000, guid: 8ba87bae3b5f3dc4ca9c389226c37a40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -737,7 +715,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18e8c4ee6104d71459d865c71c43472a, type: 2}
+  - {fileID: 2100000, guid: 055ae3a1f56c0394f87a04e7dc885c66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -778,6 +756,7 @@ GameObject:
   - component: {fileID: 1913512750}
   - component: {fileID: 1913512753}
   - component: {fileID: 1913512752}
+  - component: {fileID: 1913512754}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -822,7 +801,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18e8c4ee6104d71459d865c71c43472a, type: 2}
+  - {fileID: 2100000, guid: 055ae3a1f56c0394f87a04e7dc885c66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -852,3 +831,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913512749}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1913512754
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913512749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
