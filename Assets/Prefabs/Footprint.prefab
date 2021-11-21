@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7613057673469114024}
   - component: {fileID: 7056017427105786194}
   - component: {fileID: -5307856892494806531}
+  - component: {fileID: 8379393947866074248}
   m_Layer: 0
   m_Name: Footprint
   m_TagString: Untagged
@@ -98,3 +99,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondsToDestroy: 4
+--- !u!65 &8379393947866074248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097451495336263318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.35, y: 2.5100007, z: 0.20000005}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -8579,6 +8579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fox (player) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9133432066439767008, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+      propertyPath: footprints
+      value: 
+      objectReference: {fileID: 1492299378}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
 --- !u!1 &1081362157
