@@ -13,4 +13,16 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
+
+    public void TryAgain()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.sceneCount);
+    }
 }
