@@ -11368,14 +11368,6 @@ PrefabInstance:
       propertyPath: footprints
       value: 
       objectReference: {fileID: 422515199}
-    - target: {fileID: 3391057630414276840, guid: fb1c2e94bf104e543bad92a26e7f968d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391057630414276840, guid: fb1c2e94bf104e543bad92a26e7f968d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.193
-      objectReference: {fileID: 0}
     - target: {fileID: 4940563411521819032, guid: fb1c2e94bf104e543bad92a26e7f968d, type: 3}
       propertyPath: m_Name
       value: 'Dog '

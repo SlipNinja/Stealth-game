@@ -28,20 +28,29 @@ public class Footprints : MonoBehaviour
     void Update()
     {
         float distTo = Vector3.Distance(transform.position, lastfootprint);
-        if (distTo > 1.5f)
+        if (distTo > 4f)
         {
-            Vector3 instanciatePosition;
+            Vector3 instanciatePosition = Vector3.zero;
+            RaycastHit hit;
+            //float playerAngle = Vector3.Angle(targetDir, transform.forward);
 
             if(leftFootTime)//left foot
             {
-                instanciatePosition = new Vector3(left.position.x, 0, left.position.z);
-                leftFootTime = false;
+                if(Physics.Raycast(left.position, Vector3.down, out hit, 100f))
+                {
+                    instanciatePosition = hit.point;
+                    leftFootTime = false;
+                }
             } else {//right foot
-                instanciatePosition = new Vector3(right.position.x, 0, right.position.z);
-                leftFootTime = true;
+                if(Physics.Raycast(right.position, Vector3.down, out hit, 100f))
+                {
+                    instanciatePosition = hit.point;
+                    leftFootTime = true;
+                }
             }
 
             footprint = Instantiate(footstepPrefab, instanciatePosition, Quaternion.identity);
+            footprint.transform.rotation = Quaternion.FromToRotation (footprint.transform.up, hit.normal) * footprint.transform.rotation;
             footprint.transform.Rotate(0, transform.eulerAngles.y, 0);//Rotate footprints
             footprint.transform.parent = footprints;
             lastfootprint = footprint.transform.position;
