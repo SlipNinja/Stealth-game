@@ -92,20 +92,24 @@ public class EnnemyAI : MonoBehaviour
 
             float currDist;
             float farthestDistance = 0f;
-            Transform farthest = footprintsInView[0];
 
-            foreach (Transform footp in footprintsInView)
+            if(footprintsInView.Count > 0)
             {
-                //currDist = Vector3.Distance(footp.position, lastSeenPlayerPosition);
-                currDist = Vector3.Distance(footp.position, transform.position);
-                if( currDist > farthestDistance)
-                {
-                    farthest = footp;
-                    farthestDistance = currDist;
-                }
-            }
+                Transform farthest = footprintsInView[0];
 
-            target = farthest;
+                foreach (Transform footp in footprintsInView)
+                {
+                    //currDist = Vector3.Distance(footp.position, lastSeenPlayerPosition);
+                    currDist = Vector3.Distance(footp.position, transform.position);
+                    if( currDist > farthestDistance)
+                    {
+                        farthest = footp;
+                        farthestDistance = currDist;
+                    }
+                }
+
+                target = farthest;
+            }
         }
         else if (attacking)
         {
