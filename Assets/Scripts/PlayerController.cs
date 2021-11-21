@@ -7,20 +7,18 @@ public class PlayerController : MonoBehaviour
 // -----------------------------------------------------------------------------------------------
     [Tooltip("Move speed in meters/second")]
     public float moveSpeed;
-    private  float verticalSpeed = 0f;
+    public float sprintSpeed;
     public float gravity = 9.87f;
 // -----------------------------------------------------------------------------------------------
     public Transform cameraHolder;
     public float mouseSensitivity;
     public float upLimit;
     public float downLimit;
-    // -----------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------
     private Vector3 moveDirection = Vector3.zero;
-
     Rigidbody rb;
-
     Animator animator;
-
+// -----------------------------------------------------------------------------------------------
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -36,7 +34,16 @@ public class PlayerController : MonoBehaviour
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
 
-        transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
+        switch(Input.GetKey(KeyCode.LeftShift))
+        {
+            case true:
+                transform.Translate(new Vector3(horizontal, 0, vertical) * (sprintSpeed * Time.deltaTime));
+                break;
+            case false:
+                transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
+                break;
+        }
+
 
         moveDirection.y -= gravity * Time.deltaTime;
 
