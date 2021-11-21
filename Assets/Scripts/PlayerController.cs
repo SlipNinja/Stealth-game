@@ -1,63 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
-    public CharacterController characterController;
-    public Rigidbody rb;
 // -----------------------------------------------------------------------------------------------
     [Tooltip("Move speed in meters/second")]
     public float moveSpeed;
     private  float verticalSpeed = 0f;
-    private float sprintMultiplier;
-    private Vector3 dash = new Vector3(100, 100, 100);
     public float gravity = 9.87f;
-    public float _dashSpeed;
-    public float _dashTime;
 // -----------------------------------------------------------------------------------------------
     public Transform cameraHolder;
     public float mouseSensitivity;
-    public float upLimit = 0;
-    public float downLimit = 25;
-// -----------------------------------------------------------------------------------------------
+    public float upLimit;
+    public float downLimit;
+    // -----------------------------------------------------------------------------------------------
+    private Vector3 moveDirection = Vector3.zero;
 
-    private void Awake () {
-        characterController = GetComponent<CharacterController>();
+    Rigidbody rb;
+
+    Animator animator;
+
+    private void Start()
+    {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
         move();
         rotate();
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            StartCoroutine(DashCoroutine());
-        }
-        
     }
 
     private void move() {
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
 
-        if(Input.GetKey(KeyCode.LeftShift))transform.Translate(new Vector3(horizontal, 0, vertical) * (sprintSpeed * Time.deltaTime));
-        else transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
-        
+        transform.Translate(new Vector3(horizontal, 0, vertical) * (moveSpeed * Time.deltaTime));
 
         moveDirection.y -= gravity * Time.deltaTime;
 
-        if (rb.velocity.x == 0f && rb.velocity.y == 0f)
-        {
-            animator.SetBool("isWalking", false);
-        }
-        else
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             animator.SetBool("isWalking", true);
         }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
     }
 
-    private void rotate(){
+    public void rotate(){
         float horizontalRotation = Input.GetAxis("Mouse X");
         float verticalRotation = Input.GetAxis("Mouse Y");
 
@@ -70,13 +63,11 @@ public class PlayerController : MonoBehaviour
         cameraHolder.localRotation = Quaternion.Euler(currentRotation);
     }
 
-    private IEnumerator DashCoroutine()
+    private void OnTriggerEnter(Collider other)
     {
-        float startTime = Time.time;
-        while(Time.time < startTime + _dashTime)
+        if(other.gameObject.tag == "Exit")
         {
-            transform.Translate(transform.localPosition * _dashSpeed * Time.deltaTime);
-            yield return null; 
+            SceneManager.LoadScene(SceneManager.sceneCount + 1);
         }
     }
 }
