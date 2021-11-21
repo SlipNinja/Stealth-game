@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3411839232908059169}
   - component: {fileID: 3889713304807470336}
+  - component: {fileID: 2243646707945934719}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -47,6 +48,22 @@ CapsuleCollider:
   m_Height: 7.516165
   m_Direction: 1
   m_Center: {x: 0.023113256, y: -1.2086058, z: -0.15001006}
+--- !u!208 &2243646707945934719
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599308264353675419}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.235, y: 1.025, z: 1.65}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6457971617781432386
 GameObject:
   m_ObjectHideFlags: 0
