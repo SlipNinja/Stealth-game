@@ -201,11 +201,4 @@ public class EnnemyAI : MonoBehaviour
 
         
     }
-
-        //transform.LookAt(target);
-        //Vector3 moveTo = Vector3.MoveTowards(transform.position, target.position, 5000f);
-        //float playerAngle = Quaternion.Angle(Quaternion.AngleAxis(30, Vector3.up), Quaternion.AngleAxis(0, Vector3.up));
-
-
-
 }

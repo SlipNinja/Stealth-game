@@ -24243,12 +24243,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bd4bd90c18d9f4eba3b633f2679509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 5
-  searchSpeed: 12
-  attackSpeed: 60
-  patrolRange: 20
-  searchRange: 30
-  attackRange: 30
+  patrolSpeed: 6
+  searchSpeed: 15
+  attackSpeed: 30
+  patrolRange: 30
+  searchRange: 40
+  attackRange: 45
   patrolAngle: 45
   searchAngle: 55
   attackAngle: 60
