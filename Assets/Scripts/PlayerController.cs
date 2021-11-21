@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     Animator animator;
 
     public GameObject deathMenu;
+    public GameObject winScreen;
 
     private void Start()
     {
@@ -76,6 +77,11 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0f;
             deathMenu.SetActive(true);
+        }
+        if(other.gameObject.tag == "Completed")
+        {
+            Time.timeScale = 0f;
+            winScreen.SetActive(true);
         }
     }
 }

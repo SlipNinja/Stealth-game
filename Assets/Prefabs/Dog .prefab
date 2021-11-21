@@ -24245,7 +24245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patrolSpeed: 5
   searchSpeed: 12
-  attackSpeed: 12
+  attackSpeed: 60
   patrolRange: 20
   searchRange: 30
   attackRange: 30
