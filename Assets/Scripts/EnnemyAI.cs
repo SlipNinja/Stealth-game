@@ -110,7 +110,7 @@ public class EnnemyAI : MonoBehaviour
                 RaycastHit hit;
                 if(Physics.Raycast(transform.position, targetDir, out hit, range, 7))
                 {
-                    if(hit.transform.name == "Player")
+                    if(hit.transform.name.Contains("player"))
                     {
                         Debug.DrawLine(transform.position, hit.transform.position, Color.red);
                         return true;
