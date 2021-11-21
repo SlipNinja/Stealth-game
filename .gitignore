@@ -63,5 +63,22 @@ crashlytics-build.properties
 
 Stealth-game_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml
 Stealth-game_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml
+<<<<<<< Updated upstream
 *.xml
 *.wwu
+=======
+Stealth-game_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu
+Stealth-game_WwiseProject/Actor-Mixer Hierarchy/ENVIRONMENT.wwu
+Stealth-game_WwiseProject/Attenuations/Default Work Unit.wwu
+Stealth-game_WwiseProject/Events/Default Work Unit.wwu
+Stealth-game_WwiseProject/Events/FOX.wwu
+Stealth-game_WwiseProject/SoundBanks/Default Work Unit.wwu
+Stealth-game_WwiseProject/Stealth-game_WwiseProject.Matthew.wsettings
+Stealth-game_WwiseProject/Stealth-game_WwiseProject.wproj
+Stealth-game_WwiseProject/Stealth-game_WwiseProject.Matthew.validationcache
+*.wwu
+*.wsettings
+*.wproj
+*.validationcache
+*.wsettings
+>>>>>>> Stashed changes

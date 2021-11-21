@@ -7,6 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
+<<<<<<< Updated upstream
 				<Event Name="FOX_FOOTSTEPS" ID="{8278D715-1166-460D-8A9B-E830F7941A17}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
@@ -17,6 +18,14 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FOOTSTEPS" ID="{0F96C6FA-E48C-45B9-AF0F-A4843FC85986}" WorkUnitID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}"/>
+=======
+				<Event Name="FOX_FOOTSTEPS" ID="{13038130-3A1A-4C7E-A1BB-74B68AEAC571}">
+					<ChildrenList>
+						<Action Name="" ID="{A89DCD00-6702-4442-A278-94091B4AC250}" ShortID="982437648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEPS" ID="{19743927-6D6F-4FA6-BBF7-3DEFA684EAEE}" WorkUnitID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}"/>
+>>>>>>> Stashed changes
 								</Reference>
 							</ReferenceList>
 						</Action>

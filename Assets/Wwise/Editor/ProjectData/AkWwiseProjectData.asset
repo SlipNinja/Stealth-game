@@ -38,7 +38,10 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 3304be65345eca42b0f839bb4e465735
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585641612407249578
+=======
+    m_lastTime: -8585640764900917172
     List:
     - name: ATMOSPHERE
       guid: a44d3b9aa8206747925876e9b1074a2d
@@ -58,6 +61,120 @@ MonoBehaviour:
       guid: 7b5b924ce45be945ae9fb283a09f95d1
       id: 2242381963
       PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3304be65345eca42b0f839bb4e465735
+      - ElementName: ENEMIES
+        ObjectType: 2
+        guid: 7b5b924ce45be945ae9fb283a09f95d1
+      Path: Master-Mixer Hierarchy\Default Work Unit\ENEMIES
+    - name: ENVIRONMENT
+      guid: cc1013175c163745b8bbee82ccd4b3c4
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3304be65345eca42b0f839bb4e465735
+      - ElementName: ENVIRONMENT
+        ObjectType: 2
+        guid: cc1013175c163745b8bbee82ccd4b3c4
+      Path: Master-Mixer Hierarchy\Default Work Unit\ENVIRONMENT
+    - name: FOX
+      guid: 95608c0dd777f341895187b2633ce7d8
+      id: 1083137540
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3304be65345eca42b0f839bb4e465735
+      - ElementName: FOX
+        ObjectType: 2
+        guid: 95608c0dd777f341895187b2633ce7d8
+      Path: Master-Mixer Hierarchy\Default Work Unit\FOX
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3304be65345eca42b0f839bb4e465735
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MUSIC
+      guid: 6520b9afbf5cd849b2b5e7786b7eef92
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3304be65345eca42b0f839bb4e465735
+      - ElementName: MUSIC
+        ObjectType: 2
+        guid: 6520b9afbf5cd849b2b5e7786b7eef92
+      Path: Master-Mixer Hierarchy\Default Work Unit\MUSIC
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 10fc1d7f86e44c448cf521479f0d17e4
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 10fc1d7f86e44c448cf521479f0d17e4
+    GuidInternal: 
+    m_lastTime: -8585640746698307360
+    List:
+    - name: SOUNDBANK
+      guid: 2c0000f7c597a742adf8ebf1113dbfbb
+      id: 1661994096
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 10fc1d7f86e44c448cf521479f0d17e4
+      - ElementName: SOUNDBANK
+        ObjectType: 7
+        guid: 2c0000f7c597a742adf8ebf1113dbfbb
+      Path: SoundBanks\Default Work Unit\SOUNDBANK
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a63dff41cee3904d980910357fb1deae
+    ParentPath: Events\Default Work Unit
+    guid: a63dff41cee3904d980910357fb1deae
+    GuidInternal: 
+    m_lastTime: -8585640729280092307
+>>>>>>> Stashed changes
+    List:
+    - name: DOG_FOOTSTEPS
+      guid: c9ec82d6430c7a43b922d911844ed1d6
+      id: 4060911613
+      PathAndIcons:
+<<<<<<< Updated upstream
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
         guid: 00000000000000000000000000000000
@@ -171,10 +288,14 @@ MonoBehaviour:
       id: 1229948536
       PathAndIcons:
       - ElementName: SoundBanks
+=======
+      - ElementName: Events
+>>>>>>> Stashed changes
         ObjectType: 5
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+<<<<<<< Updated upstream
         guid: 406885aa875ecd4eb4f976ad6d43b28c
       - ElementName: ENVIRONMENT
         ObjectType: 7
@@ -183,12 +304,26 @@ MonoBehaviour:
     - name: FOX
       guid: 20d8398616fddd4f8c0f7b24a3690f57
       id: 1083137540
+=======
+        guid: a63dff41cee3904d980910357fb1deae
+      - ElementName: DOG_FOOTSTEPS
+        ObjectType: 3
+        guid: c9ec82d6430c7a43b922d911844ed1d6
+      Path: Events\Default Work Unit\DOG_FOOTSTEPS
+      maxAttenuation: 50
+      maxDuration: 0.822851
+      minDuration: 0.280708
+    - name: Play_BIRDS
+      guid: dc43774039dbea458e3bf77ca0dd036f
+      id: 3025897706
+>>>>>>> Stashed changes
       PathAndIcons:
-      - ElementName: SoundBanks
+      - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+<<<<<<< Updated upstream
         guid: 406885aa875ecd4eb4f976ad6d43b28c
       - ElementName: FOX
         ObjectType: 7
@@ -197,12 +332,26 @@ MonoBehaviour:
     - name: MUSIC
       guid: 450c8833e4d0e9478b61f095dd2c3b33
       id: 3991942870
+=======
+        guid: a63dff41cee3904d980910357fb1deae
+      - ElementName: Play_BIRDS
+        ObjectType: 3
+        guid: dc43774039dbea458e3bf77ca0dd036f
+      Path: Events\Default Work Unit\Play_BIRDS
+      maxAttenuation: 75
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BUSH
+      guid: 10482173bdb326448def5948416cdacb
+      id: 1691497952
+>>>>>>> Stashed changes
       PathAndIcons:
-      - ElementName: SoundBanks
+      - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
+<<<<<<< Updated upstream
         guid: 406885aa875ecd4eb4f976ad6d43b28c
       - ElementName: MUSIC
         ObjectType: 7
@@ -225,12 +374,26 @@ MonoBehaviour:
     - name: Play_BREEZE
       guid: f603a3242238eb44affe27261e0bf9f0
       id: 3798124563
+=======
+        guid: a63dff41cee3904d980910357fb1deae
+      - ElementName: Play_BUSH
+        ObjectType: 3
+        guid: 10482173bdb326448def5948416cdacb
+      Path: Events\Default Work Unit\Play_BUSH
+      maxAttenuation: 0
+      maxDuration: 2.663011
+      minDuration: 1.221968
+    - name: Play_GUSTS
+      guid: 03f5dfc63092974fb9ce5f2f8cc09571
+      id: 3740536646
+>>>>>>> Stashed changes
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: ATMOSPHERE
+      - ElementName: Default Work Unit
         ObjectType: 12
+<<<<<<< Updated upstream
         guid: 7fb93105096f4a458ce33937ac0705ca
       - ElementName: Play_BREEZE
         ObjectType: 3
@@ -302,10 +465,24 @@ MonoBehaviour:
     - name: DOG_FOOTSTEPS
       guid: b4ab5ad8bfcd1744a90ace8574ba5151
       id: 4060911613
+=======
+        guid: a63dff41cee3904d980910357fb1deae
+      - ElementName: Play_GUSTS
+        ObjectType: 3
+        guid: 03f5dfc63092974fb9ce5f2f8cc09571
+      Path: Events\Default Work Unit\Play_GUSTS
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PLAY_WIND
+      guid: 33067bab2c19264aaf073af35809bf30
+      id: 1020223172
+>>>>>>> Stashed changes
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+<<<<<<< Updated upstream
       - ElementName: DOGS
         ObjectType: 12
         guid: da2f78c3e420aa4582eb04deb361aaec
@@ -350,6 +527,18 @@ MonoBehaviour:
       maxAttenuation: 45
       maxDuration: 0.772187
       minDuration: 0.429019
+=======
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a63dff41cee3904d980910357fb1deae
+      - ElementName: PLAY_WIND
+        ObjectType: 3
+        guid: 33067bab2c19264aaf073af35809bf30
+      Path: Events\Default Work Unit\PLAY_WIND
+      maxAttenuation: 75
+      maxDuration: -1
+      minDuration: -1
+>>>>>>> Stashed changes
   - PhysicalPath: Events\FOX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -361,10 +550,17 @@ MonoBehaviour:
     ParentPath: Events\FOX
     guid: 8b3504530676114f8cc202f80b963e38
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585641557463185171
     List:
     - name: FOX_FOOTSTEPS
       guid: 15d7788266110d468a9be830f7941a17
+=======
+    m_lastTime: -8585640746698408560
+    List:
+    - name: FOX_FOOTSTEPS
+      guid: 308103131a3a7e4ca1bb74b68aeac571
+>>>>>>> Stashed changes
       id: 648125588
       PathAndIcons:
       - ElementName: Events
@@ -372,6 +568,7 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: FOX
         ObjectType: 12
+<<<<<<< Updated upstream
         guid: 8b3504530676114f8cc202f80b963e38
       - ElementName: FOX_FOOTSTEPS
         ObjectType: 3
@@ -380,6 +577,16 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5082
       minDuration: 0.247785
+=======
+        guid: 7e87f7a045fb7a439694c6dd97317388
+      - ElementName: FOX_FOOTSTEPS
+        ObjectType: 3
+        guid: 308103131a3a7e4ca1bb74b68aeac571
+      Path: Events\FOX\FOX_FOOTSTEPS
+      maxAttenuation: 0
+      maxDuration: 0.518364
+      minDuration: 0.176835
+>>>>>>> Stashed changes
   - PhysicalPath: Events\MUSIC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -391,7 +598,11 @@ MonoBehaviour:
     ParentPath: Events\MUSIC
     guid: f688c93390059646b6135e55a86995d3
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585641604575171464
+=======
+    m_lastTime: -8585640764906948518
+>>>>>>> Stashed changes
     List:
     - name: Play_SNEAK_LOOP
       guid: 83cbf2c902a81d4ca3775b6a8bbc9504
@@ -467,7 +678,11 @@ MonoBehaviour:
     m_lastTime: -8585643352768423729
     List: []
   ExpandedFileSystemItemIds: 
+<<<<<<< Updated upstream
   ExpandedWaapiItemIds: 010000000a0000000b0000000c0000000e0000000f000000100000001100000012000000140000001700000018000000190000001a0000001b000000
+=======
+  ExpandedWaapiItemIds: 0a0000000b0000000c00000010000000110000001200000016000000170000001800000019000000
+>>>>>>> Stashed changes
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

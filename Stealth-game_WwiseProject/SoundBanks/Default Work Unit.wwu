@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{AA856840-5E87-4ECD-B4F9-76AD6D43B28C}" SchemaVersion="103">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{AA856840-5E87-4ECD-B4F9-76AD6D43B28C}" PersistMode="Standalone">
@@ -7,10 +8,24 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="FOX" ID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}" WorkUnitID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FOX" ID="{5304358B-7606-4F11-8CC2-02F80B963E38}" WorkUnitID="{5304358B-7606-4F11-8CC2-02F80B963E38}" Origin="Manual" Filter="7"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{7F1DFC10-E486-444C-8CF5-21479F0D17E4}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7F1DFC10-E486-444C-8CF5-21479F0D17E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SOUNDBANK" ID="{F700002C-97C5-42A7-ADF8-EBF1113DBFBB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" WorkUnitID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" WorkUnitID="{1D524F96-9A62-434D-A2C0-011D56E64146}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" WorkUnitID="{A0F7877E-FB45-437A-9694-C6DD97317388}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{41FF3DA6-E3CE-4D90-9809-10357FB1DEAE}" WorkUnitID="{41FF3DA6-E3CE-4D90-9809-10357FB1DEAE}" Origin="Manual" Filter="7"/>
+>>>>>>> Stashed changes
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+<<<<<<< Updated upstream
 				<SoundBank Name="MUSIC" ID="{33880C45-D0E4-47E9-8B61-F095DD2C3B33}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
@@ -40,6 +55,8 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+=======
+>>>>>>> Stashed changes
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

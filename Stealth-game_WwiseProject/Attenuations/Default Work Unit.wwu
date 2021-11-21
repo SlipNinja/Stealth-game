@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}" SchemaVersion="103">
 	<Attenuations>
 		<WorkUnit Name="Default Work Unit" ID="{E866C573-63F0-487E-8AB8-95F6AA1C0D3C}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="ATT_BREEZE_250M" ID="{83431763-D69B-4A6E-B762-02FDAB43E243}" ShortID="749481349">
+=======
+<WwiseDocument Type="WorkUnit" ID="{D9700CA9-41FD-4A6C-B939-690525069F45}" SchemaVersion="103">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{D9700CA9-41FD-4A6C-B939-690525069F45}" PersistMode="Standalone">
+			<ChildrenList>
+				<Attenuation Name="DOG_50m" ID="{9BF58662-A4FE-4341-94B7-023B887671C6}" ShortID="392629173">
+>>>>>>> Stashed changes
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="250"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+<<<<<<< Updated upstream
 								<Curve Name="VolumeDry" ID="{3F854009-9C45-4B7C-A917-108634531FE1}">
+=======
+								<Curve Name="VolumeDry" ID="{AF3D2BA5-CADF-43F1-B011-C32FB412AB55}">
+>>>>>>> Stashed changes
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
@@ -21,7 +33,11 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
+<<<<<<< Updated upstream
 											<XPos>250</XPos>
+=======
+											<XPos>50</XPos>
+>>>>>>> Stashed changes
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -37,7 +53,11 @@
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+<<<<<<< Updated upstream
 								<Curve Name="LowPassFilter" ID="{15F75D32-FC95-47E6-8D3B-2713FB4E77D2}">
+=======
+								<Curve Name="LowPassFilter" ID="{8EA9CE5D-BA7E-4583-89B3-7ADD28C03484}">
+>>>>>>> Stashed changes
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
 									</PropertyList>
@@ -48,8 +68,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
+<<<<<<< Updated upstream
 											<XPos>250</XPos>
 											<YPos>53</YPos>
+=======
+											<XPos>50</XPos>
+											<YPos>54</YPos>
+>>>>>>> Stashed changes
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -67,14 +92,24 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+<<<<<<< Updated upstream
 				<Attenuation Name="ATT_DOGS_45M" ID="{04B320B6-9E78-41EC-AD51-B2F88C3AF1D6}" ShortID="369386747">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="45"/>
+=======
+				<Attenuation Name="WIND_75" ID="{9F8F8026-51AB-448F-B454-1EC5DD99F3A6}" ShortID="504794930">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="75"/>
+>>>>>>> Stashed changes
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+<<<<<<< Updated upstream
 								<Curve Name="VolumeDry" ID="{BF832B49-5097-49B6-B40E-D9E8908F3218}">
+=======
+								<Curve Name="VolumeDry" ID="{43C8930E-4AE4-4F26-8996-31D159C44A33}">
+>>>>>>> Stashed changes
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
@@ -85,6 +120,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
+<<<<<<< Updated upstream
 											<XPos>45</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
@@ -114,11 +150,45 @@
 										<Point>
 											<XPos>45</XPos>
 											<YPos>52</YPos>
+=======
+											<XPos>75</XPos>
+											<YPos>-200</YPos>
+>>>>>>> Stashed changes
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
 								</Curve>
 							</CurveUsageInfo>
+<<<<<<< Updated upstream
+=======
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{46874A2E-225B-4BB2-89FF-00422C5A15DA}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>75</XPos>
+											<YPos>51</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+>>>>>>> Stashed changes
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>

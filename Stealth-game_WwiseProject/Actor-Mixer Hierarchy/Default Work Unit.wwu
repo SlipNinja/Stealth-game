@@ -1,6 +1,670 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <WwiseDocument Type="WorkUnit" ID="{78AA696D-A7E5-41D3-9333-AFE16939F45C}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{78AA696D-A7E5-41D3-9333-AFE16939F45C}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="FOX" ID="{287F7D95-9412-4056-A0D2-EAAAF7961BD3}" ShortID="692395691">
+					<ChildrenList>
+						<RandomSequenceContainer Name="FOOTSTEPS" ID="{19743927-6D6F-4FA6-BBF7-3DEFA684EAEE}" ShortID="808793291">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>31</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EE1D1CB6-9B91-4D16-9FD8-ECE049743913}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fox footsteps" ID="{8495B786-44CE-463B-87AE-213DF09640F6}" ShortID="415960085">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{5EF0795F-6C9A-47C3-A1B7-8C00C69BE816}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.461809602453699"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349098678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{5EF0795F-6C9A-47C3-A1B7-8C00C69BE816}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_01" ID="{77ED95D4-5FD4-455C-B85C-969A5380EE14}" ShortID="862144062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{7A633EBE-1151-4E0F-8362-AD876C0FFC4E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.565943140261885"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.84665093783178"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="65020179"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{7A633EBE-1151-4E0F-8362-AD876C0FFC4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_02" ID="{F259FE11-82B9-4519-924F-77F55E9512A3}" ShortID="91209102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{5E537E5C-9BCD-4AA2-A96B-ECD9D34812DD}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.996059926860917"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36279108175062"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="208071383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{5E537E5C-9BCD-4AA2-A96B-ECD9D34812DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_03" ID="{34673D35-F312-43D8-90F7-17BB28DC7543}" ShortID="48879146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{908D7B42-8A40-4B11-AB4D-B2BA4F9F23DB}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.88345877079155"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.27282765129173"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489453130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{908D7B42-8A40-4B11-AB4D-B2BA4F9F23DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_04" ID="{D8D9D63C-2780-402D-8CAB-7CBAE2FEE0FD}" ShortID="1020939949">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4D7B59DE-CB6A-4B43-95FA-5905C87E56D8}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="500"/>
+															<Property Name="Min" Type="Real64" Value="-500"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D05808BF-4B45-407F-9DCD-6AD72993670D}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{4AEB9D1E-C0F1-4CCE-A16F-3545588B7F9B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.74821988911171"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="633786191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{4AEB9D1E-C0F1-4CCE-A16F-3545588B7F9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="DOGS" ID="{8D81C020-3B05-4566-BC51-BE32934BD723}" ShortID="38853178">
+					<ChildrenList>
+						<RandomSequenceContainer Name="FOOTSTEPS" ID="{03B26B35-F3DA-41EC-8A05-0697AC943AA6}" ShortID="787766004">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>31</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-500</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{09CA1F03-8CA3-41F9-AC18-428F86412490}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DOG_50m" ID="{9BF58662-A4FE-4341-94B7-023B887671C6}" WorkUnitID="{D9700CA9-41FD-4A6C-B939-690525069F45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ENEMIES" ID="{4C925B7B-5BE4-45E9-AE9F-B283A09F95D1}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fox footsteps_03" ID="{5A39C1BD-2AFA-4E35-AAA3-D58FFA2B7F74}" ShortID="831443179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{B94A2272-1C13-4CFB-9D65-34ECCDEB1C3A}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.88345877079155"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.27282765129173"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489453130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{B94A2272-1C13-4CFB-9D65-34ECCDEB1C3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_01" ID="{12D76F77-4F50-4323-8A54-2B986BC44B6D}" ShortID="388068047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{641BE099-3DD3-45D6-B28B-610F08309133}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.565943140261885"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.84665093783178"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="65020179"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{641BE099-3DD3-45D6-B28B-610F08309133}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps" ID="{D1CB4797-D67A-45F9-B1F5-2C6724D14367}" ShortID="385754906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{FCCC1B75-4900-43C3-B26A-0560E72EFA18}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.461809602453699"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349098678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{FCCC1B75-4900-43C3-B26A-0560E72EFA18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_04" ID="{17765758-6123-4072-AD24-FF2DBBCDA278}" ShortID="864840877">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{FEA71547-84C1-4355-A742-A1CE19F0E872}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.74821988911171"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="633786191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{FEA71547-84C1-4355-A742-A1CE19F0E872}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fox footsteps_02" ID="{34E67530-1493-40D2-8AC3-5CB54F5EC364}" ShortID="788394877">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fox footsteps" ID="{AED2692D-F1B2-439A-AB96-31C8E7BD140C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.996059926860917"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36279108175062"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fox footsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="208071383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fox footsteps" ID="{AED2692D-F1B2-439A-AB96-31C8E7BD140C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ATMOSPHERE" ID="{A5820B0B-60D6-45E1-9B16-BA78F216D57A}" ShortID="242749208">
+					<ChildrenList>
+						<Sound Name="BIRDS" ID="{10C71524-9987-4EE6-9AFA-5B8786E22EF0}" ShortID="904174225">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WIND_75" ID="{9F8F8026-51AB-448F-B454-1EC5DD99F3A6}" WorkUnitID="{D9700CA9-41FD-4A6C-B939-690525069F45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX ambient birds" ID="{B73A55A3-EE72-42F8-85E2-294887111ADF}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="30.2240933965108"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX ambient birds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="619204714"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX ambient birds" ID="{B73A55A3-EE72-42F8-85E2-294887111ADF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TUNDRA WIND" ID="{8D320D9B-503C-4D95-85C8-8B2B93B9C4BB}" ShortID="903632570">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WIND_75" ID="{9F8F8026-51AB-448F-B454-1EC5DD99F3A6}" WorkUnitID="{D9700CA9-41FD-4A6C-B939-690525069F45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TUNDRA WIND" ID="{CCD023B3-89E8-461D-89D3-D838E5354E73}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.54443641618497"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.8287572254335"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>TUNDRA WIND.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367672818"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TUNDRA WIND" ID="{CCD023B3-89E8-461D-89D3-D838E5354E73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="GUSTS" ID="{F4E5569B-6592-49FA-9469-946F1BF750EA}" ShortID="512635554">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3C0B37D8-7C6C-4A08-B202-43A8566B8848}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FED324D3-86CF-4D42-BFC2-18F5C15EE5FD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="400"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Light Gust Wind 1" ID="{E2B830BF-A68C-4D3C-906D-9BD444262779}" ShortID="972453866">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EE3B1D56-796B-4E53-8273-54F34D10227C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Gust Wind 1" ID="{7EFC084B-24C6-4615-A526-C4E84A610624}">
+											<Language>SFX</Language>
+											<AudioFile>Light Gust Wind 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685282975"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Gust Wind 1" ID="{7EFC084B-24C6-4615-A526-C4E84A610624}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Gust Wind 2" ID="{CCDE1F9F-3357-4C04-8998-84BF3EB6A749}" ShortID="201305707">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F216B06E-8589-4C86-B39A-84BBB4968158}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Gust Wind 2" ID="{561251E7-5595-4E11-8F79-C0FE78E0657C}">
+											<Language>SFX</Language>
+											<AudioFile>Light Gust Wind 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977234138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Gust Wind 2" ID="{561251E7-5595-4E11-8F79-C0FE78E0657C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Gust Wind 3" ID="{05A7240C-9210-4000-B6E8-313C8067CADB}" ShortID="984435951">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{94C4D8DC-27EA-4566-B5ED-C01BF5E269DB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A90E03EF-31FD-42BF-9417-7E168DECDF41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Gust Wind 3" ID="{2627657E-5EF3-4D28-B7AC-80C87AFF218D}">
+											<Language>SFX</Language>
+											<AudioFile>Light Gust Wind 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1004870986"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Gust Wind 3" ID="{2627657E-5EF3-4D28-B7AC-80C87AFF218D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+>>>>>>> Stashed changes
 	</AudioObjects>
 </WwiseDocument>

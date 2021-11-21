@@ -60,27 +60,43 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+<<<<<<< Updated upstream
       - time: 0.19512194
         functionName: FOOTSTEPS
+=======
+      - time: 0.19801982
+        functionName: FOX_FS
+>>>>>>> Stashed changes
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+<<<<<<< Updated upstream
       - time: 0.51999074
         functionName: FOOTSTEPS
+=======
+      - time: 0.4108911
+        functionName: FOX_FS
+>>>>>>> Stashed changes
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+<<<<<<< Updated upstream
       - time: 0.76585364
         functionName: FOOTSTEPS
+=======
+      - time: 0.7326732
+        functionName: FOX_FS
+>>>>>>> Stashed changes
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+<<<<<<< Updated upstream
       - time: 0.98536587
         functionName: FOOTSTEPS
         data: 
@@ -90,6 +106,10 @@ ModelImporter:
         messageOptions: 0
       - time: 0.35609755
         functionName: GROWL
+=======
+      - time: 0.93564355
+        functionName: FOX_FS
+>>>>>>> Stashed changes
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
         floatParameter: 0
