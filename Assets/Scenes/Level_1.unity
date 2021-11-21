@@ -8349,7 +8349,7 @@ PrefabInstance:
       objectReference: {fileID: 974104614}
     - target: {fileID: 2242932141955360460, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
       propertyPath: m_Name
-      value: Fox (player) (1)
+      value: Fox (plaer) (1)
       objectReference: {fileID: 0}
     - target: {fileID: 9133432066439767008, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
       propertyPath: footprints
