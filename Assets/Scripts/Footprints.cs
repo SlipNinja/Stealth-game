@@ -50,8 +50,8 @@ public class Footprints : MonoBehaviour
             }
 
             footprint = Instantiate(footstepPrefab, instanciatePosition, Quaternion.identity);
-            footprint.transform.rotation = Quaternion.FromToRotation (footprint.transform.up, hit.normal) * footprint.transform.rotation;
-            footprint.transform.Rotate(0, transform.eulerAngles.y, 0);//Rotate footprints
+            footprint.transform.rotation = Quaternion.FromToRotation (footprint.transform.up, hit.normal) * footprint.transform.rotation; // Rotate along with ground normal
+            footprint.transform.Rotate(0, transform.eulerAngles.y, 0); // Rotate along with player orientation
             footprint.transform.parent = footprints;
             lastfootprint = footprint.transform.position;
         }

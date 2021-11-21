@@ -24198,14 +24198,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 5
-  searchSpeed: 10
-  attackSpeed: 15
+  searchSpeed: 12
+  attackSpeed: 12
   patrolRange: 20
   searchRange: 30
   attackRange: 35
   patrolAngle: 45
   searchAngle: 55
-  attackAngle: 50
+  attackAngle: 60
   target: {fileID: 0}
   destinations:
   - {fileID: 0}
