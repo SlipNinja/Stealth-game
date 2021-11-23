@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: de311b171a0a4f49b2d3a1540ce1e7f0
     GuidInternal: 
-    m_lastTime: -8585639389811179669
+    m_lastTime: -8585639227112101135
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 919bd4aacb785c4e99b2fd54c686d320
     GuidInternal: 
-    m_lastTime: -8585639386819886274
+    m_lastTime: -8585639227123515155
     List:
     - name: DOGS
       guid: bd3a29c50329ac45bb32e9f00fb63398
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 4a9d13187b14634587f10b94607d4303
     GuidInternal: 
-    m_lastTime: -8585639294658020092
+    m_lastTime: -8585639216687697962
     List:
     - name: DOGS
       guid: dc91e8b05a594c43a543329b63e0a190
@@ -192,7 +192,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc67d906e5894940a29687a8f209a8ef
     GuidInternal: 
-    m_lastTime: -8585639383641516917
+    m_lastTime: -8585639217140316892
     List: []
   - PhysicalPath: Events\DOGS.wwu
     PathAndIcons:
@@ -205,7 +205,7 @@ MonoBehaviour:
     ParentPath: Events\DOGS
     guid: ed64b8f321f93040914876231c3799d7
     GuidInternal: 
-    m_lastTime: -8585639383641253935
+    m_lastTime: -8585639218692696833
     List:
     - name: DOG_FOOTSTEPS
       guid: 92b3d838b1fd374188aafa7ecd965ba9
@@ -224,19 +224,87 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 0.783386
       minDuration: 0.414583
-  - PhysicalPath: Events\ENVIRONMENT.wwu
+    - name: DOG_GROWL
+      guid: 52f859aa25083c49b5b72831226fcb20
+      id: 1201775887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DOGS
+        ObjectType: 12
+        guid: ed64b8f321f93040914876231c3799d7
+      - ElementName: DOG_GROWL
+        ObjectType: 3
+        guid: 52f859aa25083c49b5b72831226fcb20
+      Path: Events\DOGS\DOG_GROWL
+      maxAttenuation: 50
+      maxDuration: 3.956915
+      minDuration: 2.86751
+    - name: DOG_SNIFF
+      guid: ef949607201c8e4e83921a86d2977a95
+      id: 127297048
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DOGS
+        ObjectType: 12
+        guid: ed64b8f321f93040914876231c3799d7
+      - ElementName: DOG_SNIFF
+        ObjectType: 3
+        guid: ef949607201c8e4e83921a86d2977a95
+      Path: Events\DOGS\DOG_SNIFF
+      maxAttenuation: 50
+      maxDuration: 1.44785
+      minDuration: 0.750784
+  - PhysicalPath: Events\ENV.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: ENVIRONMENT
+    - ElementName: ENV
       ObjectType: 12
-      guid: 2a778a03b28398439ea1b9ed0f48a288
-    ParentPath: Events\ENVIRONMENT
-    guid: 2a778a03b28398439ea1b9ed0f48a288
+      guid: 11b65f32d5fb4c44a9265d16a8759aba
+    ParentPath: Events\ENV
+    guid: 11b65f32d5fb4c44a9265d16a8759aba
     GuidInternal: 
-    m_lastTime: -8585639383641134231
-    List: []
+    m_lastTime: -8585639217140163819
+    List:
+    - name: Play_BIRDS
+      guid: 70aef93b6507ae4e9af35a4901701872
+      id: 3025897706
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ENV
+        ObjectType: 12
+        guid: 11b65f32d5fb4c44a9265d16a8759aba
+      - ElementName: Play_BIRDS
+        ObjectType: 3
+        guid: 70aef93b6507ae4e9af35a4901701872
+      Path: Events\ENV\Play_BIRDS
+      maxAttenuation: 90
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TUNDRA_WIND
+      guid: 8ffe84bfb760004389c98f25d154245a
+      id: 3278720975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: ENV
+        ObjectType: 12
+        guid: 11b65f32d5fb4c44a9265d16a8759aba
+      - ElementName: Play_TUNDRA_WIND
+        ObjectType: 3
+        guid: 8ffe84bfb760004389c98f25d154245a
+      Path: Events\ENV\Play_TUNDRA_WIND
+      maxAttenuation: 90
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\FOX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -248,7 +316,7 @@ MonoBehaviour:
     ParentPath: Events\FOX
     guid: 8d79f5ce780d164aa2ef6358a7b41526
     GuidInternal: 
-    m_lastTime: -8585639383641342977
+    m_lastTime: -8585639227128876369
     List:
     - name: FOX_FOOTSTEPS
       guid: f26f74845625ce4387b1d1cbfb2d032e
@@ -278,11 +346,11 @@ MonoBehaviour:
     ParentPath: Events\MUSIC
     guid: 510dde0351cca24d81a3887878080c0b
     GuidInternal: 
-    m_lastTime: -8585639383641473087
+    m_lastTime: -8585639216687893420
     List:
-    - name: MUSIC_SNEAKING_PLAY
-      guid: 9316b0ccdd5e7a46a3153cf5d7d9e658
-      id: 3938542110
+    - name: Play_HEARTBEAT
+      guid: 82fa3d3ed830fd458833f44f5691e2aa
+      id: 3765695918
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -290,10 +358,27 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 12
         guid: 510dde0351cca24d81a3887878080c0b
-      - ElementName: MUSIC_SNEAKING_PLAY
+      - ElementName: Play_HEARTBEAT
         ObjectType: 3
-        guid: 9316b0ccdd5e7a46a3153cf5d7d9e658
-      Path: Events\MUSIC\MUSIC_SNEAKING_PLAY
+        guid: 82fa3d3ed830fd458833f44f5691e2aa
+      Path: Events\MUSIC\Play_HEARTBEAT
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 3
+    - name: Play_LEVEL_MUSIC
+      guid: b0868ddc159b1c418fb7e865efaab954
+      id: 557932600
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MUSIC
+        ObjectType: 12
+        guid: 510dde0351cca24d81a3887878080c0b
+      - ElementName: Play_LEVEL_MUSIC
+        ObjectType: 3
+        guid: b0868ddc159b1c418fb7e865efaab954
+      Path: Events\MUSIC\Play_LEVEL_MUSIC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -309,7 +394,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8969f1aa17037a4da5c09a4e268c5669
     GuidInternal: 
-    m_lastTime: -8585639389810381911
+    m_lastTime: -8585639227128856375
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -323,8 +408,140 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
     GuidInternal: 
-    m_lastTime: -8585639389809692213
-    List: []
+    m_lastTime: -8585639214131530984
+    List:
+    - name: deathMenu
+      guid: b804a3094077014eb5e53264f21a466d
+      id: 3009306140
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+      - ElementName: deathMenu
+        ObjectType: 9
+        guid: b804a3094077014eb5e53264f21a466d
+      Path: States\Default Work Unit\deathMenu
+      values:
+      - name: false
+        guid: 363b3fe4a7c37c4f906d0d4fba71420c
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: deathMenu
+          ObjectType: 9
+          guid: b804a3094077014eb5e53264f21a466d
+        - ElementName: false
+          ObjectType: 8
+          guid: 363b3fe4a7c37c4f906d0d4fba71420c
+      - name: None
+        guid: de07443d8426fb4fad35deb4fea0d1e7
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: deathMenu
+          ObjectType: 9
+          guid: b804a3094077014eb5e53264f21a466d
+        - ElementName: None
+          ObjectType: 8
+          guid: de07443d8426fb4fad35deb4fea0d1e7
+      - name: true
+        guid: 9b0dfddb1adb8f429628e029b5086747
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: deathMenu
+          ObjectType: 9
+          guid: b804a3094077014eb5e53264f21a466d
+        - ElementName: true
+          ObjectType: 8
+          guid: 9b0dfddb1adb8f429628e029b5086747
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: searching
+      guid: f723b06a70414f41a1f572e2de6a8015
+      id: 184992947
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+      - ElementName: searching
+        ObjectType: 9
+        guid: f723b06a70414f41a1f572e2de6a8015
+      Path: States\Default Work Unit\searching
+      values:
+      - name: false
+        guid: 588ffd1fb2434b40a7c697d95188252f
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: searching
+          ObjectType: 9
+          guid: f723b06a70414f41a1f572e2de6a8015
+        - ElementName: false
+          ObjectType: 8
+          guid: 588ffd1fb2434b40a7c697d95188252f
+      - name: None
+        guid: e3d77ee6e9556948b29ae70f5f44613f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: searching
+          ObjectType: 9
+          guid: f723b06a70414f41a1f572e2de6a8015
+        - ElementName: None
+          ObjectType: 8
+          guid: e3d77ee6e9556948b29ae70f5f44613f
+      - name: true
+        guid: 5ce1dfa882c08c4c9530c747e011e204
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+        - ElementName: searching
+          ObjectType: 9
+          guid: f723b06a70414f41a1f572e2de6a8015
+        - ElementName: true
+          ObjectType: 8
+          guid: 5ce1dfa882c08c4c9530c747e011e204
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -337,7 +554,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: ab6077596fa4444baccbb49b4e91e997
     GuidInternal: 
-    m_lastTime: -8585639389809872459
+    m_lastTime: -8585639227112121129
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -351,10 +568,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2d08dcdc9c69044a994a95f794c6f370
     GuidInternal: 
-    m_lastTime: -8585639389810783887
+    m_lastTime: -8585639227112111135
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000090000000a000000b86b0500
+  ExpandedWaapiItemIds: 05000000090000000a0000000b000000100000001b0000001c0000001d000000c4000000c5000000b86b0500
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3025897706	Play_BIRDS			\ENV\Play_BIRDS	
+	3278720975	Play_TUNDRA_WIND			\ENV\Play_TUNDRA_WIND	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	370607952	BIRDS	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\Ambience, Birdsong, Singing Birds, Early Morning SND11282 2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\BIRDS		3793280
+	862691494	TUNDRA WIND	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\TUNDRA WIND_8295ED77.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\TUNDRA WIND		2882176
+

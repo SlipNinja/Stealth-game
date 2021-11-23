@@ -14,9 +14,42 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID DOG_FOOTSTEPS = 4060911613U;
+        static const AkUniqueID DOG_GROWL = 1201775887U;
+        static const AkUniqueID DOG_SNIFF = 127297048U;
         static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
-        static const AkUniqueID MUSIC_SNEAKING_PLAY = 3938542110U;
+        static const AkUniqueID PLAY_BIRDS = 3025897706U;
+        static const AkUniqueID PLAY_HEARTBEAT = 3765695918U;
+        static const AkUniqueID PLAY_LEVEL_MUSIC = 557932600U;
+        static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace DEATHMENU
+        {
+            static const AkUniqueID GROUP = 3009306140U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace DEATHMENU
+
+        namespace SEARCHING
+        {
+            static const AkUniqueID GROUP = 184992947U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace SEARCHING
+
+    } // namespace STATES
 
     namespace BANKS
     {

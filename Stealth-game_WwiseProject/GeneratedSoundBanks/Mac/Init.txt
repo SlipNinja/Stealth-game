@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	184992947	searching			\Default Work Unit\searching	
+	3009306140	deathMenu			\Default Work Unit\deathMenu	
+
+State	ID	Name	State Group			Notes
+	748895195	None	searching			
+	2452206122	false	searching			
+	3053630529	true	searching			
+	748895195	None	deathMenu			
+	2452206122	false	deathMenu			
+	3053630529	true	deathMenu			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1083137540	FOX			\Default Work Unit\FOX	
 	1229948536	ENVIRONMENT			\Default Work Unit\ENVIRONMENT	

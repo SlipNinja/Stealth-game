@@ -1,9 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3938542110	MUSIC_SNEAKING_PLAY			\MUSIC\MUSIC_SNEAKING_PLAY	
+	557932600	Play_LEVEL_MUSIC			\MUSIC\Play_LEVEL_MUSIC	
+	3765695918	Play_HEARTBEAT			\MUSIC\Play_HEARTBEAT	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	184992947	searching			\Default Work Unit\searching	
+	3009306140	deathMenu			\Default Work Unit\deathMenu	
+
+State	ID	Name	State Group			Notes
+	748895195	None	searching			
+	2452206122	false	searching			
+	3053630529	true	searching			
+	748895195	None	deathMenu			
+	2452206122	false	deathMenu			
+	3053630529	true	deathMenu			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	334552433	false	searching	\Interactive Music Hierarchy\Default Work Unit\MUSIC\HEARTBEAT		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	574402392	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\SNEAKING\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
-	576819889	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\SNEAKING\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
-	802365609	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\SNEAKING\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
-	814615326	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\SNEAKING\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
+	161266417	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
+	320531564	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
+	625866719	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
+	677186067	HEARTBEAT	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\HEARTBEAT_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\HEARTBEAT\HEARTBEAT\HEARTBEAT		529264
+	742942269	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
+	945241621	game_over	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\game_over_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\GAME_OVER\game_over\game_over		529264
 

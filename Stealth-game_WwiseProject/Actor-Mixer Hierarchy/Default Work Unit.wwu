@@ -198,6 +198,269 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GROWL" ID="{36461D10-47ED-4C53-A694-1DD1F1D54F1A}" ShortID="829472397">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8E318367-982E-47FD-A962-377FEF8F30A9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GROWL" ID="{A1BA3C6F-C35B-4866-886D-72AB5BFC670E}" ShortID="134340364">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Growling _ Halloween Sound Effects" ID="{596C2350-E5F5-44A6-820A-264D9EC24210}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.03107369942197"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.73764216040462"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Growling _ Halloween Sound Effects.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="867442132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Growling _ Halloween Sound Effects" ID="{596C2350-E5F5-44A6-820A-264D9EC24210}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GROWL_01" ID="{AB9CA56F-9549-47A8-9C99-344C913F7F91}" ShortID="819867273">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="50M" ID="{83C09A65-1B2F-4334-AACA-4769591E87E6}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DOGS" ID="{C5293ABD-2903-45AC-BB32-E9F00FB63398}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Growling _ Halloween Sound Effects" ID="{CFA5D4C1-0025-4417-A049-56B6C63977FC}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.76871585982659"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.73305274566474"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Growling _ Halloween Sound Effects.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137862161"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Growling _ Halloween Sound Effects" ID="{CFA5D4C1-0025-4417-A049-56B6C63977FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GROWL_02" ID="{E5E19B62-DCCD-48FF-8785-400FAABC70EB}" ShortID="400738432">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="50M" ID="{83C09A65-1B2F-4334-AACA-4769591E87E6}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DOGS" ID="{C5293ABD-2903-45AC-BB32-E9F00FB63398}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Growling _ Halloween Sound Effects" ID="{921C37B6-DFFD-4C68-A74A-6C138F19705D}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="36.4097900108382"/>
+												<Property Name="TrimEnd" Type="Real64" Value="39.3741268966763"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Growling _ Halloween Sound Effects.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528057345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Growling _ Halloween Sound Effects" ID="{921C37B6-DFFD-4C68-A74A-6C138F19705D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SNIFF" ID="{47AB5788-4BE7-4824-A67C-569048BD3FAF}" ShortID="495714157">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>42</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DC38DEAF-9B6E-429C-B81F-9BB75AF7322A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SNIFF" ID="{A81AAABD-154E-48CE-AAA1-785C0DDAA086}" ShortID="862100655">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{CEEB4702-FC1A-4D8B-8CDB-28DA45E03316}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.708645682803468"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.79330744219653"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="285947191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{CEEB4702-FC1A-4D8B-8CDB-28DA45E03316}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SNIFF_01" ID="{0C084A53-267F-4F69-A5DA-83AEBCA7861C}" ShortID="752847500">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="50M" ID="{83C09A65-1B2F-4334-AACA-4769591E87E6}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DOGS" ID="{C5293ABD-2903-45AC-BB32-E9F00FB63398}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{ACECBEC8-121D-48DD-86E4-FAEFF75ACD3B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.1114748916185"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.96474214234104"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2567225"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{ACECBEC8-121D-48DD-86E4-FAEFF75ACD3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SNIFF_02" ID="{89E54274-3522-46B7-B5BF-B03AA1D8C85C}" ShortID="674004829">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="50M" ID="{83C09A65-1B2F-4334-AACA-4769591E87E6}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DOGS" ID="{C5293ABD-2903-45AC-BB32-E9F00FB63398}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Sniffs Sound Effect" ID="{476B4A3F-32F3-4169-8D0C-8C24C4CA6E60}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.13406566112717"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.84271134393064"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dog Sniffs Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="56729568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Sniffs Sound Effect" ID="{476B4A3F-32F3-4169-8D0C-8C24C4CA6E60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -397,10 +660,14 @@
 				</ActorMixer>
 				<ActorMixer Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" ShortID="486244853">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
 						</Reference>
@@ -408,6 +675,70 @@
 							<ObjectRef Name="ENVIRONMENT" ID="{E86E540E-C2E1-4DDA-869A-6C13E864333E}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BIRDS" ID="{6FF3BC9A-F0F2-43D1-B1B6-1CC504F11820}" ShortID="853855393">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience, Birdsong, Singing Birds, Early Morning SND11282 2" ID="{81A12801-3271-4537-8253-82E1B3C61F14}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience, Birdsong, Singing Birds, Early Morning SND11282 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="370607952"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience, Birdsong, Singing Birds, Early Morning SND11282 2" ID="{81A12801-3271-4537-8253-82E1B3C61F14}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TUNDRA WIND" ID="{78D14463-6B18-458C-A1C5-2C1D11834898}" ShortID="166523045">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TUNDRA WIND" ID="{76EEBFBE-A8BE-4483-8C08-CA23DD2BC612}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.57153179190752"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.9100433526012"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>TUNDRA WIND.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="862691494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TUNDRA WIND" ID="{76EEBFBE-A8BE-4483-8C08-CA23DD2BC612}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>

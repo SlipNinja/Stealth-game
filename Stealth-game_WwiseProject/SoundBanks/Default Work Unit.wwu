@@ -21,7 +21,7 @@
 				</SoundBank>
 				<SoundBank Name="ENVIRONMENT" ID="{D4A7B58C-74FB-4FED-8651-21E56A09799C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="ENVIRONMENT" ID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" WorkUnitID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENV" ID="{325FB611-FBD5-444C-A926-5D16A8759ABA}" WorkUnitID="{325FB611-FBD5-444C-A926-5D16A8759ABA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -29,7 +29,7 @@
 				</SoundBank>
 				<SoundBank Name="MUSIC" ID="{16F7A971-270B-41BF-B9AA-714486A1A0C8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="MUSIC" ID="{AEC1167F-D504-4661-9C98-7D33B0657946}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MUSIC" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" WorkUnitID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
