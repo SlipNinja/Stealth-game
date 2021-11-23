@@ -12,16 +12,349 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25cb77f60d16e6946bf000ebb47f2415, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: de311b171a0a4f49b2d3a1540ce1e7f0
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: de311b171a0a4f49b2d3a1540ce1e7f0
+    GuidInternal: 
+    m_lastTime: -8585639389811179669
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 919bd4aacb785c4e99b2fd54c686d320
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 919bd4aacb785c4e99b2fd54c686d320
+    GuidInternal: 
+    m_lastTime: -8585639386819886274
+    List:
+    - name: DOGS
+      guid: bd3a29c50329ac45bb32e9f00fb63398
+      id: 2012068516
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 919bd4aacb785c4e99b2fd54c686d320
+      - ElementName: DOGS
+        ObjectType: 2
+        guid: bd3a29c50329ac45bb32e9f00fb63398
+      Path: Master-Mixer Hierarchy\Default Work Unit\DOGS
+    - name: ENVIRONMENT
+      guid: 0e546ee8e1c2da4d869a6c13e864333e
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 919bd4aacb785c4e99b2fd54c686d320
+      - ElementName: ENVIRONMENT
+        ObjectType: 2
+        guid: 0e546ee8e1c2da4d869a6c13e864333e
+      Path: Master-Mixer Hierarchy\Default Work Unit\ENVIRONMENT
+    - name: FOX
+      guid: bb26330c16ec1b4c9c637fda11d3ccac
+      id: 1083137540
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 919bd4aacb785c4e99b2fd54c686d320
+      - ElementName: FOX
+        ObjectType: 2
+        guid: bb26330c16ec1b4c9c637fda11d3ccac
+      Path: Master-Mixer Hierarchy\Default Work Unit\FOX
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 919bd4aacb785c4e99b2fd54c686d320
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MUSIC
+      guid: 0af4c06e19365b4f991d70b8b0e81733
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 919bd4aacb785c4e99b2fd54c686d320
+      - ElementName: MUSIC
+        ObjectType: 2
+        guid: 0af4c06e19365b4f991d70b8b0e81733
+      Path: Master-Mixer Hierarchy\Default Work Unit\MUSIC
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4a9d13187b14634587f10b94607d4303
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 4a9d13187b14634587f10b94607d4303
+    GuidInternal: 
+    m_lastTime: -8585639294658020092
+    List:
+    - name: DOGS
+      guid: dc91e8b05a594c43a543329b63e0a190
+      id: 2012068516
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a9d13187b14634587f10b94607d4303
+      - ElementName: DOGS
+        ObjectType: 7
+        guid: dc91e8b05a594c43a543329b63e0a190
+      Path: SoundBanks\Default Work Unit\DOGS
+    - name: ENVIRONMENT
+      guid: 8cb5a7d4fb74ed4f865121e56a09799c
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a9d13187b14634587f10b94607d4303
+      - ElementName: ENVIRONMENT
+        ObjectType: 7
+        guid: 8cb5a7d4fb74ed4f865121e56a09799c
+      Path: SoundBanks\Default Work Unit\ENVIRONMENT
+    - name: FOX
+      guid: 50afe2cd0b50df4d9cf101eaf27acc95
+      id: 1083137540
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a9d13187b14634587f10b94607d4303
+      - ElementName: FOX
+        ObjectType: 7
+        guid: 50afe2cd0b50df4d9cf101eaf27acc95
+      Path: SoundBanks\Default Work Unit\FOX
+    - name: MUSIC
+      guid: 71a9f7160b27bf41b9aa714486a1a0c8
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a9d13187b14634587f10b94607d4303
+      - ElementName: MUSIC
+        ObjectType: 7
+        guid: 71a9f7160b27bf41b9aa714486a1a0c8
+      Path: SoundBanks\Default Work Unit\MUSIC
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bc67d906e5894940a29687a8f209a8ef
+    ParentPath: Events\Default Work Unit
+    guid: bc67d906e5894940a29687a8f209a8ef
+    GuidInternal: 
+    m_lastTime: -8585639383641516917
+    List: []
+  - PhysicalPath: Events\DOGS.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: DOGS
+      ObjectType: 12
+      guid: ed64b8f321f93040914876231c3799d7
+    ParentPath: Events\DOGS
+    guid: ed64b8f321f93040914876231c3799d7
+    GuidInternal: 
+    m_lastTime: -8585639383641253935
+    List:
+    - name: DOG_FOOTSTEPS
+      guid: 92b3d838b1fd374188aafa7ecd965ba9
+      id: 4060911613
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DOGS
+        ObjectType: 12
+        guid: ed64b8f321f93040914876231c3799d7
+      - ElementName: DOG_FOOTSTEPS
+        ObjectType: 3
+        guid: 92b3d838b1fd374188aafa7ecd965ba9
+      Path: Events\DOGS\DOG_FOOTSTEPS
+      maxAttenuation: 50
+      maxDuration: 0.783386
+      minDuration: 0.414583
+  - PhysicalPath: Events\ENVIRONMENT.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: ENVIRONMENT
+      ObjectType: 12
+      guid: 2a778a03b28398439ea1b9ed0f48a288
+    ParentPath: Events\ENVIRONMENT
+    guid: 2a778a03b28398439ea1b9ed0f48a288
+    GuidInternal: 
+    m_lastTime: -8585639383641134231
+    List: []
+  - PhysicalPath: Events\FOX.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: FOX
+      ObjectType: 12
+      guid: 8d79f5ce780d164aa2ef6358a7b41526
+    ParentPath: Events\FOX
+    guid: 8d79f5ce780d164aa2ef6358a7b41526
+    GuidInternal: 
+    m_lastTime: -8585639383641342977
+    List:
+    - name: FOX_FOOTSTEPS
+      guid: f26f74845625ce4387b1d1cbfb2d032e
+      id: 648125588
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: FOX
+        ObjectType: 12
+        guid: 8d79f5ce780d164aa2ef6358a7b41526
+      - ElementName: FOX_FOOTSTEPS
+        ObjectType: 3
+        guid: f26f74845625ce4387b1d1cbfb2d032e
+      Path: Events\FOX\FOX_FOOTSTEPS
+      maxAttenuation: 0
+      maxDuration: 0.419806
+      minDuration: 0.2097
+  - PhysicalPath: Events\MUSIC.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: MUSIC
+      ObjectType: 12
+      guid: 510dde0351cca24d81a3887878080c0b
+    ParentPath: Events\MUSIC
+    guid: 510dde0351cca24d81a3887878080c0b
+    GuidInternal: 
+    m_lastTime: -8585639383641473087
+    List:
+    - name: MUSIC_SNEAKING_PLAY
+      guid: 9316b0ccdd5e7a46a3153cf5d7d9e658
+      id: 3938542110
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MUSIC
+        ObjectType: 12
+        guid: 510dde0351cca24d81a3887878080c0b
+      - ElementName: MUSIC_SNEAKING_PLAY
+        ObjectType: 3
+        guid: 9316b0ccdd5e7a46a3153cf5d7d9e658
+      Path: Events\MUSIC\MUSIC_SNEAKING_PLAY
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8969f1aa17037a4da5c09a4e268c5669
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 8969f1aa17037a4da5c09a4e268c5669
+    GuidInternal: 
+    m_lastTime: -8585639389810381911
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+    ParentPath: States\Default Work Unit
+    guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
+    GuidInternal: 
+    m_lastTime: -8585639389809692213
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ab6077596fa4444baccbb49b4e91e997
+    ParentPath: Switches\Default Work Unit
+    guid: ab6077596fa4444baccbb49b4e91e997
+    GuidInternal: 
+    m_lastTime: -8585639389809872459
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2d08dcdc9c69044a994a95f794c6f370
+    ParentPath: Triggers\Default Work Unit
+    guid: 2d08dcdc9c69044a994a95f794c6f370
+    GuidInternal: 
+    m_lastTime: -8585639389810783887
+    List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000090000000a000000b86b0500
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

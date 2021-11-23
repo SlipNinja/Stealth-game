@@ -7,23 +7,12 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="MUSIC_PLAY" ID="{CCB01693-5EDD-467A-A315-3CF5D7D9E658}">
+				<Event Name="MUSIC_SNEAKING_PLAY" ID="{CCB01693-5EDD-467A-A315-3CF5D7D9E658}">
 					<ChildrenList>
-						<Action Name="" ID="{EB0D6650-34CC-4543-9844-45942C90F797}" ShortID="446556743">
+						<Action Name="" ID="{92187E4D-6567-4557-B059-612C5CB294AA}" ShortID="975385438">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LEVEL_MUSIC" ID="{228A5B3C-E08C-4910-91AE-CEB9CE6C764A}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PLAY_HEARTBEAT" ID="{3CF51D43-E92D-43DE-9A33-E1F51642E731}">
-					<ChildrenList>
-						<Action Name="" ID="{992BEF78-20F4-4F0A-8BFF-3494FCF90393}" ShortID="638753167">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="HEARTBEAT" ID="{C22D37F2-9310-4AC5-8A95-315060A49DE5}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}"/>
+									<ObjectRef Name="SNEAKING" ID="{CCC3A817-F022-41A9-A375-B91CD478D0B2}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

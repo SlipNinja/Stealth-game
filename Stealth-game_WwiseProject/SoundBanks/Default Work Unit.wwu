@@ -21,7 +21,7 @@
 				</SoundBank>
 				<SoundBank Name="ENVIRONMENT" ID="{D4A7B58C-74FB-4FED-8651-21E56A09799C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="ENV" ID="{82A797F7-5524-4E26-93C3-E68F8134999A}" WorkUnitID="{82A797F7-5524-4E26-93C3-E68F8134999A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENVIRONMENT" ID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" WorkUnitID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

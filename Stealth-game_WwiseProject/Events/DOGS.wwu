@@ -18,28 +18,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="DOG_SNIFF" ID="{48896310-B170-43C7-88D5-B61ACDF662B4}">
-					<ChildrenList>
-						<Action Name="" ID="{34CD8383-F94C-4111-89FE-82EA13D80CBB}" ShortID="971104678">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SNIFF" ID="{5909C622-071F-4E18-88B3-F9DB7184E9A6}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="DOG_GROWL" ID="{8462D48F-5037-4C3A-9D32-9355A3F7449C}">
-					<ChildrenList>
-						<Action Name="" ID="{33989258-7122-4A25-BC57-38F07586C8DE}" ShortID="680740628">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GROWL" ID="{0842234F-27EE-41DF-A7BC-B67C7B2FD1CD}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

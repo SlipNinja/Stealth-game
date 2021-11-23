@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B3ABB5B9-0DF4-4AEF-9EDB-BBA3E614D8D6}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{B3ABB5B9-0DF4-4AEF-9EDB-BBA3E614D8D6}" PersistMode="Standalone">
-			<ChildrenList>
-				<Effect Name="New_iZotope_Hybrid_Reverb" ID="{1B7F1A80-E911-44C1-A716-C19C78E48D49}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
-				<Effect Name="New_Wwise_RoomVerb" ID="{72102727-665E-4B5E-9D2F-11C4F9A45DEA}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-					<PropertyList>
-						<Property Name="DecayTime" Type="Real32" Value="0.4"/>
-						<Property Name="Density" Type="Real32" Value="54"/>
-						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
-						<Property Name="ERPattern" Type="int32" Value="13"/>
-						<Property Name="HFDamping" Type="Real32" Value="0.5"/>
-						<Property Name="PreDelay" Type="Real32" Value="0"/>
-						<Property Name="Quality" Type="int32" Value="6"/>
-					</PropertyList>
-				</Effect>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{B3ABB5B9-0DF4-4AEF-9EDB-BBA3E614D8D6}" PersistMode="Standalone"/>
 	</Effects>
 </WwiseDocument>

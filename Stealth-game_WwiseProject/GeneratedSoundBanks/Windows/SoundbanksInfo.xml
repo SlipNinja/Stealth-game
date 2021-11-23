@@ -11,35 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1083137540" Language="SFX" Hash="3866563893">
+		<SoundBank Id="1083137540" Language="SFX" Hash="1406225446">
 			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
 			<ShortName>FOX</ShortName>
 			<Path>FOX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="648125588" Name="FOX_FOOTSTEPS" ObjectPath="\Events\FOX\FOX_FOOTSTEPS" DurationType="OneShot" DurationMin="0.209700" DurationMax="0.419806">
-					<IncludedMemoryFiles>
-						<File Id="19284311" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
-						</File>
-						<File Id="257310149" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
-						</File>
-						<File Id="456918045" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_586152A5.wem</Path>
-						</File>
-						<File Id="542892007" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
-						</File>
-						<File Id="836665503" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="648125588" Name="FOX_FOOTSTEPS" ObjectPath="\Events\FOX\FOX_FOOTSTEPS" DurationType="OneShot" DurationMin="0.209700" DurationMax="0.419806"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="19284311" Language="SFX">
@@ -64,101 +41,22 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1229948536" Language="SFX" Hash="1096229134">
+		<SoundBank Id="1229948536" Language="SFX" Hash="330048258">
 			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3025897706" Name="PLAY_BIRDS" ObjectPath="\Events\ENV\PLAY_BIRDS" MaxAttenuation="90.000000" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="477347549" Language="SFX">
-							<ShortName>Ambience, Birdsong, Singing Birds, Early Morning SND11282 1.wav</ShortName>
-							<Path>SFX\Ambience, Birdsong, Singing Birds, Early Morning SND11282 1_C017050C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3740536646" Name="PLAY_GUSTS" ObjectPath="\Events\ENV\PLAY_GUSTS" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="555131479" Language="SFX">
-							<ShortName>Light Gust Wind 2.wav</ShortName>
-							<Path>SFX\Light Gust Wind 2_10C4C929.wem</Path>
-						</File>
-						<File Id="674855172" Language="SFX">
-							<ShortName>Light Gust Wind 3.wav</ShortName>
-							<Path>SFX\Light Gust Wind 3_10C4C929.wem</Path>
-						</File>
-						<File Id="906860074" Language="SFX">
-							<ShortName>Light Gust Wind 1.wav</ShortName>
-							<Path>SFX\Light Gust Wind 1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3278720975" Name="PLAY_TUNDRA_WIND" ObjectPath="\Events\ENV\PLAY_TUNDRA_WIND" MaxAttenuation="90.000000" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="163227623" Language="SFX">
-							<ShortName>TUNDRA WIND.wav</ShortName>
-							<Path>SFX\TUNDRA WIND_5449561E.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="163227623" Language="SFX">
-					<ShortName>TUNDRA WIND.wav</ShortName>
-					<Path>SFX\TUNDRA WIND_5449561E.wem</Path>
-				</File>
-				<File Id="477347549" Language="SFX">
-					<ShortName>Ambience, Birdsong, Singing Birds, Early Morning SND11282 1.wav</ShortName>
-					<Path>SFX\Ambience, Birdsong, Singing Birds, Early Morning SND11282 1_C017050C.wem</Path>
-				</File>
-				<File Id="555131479" Language="SFX">
-					<ShortName>Light Gust Wind 2.wav</ShortName>
-					<Path>SFX\Light Gust Wind 2_10C4C929.wem</Path>
-				</File>
-				<File Id="674855172" Language="SFX">
-					<ShortName>Light Gust Wind 3.wav</ShortName>
-					<Path>SFX\Light Gust Wind 3_10C4C929.wem</Path>
-				</File>
-				<File Id="906860074" Language="SFX">
-					<ShortName>Light Gust Wind 1.wav</ShortName>
-					<Path>SFX\Light Gust Wind 1_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="970068794">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2012068516" Language="SFX" Hash="1644019842">
+		<SoundBank Id="2012068516" Language="SFX" Hash="4181665">
 			<ObjectPath>\SoundBanks\Default Work Unit\DOGS</ObjectPath>
 			<ShortName>DOGS</ShortName>
 			<Path>DOGS.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\DOGS\DOG_FOOTSTEPS" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.414583" DurationMax="0.783386">
-					<IncludedMemoryFiles>
-						<File Id="19284311" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
-						</File>
-						<File Id="257310149" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
-						</File>
-						<File Id="456918045" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_586152A5.wem</Path>
-						</File>
-						<File Id="542892007" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
-						</File>
-						<File Id="836665503" Language="SFX">
-							<ShortName>Fox footsteps.wav</ShortName>
-							<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\DOGS\DOG_FOOTSTEPS" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.414583" DurationMax="0.783386"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="19284311" Language="SFX">
@@ -183,31 +81,12 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="75271959">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1044378021">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3938542110" Name="MUSIC_SNEAKING_PLAY" ObjectPath="\Events\MUSIC\MUSIC_SNEAKING_PLAY" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="574402392" Language="SFX">
-							<ShortName>SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav</ShortName>
-							<Path>SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem</Path>
-						</File>
-						<File Id="576819889" Language="SFX">
-							<ShortName>SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav</ShortName>
-							<Path>SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem</Path>
-						</File>
-						<File Id="802365609" Language="SFX">
-							<ShortName>SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav</ShortName>
-							<Path>SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem</Path>
-						</File>
-						<File Id="814615326" Language="SFX">
-							<ShortName>SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav</ShortName>
-							<Path>SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="3938542110" Name="MUSIC_SNEAKING_PLAY" ObjectPath="\Events\MUSIC\MUSIC_SNEAKING_PLAY" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="574402392" Language="SFX">
