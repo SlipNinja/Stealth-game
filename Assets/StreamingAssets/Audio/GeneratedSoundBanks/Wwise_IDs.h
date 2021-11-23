@@ -17,17 +17,21 @@ namespace AK
         static const AkUniqueID DOG_GROWL = 1201775887U;
         static const AkUniqueID DOG_SNIFF = 127297048U;
         static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
+        static const AkUniqueID LEVEL_MUSIC = 1244594577U;
         static const AkUniqueID PLAY_BIRDS = 3025897706U;
+        static const AkUniqueID PLAY_GAME_OVER = 725000905U;
         static const AkUniqueID PLAY_HEARTBEAT = 3765695918U;
-        static const AkUniqueID PLAY_LEVEL_MUSIC = 557932600U;
+        static const AkUniqueID PLAY_SNEAKING = 898182510U;
         static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
+        static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
+        static const AkUniqueID STOP_SNEAKING = 2991377080U;
     } // namespace EVENTS
 
     namespace STATES
     {
-        namespace DEATHMENU
+        namespace CAUGHT
         {
-            static const AkUniqueID GROUP = 3009306140U;
+            static const AkUniqueID GROUP = 816373421U;
 
             namespace STATE
             {
@@ -35,7 +39,7 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID TRUE = 3053630529U;
             } // namespace STATE
-        } // namespace DEATHMENU
+        } // namespace CAUGHT
 
         namespace SEARCHING
         {

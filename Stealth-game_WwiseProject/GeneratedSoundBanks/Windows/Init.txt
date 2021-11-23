@@ -1,14 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	184992947	searching			\Default Work Unit\searching	
-	3009306140	deathMenu			\Default Work Unit\deathMenu	
+	816373421	caught			\Default Work Unit\caught	
 
 State	ID	Name	State Group			Notes
 	748895195	None	searching			
 	2452206122	false	searching			
 	3053630529	true	searching			
-	748895195	None	deathMenu			
-	2452206122	false	deathMenu			
-	3053630529	true	deathMenu			
+	748895195	None	caught			
+	2452206122	false	caught			
+	3053630529	true	caught			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1083137540	FOX			\Default Work Unit\FOX	

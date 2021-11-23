@@ -1,18 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
-	557932600	Play_LEVEL_MUSIC			\MUSIC\Play_LEVEL_MUSIC	
+	725000905	Play_GAME_OVER			\MUSIC\Play_GAME_OVER	
+	898182510	Play_SNEAKING			\MUSIC\Play_SNEAKING	
+	1244594577	LEVEL_MUSIC			\MUSIC\LEVEL_MUSIC	
+	2991377080	Stop_SNEAKING			\MUSIC\Stop_SNEAKING	
+	3319673256	Stop_HEARTBEAT			\MUSIC\Stop_HEARTBEAT	
 	3765695918	Play_HEARTBEAT			\MUSIC\Play_HEARTBEAT	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	184992947	searching			\Default Work Unit\searching	
-	3009306140	deathMenu			\Default Work Unit\deathMenu	
+	816373421	caught			\Default Work Unit\caught	
 
 State	ID	Name	State Group			Notes
 	748895195	None	searching			
 	2452206122	false	searching			
 	3053630529	true	searching			
-	748895195	None	deathMenu			
-	2452206122	false	deathMenu			
-	3053630529	true	deathMenu			
+	748895195	None	caught			
+	2452206122	false	caught			
+	3053630529	true	caught			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	334552433	false	searching	\Interactive Music Hierarchy\Default Work Unit\MUSIC\HEARTBEAT		

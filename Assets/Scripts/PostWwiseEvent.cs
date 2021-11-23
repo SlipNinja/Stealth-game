@@ -5,6 +5,8 @@ using UnityEngine;
 public class PostWwiseEvent : MonoBehaviour
 {
     public AK.Wwise.Event MyEvent;
+    public AK.Wwise.Event Growl;
+    public AK.Wwise.Event Sniff;
     // Start is called before the first frame update
     public void FOOTSTEPS()
        
@@ -16,12 +18,12 @@ public class PostWwiseEvent : MonoBehaviour
     public void GROWL()
 
     {
-        MyEvent.Post(gameObject);
+        Growl.Post(gameObject);
     }
     public void SNIFF()
 
     {
-        MyEvent.Post(gameObject);
+        Sniff.Post(gameObject);
     }
 
     // Update is called once per frame
