@@ -24243,15 +24243,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bd4bd90c18d9f4eba3b633f2679509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 6
-  searchSpeed: 15
-  attackSpeed: 30
-  patrolRange: 30
-  searchRange: 40
-  attackRange: 45
-  patrolAngle: 45
-  searchAngle: 55
-  attackAngle: 60
+  patrolSpeed: 10
+  searchSpeed: 20
+  attackSpeed: 40
+  patrolRange: 40
+  searchRange: 50
+  attackRange: 50
+  patrolAngle: 60
+  searchAngle: 65
+  attackAngle: 70
   target: {fileID: 0}
   destinations:
   - {fileID: 0}
@@ -24297,7 +24297,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.4
   m_Speed: 3
-  m_Acceleration: 8
+  m_Acceleration: 40
   avoidancePriority: 50
   m_AngularSpeed: 360
   m_StoppingDistance: 0
