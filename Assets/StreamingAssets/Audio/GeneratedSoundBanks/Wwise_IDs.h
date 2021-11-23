@@ -16,6 +16,9 @@ namespace AK
         static const AkUniqueID DOG_FOOTSTEPS = 4060911613U;
         static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
         static const AkUniqueID MUSIC_SNEAKING_PLAY = 3938542110U;
+        static const AkUniqueID PLAY_BIRDS = 3025897706U;
+        static const AkUniqueID PLAY_GUSTS = 3740536646U;
+        static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
     } // namespace EVENTS
 
     namespace BANKS
