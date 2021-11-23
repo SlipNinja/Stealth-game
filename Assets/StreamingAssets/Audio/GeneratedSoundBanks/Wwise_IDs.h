@@ -11,31 +11,54 @@
 
 namespace AK
 {
-<<<<<<< Updated upstream
-=======
     namespace EVENTS
     {
-        static const AkUniqueID FOX_FS = 3351742574U;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        static const AkUniqueID PLAY_BIRDS_AND_TREES = 1169232266U;
-=======
-        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
->>>>>>> Stashed changes
-=======
-        static const AkUniqueID PLAY_BIRDS_TREES = 2661844156U;
->>>>>>> Stashed changes
-        static const AkUniqueID PLAY_BUSHES = 1487213420U;
-        static const AkUniqueID PLAY_SNEAK_LOOP = 4226239971U;
+        static const AkUniqueID DOG_FOOTSTEPS = 4060911613U;
+        static const AkUniqueID DOG_GROWL = 1201775887U;
+        static const AkUniqueID DOG_SNIFF = 127297048U;
+        static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
+        static const AkUniqueID LEVEL_MUSIC = 1244594577U;
+        static const AkUniqueID PLAY_BIRDS = 3025897706U;
+        static const AkUniqueID PLAY_GAME_OVER = 725000905U;
+        static const AkUniqueID PLAY_HEARTBEAT = 3765695918U;
+        static const AkUniqueID PLAY_SNEAKING = 898182510U;
         static const AkUniqueID PLAY_TUNDRA_WIND = 3278720975U;
+        static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
+        static const AkUniqueID STOP_SNEAKING = 2991377080U;
     } // namespace EVENTS
 
->>>>>>> Stashed changes
+    namespace STATES
+    {
+        namespace CAUGHT
+        {
+            static const AkUniqueID GROUP = 816373421U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace CAUGHT
+
+        namespace SEARCHING
+        {
+            static const AkUniqueID GROUP = 184992947U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace SEARCHING
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID ATMOSPHERE = 2145253833U;
-        static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID DOGS = 2012068516U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID FOX = 1083137540U;
         static const AkUniqueID MUSIC = 3991942870U;
@@ -43,8 +66,7 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID ATMOSPHERE = 2145253833U;
-        static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID DOGS = 2012068516U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID FOX = 1083137540U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;

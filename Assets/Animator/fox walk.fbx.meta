@@ -59,7 +59,35 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.06930693
+        functionName: FOOTSTEPS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.46534654
+        functionName: FOOTSTEPS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.77227724
+        functionName: FOOTSTEPS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9405941
+        functionName: FOOTSTEPS
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: df92d1c743a90af41b14a075f24d8def, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

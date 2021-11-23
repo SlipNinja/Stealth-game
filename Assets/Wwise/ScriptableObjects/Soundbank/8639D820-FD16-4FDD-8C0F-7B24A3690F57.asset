@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad15284e163fc064d9980ddde8b06e1e, type: 3}
+  m_Name: 8639D820-FD16-4FDD-8C0F-7B24A3690F57
+  m_EditorClassIdentifier: 
+  objectName: FOX
+  id: 1083137540
+  guid: 8639D820-FD16-4FDD-8C0F-7B24A3690F57

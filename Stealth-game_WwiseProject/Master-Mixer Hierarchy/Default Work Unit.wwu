@@ -1,72 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}" SchemaVersion="103">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{65BE0433-5E34-42CA-B0F8-39BB4E465735}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{AAD49B91-78CB-4E5C-99B2-FD54C686D320}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{8CB7A978-F506-45E3-888D-AE1EC7FBAB3F}" WorkUnitID="{B515285C-D9DA-4023-8A97-C0908B6C0F93}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
-				<Bus Name="MUSIC" ID="{AFB92065-5CBF-49D8-B2B5-E7786B7EEF92}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="FOX" ID="{0D8C6095-77D7-41F3-8951-87B2633CE7D8}">
+				<Bus Name="FOX" ID="{0C3326BB-EC16-4C1B-9C63-7FDA11D3CCAC}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{8CB7A978-F506-45E3-888D-AE1EC7FBAB3F}" WorkUnitID="{B515285C-D9DA-4023-8A97-C0908B6C0F93}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
-				<Bus Name="ENEMIES" ID="{4C925B7B-5BE4-45E9-AE9F-B283A09F95D1}">
+				<Bus Name="DOGS" ID="{C5293ABD-2903-45AC-BB32-E9F00FB63398}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{8CB7A978-F506-45E3-888D-AE1EC7FBAB3F}" WorkUnitID="{B515285C-D9DA-4023-8A97-C0908B6C0F93}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
-				<Bus Name="ATMOSPHERE" ID="{9A3B4DA4-20A8-4767-9258-76E9B1074A2D}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="13"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="ENVIRONMENT" ID="{171310CC-165C-4537-B8BB-EE82CCD4B3C4}">
+				<Bus Name="ENVIRONMENT" ID="{E86E540E-C2E1-4DDA-869A-6C13E864333E}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{764BF484-E36A-4530-B0FF-AB413E5CAF24}" WorkUnitID="{D299941B-0DB8-49D8-AAD4-0883C3C6E932}"/>
+							<ObjectRef Name="System" ID="{8CB7A978-F506-45E3-888D-AE1EC7FBAB3F}" WorkUnitID="{B515285C-D9DA-4023-8A97-C0908B6C0F93}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="MUSIC" ID="{6EC0F40A-3619-4F5B-991D-70B8B0E81733}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8CB7A978-F506-45E3-888D-AE1EC7FBAB3F}" WorkUnitID="{B515285C-D9DA-4023-8A97-C0908B6C0F93}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>

@@ -1,8 +1,19 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	184992947	searching			\Default Work Unit\searching	
+	816373421	caught			\Default Work Unit\caught	
+
+State	ID	Name	State Group			Notes
+	748895195	None	searching			
+	2452206122	false	searching			
+	3053630529	true	searching			
+	748895195	None	caught			
+	2452206122	false	caught			
+	3053630529	true	caught			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1083137540	FOX			\Default Work Unit\FOX	
 	1229948536	ENVIRONMENT			\Default Work Unit\ENVIRONMENT	
-	2145253833	ATMOSPHERE			\Default Work Unit\ATMOSPHERE	
-	2242381963	ENEMIES			\Default Work Unit\ENEMIES	
+	2012068516	DOGS			\Default Work Unit\DOGS	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\MUSIC	
 

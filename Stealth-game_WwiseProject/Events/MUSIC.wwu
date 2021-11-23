@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" PersistMode="Standalone">
+		<WorkUnit Name="MUSIC" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="Color" Type="int16" Value="21"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_SNEAK_LOOP" ID="{15B46427-E9E7-4A0D-8FA1-C1B8D9FBFD28}">
+				<Event Name="Play_HEARTBEAT" ID="{3E3DFA82-30D8-45FD-8833-F44F5691E2AA}">
 					<ChildrenList>
-						<Action Name="" ID="{E8B37F90-411A-45E6-9A85-0C6E01CEB385}" ShortID="289776455">
+						<Action Name="" ID="{C74FAE7A-01D9-4B47-9AD6-49612488EE42}" ShortID="901029011">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SNEAK_LOOP" ID="{9AA6877C-5A56-4D87-88CD-63859A5814CF}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}"/>
+									<ObjectRef Name="HEARTBEAT" ID="{B97A9BAB-1B12-4EBA-A767-32748426D4DA}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GAME_OVER" ID="{CCA7216C-5FEE-47F2-A679-6F9A25C61370}">
+					<ChildrenList>
+						<Action Name="" ID="{A89F51DA-12B0-4C76-8B4B-347C0B807633}" ShortID="771692329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAME_OVER" ID="{D989DACB-F05C-4B16-8002-F0BF9DD3804C}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SNEAKING" ID="{B00D7B50-10AD-4DA9-AC3A-C00DB42D107F}">
+					<ChildrenList>
+						<Action Name="" ID="{3E20E5CA-FBFC-4504-A4A4-2B1CAC69E325}" ShortID="1062844822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SNEAKING" ID="{7798E6DC-12CF-4A52-B914-ECA585F44045}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LEVEL_MUSIC" ID="{F31DE9A1-5376-440D-8298-2EB5E01C2CFA}">
+					<ChildrenList>
+						<Action Name="" ID="{D2C4130B-1AB1-485D-81D3-976A9F0F8BD0}" ShortID="383496982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LEVEL_MUSIC" ID="{34418D24-D835-4E57-A527-DF118ADA1B89}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HEARTBEAT" ID="{B3ADE03B-9C83-4F47-BAB6-38B58495F5B0}">
+					<ChildrenList>
+						<Action Name="" ID="{077D98FA-D234-4058-B9CF-5E5C24ABF22D}" ShortID="892995583">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEARTBEAT" ID="{B97A9BAB-1B12-4EBA-A767-32748426D4DA}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SNEAKING" ID="{D1FF06EF-F3C9-483B-AFF6-4BEBBAC6018B}">
+					<ChildrenList>
+						<Action Name="" ID="{DB26EE5E-1358-410F-9BC1-3C7969CAE3E2}" ShortID="287165393">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SNEAKING" ID="{7798E6DC-12CF-4A52-B914-ECA585F44045}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

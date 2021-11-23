@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}" SchemaVersion="103">
 	<Attenuations>
-		<WorkUnit Name="Default Work Unit" ID="{E97345FC-F9A9-4CBB-8C65-DA035D374C60}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}" PersistMode="Standalone">
 			<ChildrenList>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<Attenuation Name="BIRDS_&amp;_TREES_ATT" ID="{97CDEABA-B067-4D87-827E-1720282D8868}" ShortID="257592796">
-					<CurveUsageInfoList>
-						<VolumeDryUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{D655ACD0-1BB6-4C8D-ABE1-2973D80C0818}">
-=======
-=======
->>>>>>> Stashed changes
-				<Attenuation Name="BIRDS_TREES" ID="{C0B6D228-46CE-45CC-85EF-3806205C2D77}" ShortID="864254340">
+				<Attenuation Name="50M" ID="{83C09A65-1B2F-4334-AACA-4769591E87E6}" ShortID="564937792">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="250"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{72D4D1EC-648A-48E7-9C8B-1D0D7C7D2B1A}">
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+								<Curve Name="VolumeDry" ID="{946D2CEE-BE96-4A68-A0AB-E81EB5044439}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
@@ -35,22 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-											<XPos>100</XPos>
-=======
-=======
->>>>>>> Stashed changes
-											<XPos>189.07285</XPos>
-											<YPos>-3.73879</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>250</XPos>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -66,15 +37,7 @@
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-								<Curve Name="LowPassFilter" ID="{585C81A8-C3C9-4FAC-9387-BE8C75902FB8}">
-=======
-								<Curve Name="LowPassFilter" ID="{09449553-8579-4B35-8C98-AFB45CE5529D}">
->>>>>>> Stashed changes
-=======
-								<Curve Name="LowPassFilter" ID="{09449553-8579-4B35-8C98-AFB45CE5529D}">
->>>>>>> Stashed changes
+								<Curve Name="LowPassFilter" ID="{B13CCB8F-2237-4809-A9A6-813442A2A253}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
 									</PropertyList>
@@ -85,29 +48,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-											<XPos>100</XPos>
-											<YPos>55</YPos>
-=======
-=======
->>>>>>> Stashed changes
-											<XPos>123.17881</XPos>
-											<YPos>48</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>150</XPos>
-											<YPos>50</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>250</XPos>
-											<YPos>69</YPos>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+											<XPos>50</XPos>
+											<YPos>52</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -121,35 +63,71 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</SpreadUsage>
 						<FocusUsage>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-=======
-=======
->>>>>>> Stashed changes
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
-								<Curve Name="Focus" ID="{366DB9A7-3DA1-47D8-AD0C-CCC03744A843}">
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" ShortID="509429183">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="90"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{1EA462BB-F8C7-4462-8D66-3F742E47369D}">
 									<PropertyList>
-										<Property Name="Flags" Type="int32" Value="1"/>
+										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>250</XPos>
-											<YPos>-0</YPos>
+											<XPos>90</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
 								</Curve>
 							</CurveUsageInfo>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{DA903510-4956-4FB1-AEA8-E7E2FD1C91F6}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>90</XPos>
+											<YPos>50</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>

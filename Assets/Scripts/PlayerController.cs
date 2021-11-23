@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
+   
 {
-// -----------------------------------------------------------------------------------------------
+    public AK.Wwise.Event MusicStop;
+    public AK.Wwise.Event MusicStart;
+    public AK.Wwise.Event HeartbeatStop;
+    // -----------------------------------------------------------------------------------------------
     [Tooltip("Move speed in meters/second")]
     public float moveSpeed;
     private  float verticalSpeed = 0f;
@@ -81,11 +85,15 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0f;
             deathMenu.SetActive(true);
             caught = true;
+            MusicStart.Post(gameObject);
+            MusicStop.Post(gameObject);
+            HeartbeatStop.Post(gameObject);
         }
         if(other.gameObject.tag == "Completed")
         {
             Time.timeScale = 0f;
             winScreen.SetActive(true);
         }
+       
     }
 }

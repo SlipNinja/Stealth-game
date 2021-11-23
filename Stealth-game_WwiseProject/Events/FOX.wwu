@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" PersistMode="Standalone">
+		<WorkUnit Name="FOX" ID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="2"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="FOX_FS" ID="{8FACFFAD-5F48-47D0-8F9F-3531C7874962}">
+				<Event Name="FOX_FOOTSTEPS" ID="{84746FF2-2556-43CE-87B1-D1CBFB2D032E}">
 					<ChildrenList>
-						<Action Name="" ID="{6120648C-A4F8-4D6C-80B4-14F2C4FD53CD}" ShortID="996703409">
+						<Action Name="" ID="{3EFAC976-79AE-43C7-9D99-298B5F755F35}" ShortID="174170967">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FS" ID="{84E9219D-337E-4054-9E4A-FDC81859CCC7}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}"/>
+									<ObjectRef Name="FOOTSTEPS" ID="{F6B17BF2-E253-4D54-9BBB-AD5E6C4D6081}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

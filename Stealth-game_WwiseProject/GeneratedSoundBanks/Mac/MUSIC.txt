@@ -1,9 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4226239971	Play_SNEAK_LOOP			\MUSIC\Play_SNEAK_LOOP	
+	725000905	Play_GAME_OVER			\MUSIC\Play_GAME_OVER	
+	898182510	Play_SNEAKING			\MUSIC\Play_SNEAKING	
+	1244594577	LEVEL_MUSIC			\MUSIC\LEVEL_MUSIC	
+	2991377080	Stop_SNEAKING			\MUSIC\Stop_SNEAKING	
+	3319673256	Stop_HEARTBEAT			\MUSIC\Stop_HEARTBEAT	
+	3765695918	Play_HEARTBEAT			\MUSIC\Play_HEARTBEAT	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	184992947	searching			\Default Work Unit\searching	
+	816373421	caught			\Default Work Unit\caught	
+
+State	ID	Name	State Group			Notes
+	748895195	None	searching			
+	2452206122	false	searching			
+	3053630529	true	searching			
+	748895195	None	caught			
+	2452206122	false	caught			
+	3053630529	true	caught			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	334552433	false	searching	\Interactive Music Hierarchy\Default Work Unit\MUSIC\HEARTBEAT		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	251524950	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
-	325980009	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
-	373978650	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
-	531876546	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SNEAK LOOP\SNEAK_LOOP\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
+	161266417	SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B		1323064
+	320531564	SNEAK-LOOP-2_80BPM_4-4_8B_P1B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-2_80BPM_4-4_8B_P1B\SNEAK-LOOP-2_80BPM_4-4_8B_P1B		4762864
+	625866719	SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B		12171664
+	677186067	HEARTBEAT	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\HEARTBEAT_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\HEARTBEAT\HEARTBEAT\HEARTBEAT		529264
+	742942269	SNEAK-LOOP-1_80BPM_4-4_8B_P0B	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\SNEAKING\SNEAK-LOOP-1_80BPM_4-4_8B_P0B\SNEAK-LOOP-1_80BPM_4-4_8B_P0B		4498264
+	945241621	game_over	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\SFX\game_over_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\LEVEL_MUSIC\GAME_OVER\game_over\game_over		529264
 

@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	127297048	DOG_SNIFF			\DOGS\DOG_SNIFF	
+	1201775887	DOG_GROWL			\DOGS\DOG_GROWL	
+	4060911613	DOG_FOOTSTEPS			\DOGS\DOG_FOOTSTEPS	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2567225	SNIFF_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_1EDFC6AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\SNIFF\SNIFF_01		163892
+	19284311	DOG_FS_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_D9D259A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\FOOTSTEPS\DOG_FS_03		68748
+	56729568	SNIFF_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_3AE54210.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\SNIFF\SNIFF_02		136124
+	137862161	GROWL_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Growling _ Halloween Sound Effects_091137ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\GROWL\GROWL_01		569216
+	257310149	DOG_FS_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_2695E8A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\FOOTSTEPS\DOG_FS_02		61560
+	285947191	SNIFF	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Sniffs Sound Effect_1B4AA497.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\SNIFF\SNIFF		208320
+	456918045	DOG_FS	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_586152A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\FOOTSTEPS\DOG_FS		87116
+	528057345	GROWL_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Growling _ Halloween Sound Effects_12D5AB31.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\GROWL\GROWL_02		569216
+	542892007	DOG_FS_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_6F7A07FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\FOOTSTEPS\DOG_FS_04		72740
+	836665503	DOG_FS_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_C2A4881C.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\FOOTSTEPS\DOG_FS_01		65556
+	867442132	GROWL	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Dog Growling _ Halloween Sound Effects_4CFBC8EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOGS\GROWL\GROWL		519724
+

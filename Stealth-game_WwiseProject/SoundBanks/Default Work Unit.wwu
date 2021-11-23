@@ -1,79 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{50E22EED-B3C8-456E-B601-965B3E1D0CB3}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{18139D4A-147B-4563-87F1-0B94607D4303}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{50E22EED-B3C8-456E-B601-965B3E1D0CB3}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{18139D4A-147B-4563-87F1-0B94607D4303}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="FOX" ID="{548C5968-A2CE-4EA9-961B-71CC7A35C1AA}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<SoundBank Name="FOX" ID="{CDE2AF50-500B-4DDF-9CF1-01EAF27ACC95}">
 					<ObjectInclusionList>
-						<ObjectRef Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" WorkUnitID="{A0F7877E-FB45-437A-9694-C6DD97317388}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FOX" ID="{E28A7EE7-BCE4-43F1-AC87-E03B6EEEEF09}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FOX" ID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" WorkUnitID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FOX" ID="{62439677-88A7-4D1C-82B7-593395777752}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ENEMIES" ID="{B43F982F-4311-46F7-A4EA-C77E6DD1612C}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="ENVIRONMENT" ID="{28000532-4043-4B6C-ADDB-C2BBC7EA994F}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<SoundBank Name="DOGS" ID="{B0E891DC-595A-434C-A543-329B63E0A190}">
 					<ObjectInclusionList>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<ObjectRef Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ENVIRONMENT" ID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" WorkUnitID="{390D72BA-A5F6-4E54-841D-CD28C6520CCE}" Origin="Manual" Filter="7"/>
-=======
-						<ObjectRef Name="ENVIRONMENT" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" WorkUnitID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
->>>>>>> Stashed changes
-=======
-						<ObjectRef Name="ENVIRONMENT" ID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" WorkUnitID="{CE17D12E-0F49-4A2F-B9A8-80DF49AB626D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ENVIRONMENT" ID="{3A53CB28-8B5D-4A77-9C6C-F31671B975A4}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
->>>>>>> Stashed changes
+						<ObjectRef Name="DOGS" ID="{F3B864ED-F921-4030-9148-76231C3799D7}" WorkUnitID="{F3B864ED-F921-4030-9148-76231C3799D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DOGS" ID="{A48B9BC2-9658-4820-BB78-CC17D2658113}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ATMOSPHERE" ID="{5097536C-B06D-4E2A-9492-DB811670EDB2}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="13"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<SoundBank Name="ENVIRONMENT" ID="{D4A7B58C-74FB-4FED-8651-21E56A09799C}">
 					<ObjectInclusionList>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<ObjectRef Name="ATMOSPHERE" ID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" WorkUnitID="{47E45ED3-6FE2-4AD1-BC12-8B62D1FCAA80}" Origin="Manual" Filter="7"/>
-=======
-						<ObjectRef Name="ATMOSPHERE" ID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" WorkUnitID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" Origin="Manual" Filter="7"/>
->>>>>>> Stashed changes
-=======
-						<ObjectRef Name="ATMOSPHERE" ID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" WorkUnitID="{25E8571B-638A-45E1-B83A-13F03F8B3BDA}" Origin="Manual" Filter="7"/>
->>>>>>> Stashed changes
-						<ObjectRef Name="ATMOSPHERE" ID="{546DEA72-3645-4D55-B0F4-581CC85D5334}" WorkUnitID="{D06FD046-34A9-41AF-B6F3-31AD570AE21D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENV" ID="{325FB611-FBD5-444C-A926-5D16A8759ABA}" WorkUnitID="{325FB611-FBD5-444C-A926-5D16A8759ABA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="MUSIC" ID="{5BCE83CE-152A-4869-A422-3329E64C32B3}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<SoundBank Name="MUSIC" ID="{16F7A971-270B-41BF-B9AA-714486A1A0C8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" WorkUnitID="{1D524F96-9A62-434D-A2C0-011D56E64146}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" WorkUnitID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
