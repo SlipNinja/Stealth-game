@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{33C988F6-0590-4696-B613-5E55A86995D3}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="MUSIC" ID="{33C988F6-0590-4696-B613-5E55A86995D3}" PersistMode="Standalone">
+		<WorkUnit Name="MUSIC" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_SNEAK_LOOP" ID="{C9F2CB83-A802-4C1D-A377-5B6A8BBC9504}">
+				<Event Name="MUSIC_SNEAKING_PLAY" ID="{CCB01693-5EDD-467A-A315-3CF5D7D9E658}">
 					<ChildrenList>
-						<Action Name="" ID="{D474C364-A512-4F1F-A046-5BCC5B1C6E83}" ShortID="894937522">
+						<Action Name="" ID="{92187E4D-6567-4557-B059-612C5CB294AA}" ShortID="975385438">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SNEAK_LOOP" ID="{9AA6877C-5A56-4D87-88CD-63859A5814CF}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}"/>
+									<ObjectRef Name="SNEAKING" ID="{CCC3A817-F022-41A9-A375-B91CD478D0B2}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

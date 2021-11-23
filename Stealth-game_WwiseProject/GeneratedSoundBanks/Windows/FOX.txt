@@ -2,9 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	648125588	FOX_FOOTSTEPS			\FOX\FOX_FOOTSTEPS	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	89546834	Fox footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_D5366BA2.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_04		75936
-	688674039	Fox footsteps	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_4D61AFF7.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps		79932
-	764053429	Fox footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_9AE04C7B.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_03		65552
-	939444094	Fox footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_30D88D23.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_01		67948
-	1034904790	Fox footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_A2B0A872.wem		\Actor-Mixer Hierarchy\FOX\MOVEMENT\FOOTSTEPS\Fox footsteps_02		71148
+	19284311	DOG_FS_03	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_D9D259A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FOOTSTEPS\DOG_FS_03		68748
+	257310149	DOG_FS_02	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_2695E8A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FOOTSTEPS\DOG_FS_02		61560
+	456918045	DOG_FS	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_586152A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FOOTSTEPS\DOG_FS		87116
+	542892007	DOG_FS_04	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_6F7A07FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FOOTSTEPS\DOG_FS_04		72740
+	836665503	DOG_FS_01	A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\SFX\Fox footsteps_C2A4881C.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOX\FOOTSTEPS\DOG_FS_01		65556
 

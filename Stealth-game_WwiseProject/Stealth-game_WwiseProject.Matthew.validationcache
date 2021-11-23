@@ -1,91 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Stealth-game_WwiseProject.wproj" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\States\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Queries\Factory Queries.wwu" DateLow="1636032878" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1636032878" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Effects\Factory Effects.wwu" DateLow="1636032878" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1636032878" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game_WwiseIntegrationTemp\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637159019" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1637274394" DateHigh="0"/>
-<<<<<<< Updated upstream
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Stealth-game_WwiseProject.wproj" DateLow="1637445644" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Stealth-game_WwiseProject.Matthew.wsettings" DateLow="1637445764" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\States\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1637446427" DateHigh="0"/>
-=======
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Stealth-game_WwiseProject.wproj" DateLow="1637531311" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Stealth-game_WwiseProject.Matthew.wsettings" DateLow="1637531256" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\States\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1637532215" DateHigh="0"/>
->>>>>>> Stashed changes
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Queries\Factory Queries.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1637271608" DateHigh="0"/>
-<<<<<<< Updated upstream
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637445644" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1637445686" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1637271607" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\MUSIC.wwu" DateLow="1637446427" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\FOX.wwu" DateLow="1637451139" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\DOGS.wwu" DateLow="1637451745" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1637451745" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\ATMOSPHERE.wwu" DateLow="1637451139" DateHigh="0"/>
-=======
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637530395" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1637445686" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1637271607" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\MUSIC.wwu" DateLow="1637530394" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\FOX.wwu" DateLow="1637532215" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1637533957" DateHigh="0"/>
->>>>>>> Stashed changes
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Effects\Factory Effects.wwu" DateLow="1637271607" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1637271607" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1637449450" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1637271607" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1637271607" DateHigh="0"/>
-<<<<<<< Updated upstream
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1637445644" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1637445644" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637448620" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\FOX.wwu" DateLow="1637448145" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\ENVIRONMENT.wwu" DateLow="1637450679" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\DOGS.wwu" DateLow="1637451675" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637445643" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\ATMOSPHERE.wwu" DateLow="1637451878" DateHigh="0"/>
-=======
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1637530394" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1637530394" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637533560" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\ENVIRONMENT.wwu" DateLow="1637534234" DateHigh="0"/>
-	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637533805" DateHigh="0"/>
->>>>>>> Stashed changes
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Stealth-game_WwiseProject.wproj" DateLow="1637668488" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\States\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1637668673" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637668203" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Interactive Music Hierarchy\UNDERSCORE.wwu" DateLow="1637668203" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Interactive Music Hierarchy\MUSIC.wwu" DateLow="1637668673" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1637668673" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\MUSIC.wwu" DateLow="1637668521" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\FOX.wwu" DateLow="1637668521" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\ENVIRONMENT.wwu" DateLow="1637668521" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\DOGS.wwu" DateLow="1637668521" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1637668521" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1637667904" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1637668612" DateHigh="0"/>
+	<ValidationCacheItem File="A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637668612" DateHigh="0"/>
 </ValidationCache>

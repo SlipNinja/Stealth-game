@@ -21,22 +21,15 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
-					</ValueList>
-				</Property>
-				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
-					<ValueList>
-						<Value Platform="Windows">256</Value>
-						<Value Platform="Mac">256</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjExNTQyIiBtYXNrPSJYTUVJMjQzNiIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMDMtMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0IiBleHBpcmVzPSIyMDIyLTAzLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0IiBleHBpcmVzPSIyMDIyLTAzLTAxIiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjItMDMtMDEiICAvPjwvcHJvamVjdD4=|WvQspnu6GldCo3k4oe5NzyHN2Va3IcMgjCGaOfwjGend9+b8gdXXvIQXzk6T346j5A8mwcXitHWjs2rjHfgwo61RVQp5ahw+etFdO2ek/sQ5oUuEjAjpbW2mxGYa3clTcEPKZrPh2N1opie9N+VDVhtQBmgYR2+TAO/sBJnUKf8kwUhPQueCYBmjJqdFOPVyTTn39nc9HMCN0KMMV2R86wDdwrxTqs0nVG93WouLM0TR/nmwvcov3DY+vbfZdvWG7lz93gV4HWz1+j5Zv0alP3VkdU7ULGxxVsVScCLKXB/R+XGHfJDtLCfo6PP3J5hXaPaRJTsazi9k3xAY/eh96A=="/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\Stealth-game\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../../Stealth-game/Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -67,18 +60,8 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="VolumeThreshold" Type="Real64">
-					<ValueList>
-						<Value Platform="Windows">-80</Value>
-						<Value Platform="Mac">-80</Value>
-					</ValueList>
-				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2021.1|Build=7707|VersionName=v2021.1.4|Config=Release"/>
 			</PropertyList>
-			<MiscSettings>
-				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
-				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
-			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -11552,25 +11535,6 @@
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER">
-<<<<<<< Updated upstream
-					<WorkUnit Name="NULL_FOLDER" ID="{065B8796-5EE5-451A-8772-5AB6A6027722}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT">
-					<WorkUnit Name="MOVEMENT" ID="{DEDDC577-11B7-4C20-B820-C428A5AE9DEE}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT\FS">
-					<WorkUnit Name="FS" ID="{F3AC5A3E-46D3-4F9D-88AF-1E17ABDF3EDB}" PersistMode="Standalone"/>
-=======
-					<WorkUnit Name="NULL_FOLDER" ID="{633E0590-466F-4ACB-AC4C-F80267715121}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT">
-					<WorkUnit Name="MOVEMENT" ID="{53E17B53-BD29-4E92-AFD5-E9D0B4BBB32A}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\NULL_FOLDER\MOVEMENT\FS">
-					<WorkUnit Name="FS" ID="{E96E73B1-E74D-4EAD-AF7B-6347991CE17F}" PersistMode="Standalone"/>
->>>>>>> Stashed changes
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>

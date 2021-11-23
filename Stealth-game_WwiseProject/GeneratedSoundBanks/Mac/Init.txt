@@ -1,8 +1,7 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1083137540	FOX			\Default Work Unit\FOX	
 	1229948536	ENVIRONMENT			\Default Work Unit\ENVIRONMENT	
-	2145253833	ATMOSPHERE			\Default Work Unit\ATMOSPHERE	
-	2242381963	ENEMIES			\Default Work Unit\ENEMIES	
+	2012068516	DOGS			\Default Work Unit\DOGS	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\MUSIC	
 

@@ -1,62 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<WwiseDocument Type="WorkUnit" ID="{AA856840-5E87-4ECD-B4F9-76AD6D43B28C}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{18139D4A-147B-4563-87F1-0B94607D4303}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{AA856840-5E87-4ECD-B4F9-76AD6D43B28C}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{18139D4A-147B-4563-87F1-0B94607D4303}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="FOX" ID="{8639D820-FD16-4FDD-8C0F-7B24A3690F57}">
+				<SoundBank Name="FOX" ID="{CDE2AF50-500B-4DDF-9CF1-01EAF27ACC95}">
 					<ObjectInclusionList>
-						<ObjectRef Name="FOX" ID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}" WorkUnitID="{AE8DE698-657C-47BE-BDBC-E348F8A5DA7B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FOX" ID="{5304358B-7606-4F11-8CC2-02F80B963E38}" WorkUnitID="{5304358B-7606-4F11-8CC2-02F80B963E38}" Origin="Manual" Filter="7"/>
-=======
-<WwiseDocument Type="WorkUnit" ID="{7F1DFC10-E486-444C-8CF5-21479F0D17E4}" SchemaVersion="103">
-	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{7F1DFC10-E486-444C-8CF5-21479F0D17E4}" PersistMode="Standalone">
-			<ChildrenList>
-				<SoundBank Name="SOUNDBANK" ID="{F700002C-97C5-42A7-ADF8-EBF1113DBFBB}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" WorkUnitID="{FCD95B68-60B3-42F2-89D0-966B5F12F19D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MUSIC" ID="{1D524F96-9A62-434D-A2C0-011D56E64146}" WorkUnitID="{1D524F96-9A62-434D-A2C0-011D56E64146}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FOX" ID="{A0F7877E-FB45-437A-9694-C6DD97317388}" WorkUnitID="{A0F7877E-FB45-437A-9694-C6DD97317388}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{41FF3DA6-E3CE-4D90-9809-10357FB1DEAE}" WorkUnitID="{41FF3DA6-E3CE-4D90-9809-10357FB1DEAE}" Origin="Manual" Filter="7"/>
->>>>>>> Stashed changes
+						<ObjectRef Name="FOX" ID="{62439677-88A7-4D1C-82B7-593395777752}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-<<<<<<< Updated upstream
-				<SoundBank Name="MUSIC" ID="{33880C45-D0E4-47E9-8B61-F095DD2C3B33}">
+				<SoundBank Name="DOGS" ID="{B0E891DC-595A-434C-A543-329B63E0A190}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" WorkUnitID="{FFD2CD66-4FA8-415A-9778-C6592C787D5C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MUSIC" ID="{33C988F6-0590-4696-B613-5E55A86995D3}" WorkUnitID="{33C988F6-0590-4696-B613-5E55A86995D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DOGS" ID="{A48B9BC2-9658-4820-BB78-CC17D2658113}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ATMOSPHERE" ID="{C8ACE16E-D0EE-441C-B000-C156AB98C3DD}">
+				<SoundBank Name="ENVIRONMENT" ID="{D4A7B58C-74FB-4FED-8651-21E56A09799C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="ATMOSPHERE" ID="{0531B97F-6F09-454A-8CE3-3937AC0705CA}" WorkUnitID="{0531B97F-6F09-454A-8CE3-3937AC0705CA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ATMOSPHERE" ID="{A1D573D3-C2B6-4633-8F46-EFB6EE2C67F2}" WorkUnitID="{A1D573D3-C2B6-4633-8F46-EFB6EE2C67F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ENVIRONMENT" ID="{0D02B6C1-173A-44C1-8668-E10BB27D8CD4}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="DOGS" ID="{CB2F5F22-09D8-4507-8038-C04195736CA2}">
+				<SoundBank Name="MUSIC" ID="{16F7A971-270B-41BF-B9AA-714486A1A0C8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="DOGS" ID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}" WorkUnitID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="DOGS" ID="{C3782FDA-20E4-45AA-82EB-04DEB361AAEC}" WorkUnitID="{C3782FDA-20E4-45AA-82EB-04DEB361AAEC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{AEC1167F-D504-4661-9C98-7D33B0657946}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-=======
->>>>>>> Stashed changes
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

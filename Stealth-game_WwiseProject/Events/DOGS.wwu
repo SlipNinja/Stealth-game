@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C3782FDA-20E4-45AA-82EB-04DEB361AAEC}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{F3B864ED-F921-4030-9148-76231C3799D7}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="DOGS" ID="{C3782FDA-20E4-45AA-82EB-04DEB361AAEC}" PersistMode="Standalone">
+		<WorkUnit Name="DOGS" ID="{F3B864ED-F921-4030-9148-76231C3799D7}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="DOG_FOOTSTEPS" ID="{D85AABB4-CDBF-4417-A90A-CE8574BA5151}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<Event Name="DOG_FOOTSTEPS" ID="{38D8B392-FDB1-4137-88AA-FA7ECD965BA9}">
 					<ChildrenList>
-						<Action Name="" ID="{CC0862F0-D1EE-49ED-9683-A6D36F47E7DD}" ShortID="581832395">
+						<Action Name="" ID="{E6BFD382-028D-408A-8E64-D4334CB22185}" ShortID="906929284">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FOOTSTEPS" ID="{7A8279C4-C041-41F9-A719-12DF15CEC643}" WorkUnitID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="DOG_GROWL" ID="{228E0171-3A38-474A-8E94-AA4FF28BEA6D}">
-					<ChildrenList>
-						<Action Name="" ID="{3C5E68EF-5DE7-471E-BDAB-8483D56B9D36}" ShortID="731836818">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GROWL" ID="{B6254DC3-28E5-4893-85A4-95D80FAA9786}" WorkUnitID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="DOG_SNIFF" ID="{D19B3BAC-14D2-4B51-A414-649724D724CA}">
-					<ChildrenList>
-						<Action Name="" ID="{77A47E20-7025-401A-889F-F1BA9B2B226E}" ShortID="625828637">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SNIFF" ID="{5808B6AE-5013-432B-A71A-97AE284B0C3A}" WorkUnitID="{C904F4F4-5E38-44D5-8DC4-2728236EEB1E}"/>
+									<ObjectRef Name="FOOTSTEPS" ID="{18C93C5E-120D-4D88-A7DA-E6F200A42A1C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
