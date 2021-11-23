@@ -63,3 +63,5 @@ crashlytics-build.properties
 
 Stealth-game_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml
 Stealth-game_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml
+*.wem
+*.wwu
