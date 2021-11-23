@@ -8339,6 +8339,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2242932141955360448, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b8cf00360c42af74a8f941714edeef4d, type: 2}
+    - target: {fileID: 2242932141955360450, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+      propertyPath: MyEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1fb9e63226cddb844a291579a4f04ead, type: 2}
     - target: {fileID: 2242932141955360451, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
       propertyPath: deathMenu
       value: 
@@ -8351,12 +8359,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fox (player) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2242932141955360461, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d23b40fae38b5c241b31369d92705bd0, type: 2}
     - target: {fileID: 9133432066439767008, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
       propertyPath: footprints
       value: 
       objectReference: {fileID: 1492299378}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+--- !u!1 &1068648711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1432451685235182794, guid: 901dd90dc4f5bd24fbec5a272961df7e, type: 3}
+  m_PrefabInstance: {fileID: 1068648710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1068648712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068648711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0589ea8bc092884ebae064fe7bd9bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
+--- !u!114 &1068648713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068648711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce10c7b09862c504ebcadec5787292a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1081362157
 GameObject:
   m_ObjectHideFlags: 0

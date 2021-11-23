@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="FOX" ID="{CDE2AF50-500B-4DDF-9CF1-01EAF27ACC95}">
 					<ObjectInclusionList>
+						<ObjectRef Name="FOX" ID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" WorkUnitID="{CEF5798D-0D78-4A16-A2EF-6358A7B41526}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FOX" ID="{62439677-88A7-4D1C-82B7-593395777752}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -12,6 +13,7 @@
 				</SoundBank>
 				<SoundBank Name="DOGS" ID="{B0E891DC-595A-434C-A543-329B63E0A190}">
 					<ObjectInclusionList>
+						<ObjectRef Name="DOGS" ID="{F3B864ED-F921-4030-9148-76231C3799D7}" WorkUnitID="{F3B864ED-F921-4030-9148-76231C3799D7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DOGS" ID="{A48B9BC2-9658-4820-BB78-CC17D2658113}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -19,6 +21,7 @@
 				</SoundBank>
 				<SoundBank Name="ENVIRONMENT" ID="{D4A7B58C-74FB-4FED-8651-21E56A09799C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ENVIRONMENT" ID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" WorkUnitID="{038A772A-83B2-4398-9EA1-B9ED0F48A288}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ENVIRONMENT" ID="{284C9A82-1AFA-4EC5-8394-2B34DF5ED61C}" WorkUnitID="{7F1E0E32-14CD-4965-B518-218A0852B946}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -27,6 +30,7 @@
 				<SoundBank Name="MUSIC" ID="{16F7A971-270B-41BF-B9AA-714486A1A0C8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MUSIC" ID="{AEC1167F-D504-4661-9C98-7D33B0657946}" WorkUnitID="{AEC1167F-D504-4661-9C98-7D33B0657946}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" WorkUnitID="{03DE0D51-CC51-4DA2-81A3-887878080C0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
