@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Footprints : MonoBehaviour
 {
-
+    public float groundOffset = 0.1f;
     public GameObject footstepPrefab;
     public Transform footprints;
 
@@ -27,22 +27,31 @@ public class Footprints : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distTo = Vector3.Distance(transform.position, lastfootprint);
-        if (distTo > 1.5f)
+        
+        Vector3 instanciatePosition = Vector3.zero;
+        RaycastHit hit;
+        Vector3 groundOffsetVector = new Vector3(0, groundOffset, 0);
+
+        if(leftFootTime)//left foot
         {
-            Vector3 instanciatePosition;
-
-            if(leftFootTime)//left foot
+            if(Physics.Raycast(left.position, Vector3.down, out hit, 100f))
             {
-                instanciatePosition = new Vector3(left.position.x, 0, left.position.z);
-                leftFootTime = false;
-            } else {//right foot
-                instanciatePosition = new Vector3(right.position.x, 0, right.position.z);
-                leftFootTime = true;
+                instanciatePosition = hit.point + groundOffsetVector;
             }
+        } else {//right foot
+            if(Physics.Raycast(right.position, Vector3.down, out hit, 100f))
+            {
+                instanciatePosition = hit.point + groundOffsetVector;
+            }
+        }
 
+        float distTo = Vector3.Distance(hit.point, lastfootprint);
+        if (distTo > 2f)
+        {
+            leftFootTime = !leftFootTime;
             footprint = Instantiate(footstepPrefab, instanciatePosition, Quaternion.identity);
-            footprint.transform.Rotate(0, transform.eulerAngles.y, 0);//Rotate footprints
+            footprint.transform.rotation = Quaternion.FromToRotation (footprint.transform.up, hit.normal) * footprint.transform.rotation;
+            footprint.transform.Rotate(90, transform.eulerAngles.y, 0);//Rotate footprints
             footprint.transform.parent = footprints;
             lastfootprint = footprint.transform.position;
         }

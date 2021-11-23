@@ -24,6 +24,8 @@ public class EnnemyAI : MonoBehaviour
     private float timer;
     private int currentDestination;
     private bool patrolling, searching, attacking;
+    private List<Transform> footprintsInView;
+    private Vector3 lastSeenPlayerPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -35,11 +37,31 @@ public class EnnemyAI : MonoBehaviour
         attacking = false;
         target = destinations[currentDestination];
         rangeNear = 4f;
+        footprintsInView = new List<Transform>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        if(PlayerInView())
+        {
+            patrolling = false;
+            searching = false;
+            attacking = true;
+        }
+        else if(FootprintInView())
+        {
+            patrolling = false;
+            attacking = false;
+            searching = true;
+        }
+        else
+        {
+            patrolling = true;
+            searching = false;
+            attacking = false;
+        }
 
         if(!target)
         {
@@ -68,6 +90,26 @@ public class EnnemyAI : MonoBehaviour
             range = searchRange;
             angle = searchAngle;
 
+            float currDist;
+            float farthestDistance = 0f;
+
+            if(footprintsInView.Count > 0)
+            {
+                Transform farthest = footprintsInView[0];
+
+                foreach (Transform footp in footprintsInView)
+                {
+                    //currDist = Vector3.Distance(footp.position, lastSeenPlayerPosition);
+                    currDist = Vector3.Distance(footp.position, transform.position);
+                    if( currDist > farthestDistance)
+                    {
+                        farthest = footp;
+                        farthestDistance = currDist;
+                    }
+                }
+
+                target = farthest;
+            }
         }
         else if (attacking)
         {
@@ -76,25 +118,6 @@ public class EnnemyAI : MonoBehaviour
             angle = attackAngle;
 
             target = player;
-        }
-
-        if(PlayerInView())
-        {
-            patrolling = false;
-            searching = false;
-            attacking = true;
-        }
-        else if(FootprintInView())
-        {
-            patrolling = false;
-            attacking = false;
-            searching = true;
-        }
-        else
-        {
-            patrolling = true;
-            searching = false;
-            attacking = false;
         }
     }
 
@@ -110,9 +133,10 @@ public class EnnemyAI : MonoBehaviour
                 RaycastHit hit;
                 if(Physics.Raycast(transform.position, targetDir, out hit, range, 7))
                 {
-                    if(hit.transform.name == "Player")
+                    if(hit.transform.name.Contains("player"))
                     {
                         Debug.DrawLine(transform.position, hit.transform.position, Color.red);
+                        //lastSeenPlayerPosition = player.position;
                         return true;
                     }
                 }
@@ -125,7 +149,9 @@ public class EnnemyAI : MonoBehaviour
     {
         float dist;
         bool near = false;
+        bool hasFootprints = false;
         angleNear = angle * 2;
+        footprintsInView.Clear(); // Empty List
 
         foreach(Transform child in footprints)
         {
@@ -145,15 +171,15 @@ public class EnnemyAI : MonoBehaviour
                     {
                         if(hit.transform.name.Contains("Footprint"))
                         {
-                            target = hit.transform;
+                            footprintsInView.Add(hit.transform); // Add footprints visible
                             Debug.DrawLine(transform.position, hit.transform.position, Color.red);
-                            return true;
+                            hasFootprints = true;
                         }
                     }
                 }
             }
         }
-        return false;
+        return hasFootprints;
     }
 
     void OnDrawGizmos()
@@ -175,11 +201,4 @@ public class EnnemyAI : MonoBehaviour
 
         
     }
-
-        //transform.LookAt(target);
-        //Vector3 moveTo = Vector3.MoveTowards(transform.position, target.position, 5000f);
-        //float playerAngle = Quaternion.Angle(Quaternion.AngleAxis(30, Vector3.up), Quaternion.AngleAxis(0, Vector3.up));
-
-
-
 }
