@@ -24,10 +24,13 @@ public class PlayerController : MonoBehaviour
     public GameObject deathMenu;
     public GameObject winScreen;
 
+    private bool caught;// Used for Wwise sound
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        caught = false;
     }
 
     private void Update() {
@@ -77,6 +80,7 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0f;
             deathMenu.SetActive(true);
+            caught = true;
         }
         if(other.gameObject.tag == "Completed")
         {
