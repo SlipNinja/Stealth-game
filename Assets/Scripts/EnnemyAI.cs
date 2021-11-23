@@ -26,6 +26,7 @@ public class EnnemyAI : MonoBehaviour
     private bool patrolling, searching, attacking;
     private List<Transform> footprintsInView;
     private Vector3 lastSeenPlayerPosition;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,7 @@ public class EnnemyAI : MonoBehaviour
         target = destinations[currentDestination];
         rangeNear = 4f;
         footprintsInView = new List<Transform>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -62,6 +64,10 @@ public class EnnemyAI : MonoBehaviour
             searching = false;
             attacking = false;
         }
+
+        animator.SetBool("Walk", patrolling);
+        animator.SetBool("Sniffing", searching);
+        animator.SetBool("Run", attacking);
 
         if(!target)
         {
