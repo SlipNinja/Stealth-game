@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1229948536" Language="SFX" Hash="3180374430">
+			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
+			<ShortName>ENVIRONMENT</ShortName>
+			<Path>ENVIRONMENT.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3025897706" Name="Play_BIRDS" ObjectPath="\Events\ENV\Play_BIRDS" MaxAttenuation="120.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="370607952" Language="SFX">
+							<ShortName>Ambience, Birdsong, Singing Birds, Early Morning SND11282 2.wav</ShortName>
+							<Path>SFX\Ambience, Birdsong, Singing Birds, Early Morning SND11282 2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3278720975" Name="Play_TUNDRA_WIND" ObjectPath="\Events\ENV\Play_TUNDRA_WIND" MaxAttenuation="120.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="862691494" Language="SFX">
+							<ShortName>TUNDRA WIND.wav</ShortName>
+							<Path>SFX\TUNDRA WIND_8295ED77.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="370607952" Language="SFX">
+					<ShortName>Ambience, Birdsong, Singing Birds, Early Morning SND11282 2.wav</ShortName>
+					<Path>SFX\Ambience, Birdsong, Singing Birds, Early Morning SND11282 2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="862691494" Language="SFX">
+					<ShortName>TUNDRA WIND.wav</ShortName>
+					<Path>SFX\TUNDRA WIND_8295ED77.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

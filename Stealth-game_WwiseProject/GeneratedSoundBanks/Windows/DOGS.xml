@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2012068516" Language="SFX" Hash="926442566">
+			<ObjectPath>\SoundBanks\Default Work Unit\DOGS</ObjectPath>
+			<ShortName>DOGS</ShortName>
+			<Path>DOGS.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4060911613" Name="DOG_FOOTSTEPS" ObjectPath="\Events\DOGS\DOG_FOOTSTEPS" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.414583" DurationMax="0.783386">
+					<IncludedMemoryFiles>
+						<File Id="19284311" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
+						</File>
+						<File Id="257310149" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
+						</File>
+						<File Id="456918045" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_586152A5.wem</Path>
+						</File>
+						<File Id="542892007" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
+						</File>
+						<File Id="836665503" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1201775887" Name="DOG_GROWL" ObjectPath="\Events\DOGS\DOG_GROWL" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="2.867510" DurationMax="3.956915">
+					<IncludedMemoryFiles>
+						<File Id="137862161" Language="SFX">
+							<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+							<Path>SFX\Dog Growling _ Halloween Sound Effects_091137ED.wem</Path>
+						</File>
+						<File Id="528057345" Language="SFX">
+							<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+							<Path>SFX\Dog Growling _ Halloween Sound Effects_12D5AB31.wem</Path>
+						</File>
+						<File Id="867442132" Language="SFX">
+							<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+							<Path>SFX\Dog Growling _ Halloween Sound Effects_4CFBC8EB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="127297048" Name="DOG_SNIFF" ObjectPath="\Events\DOGS\DOG_SNIFF" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.750784" DurationMax="1.447850">
+					<IncludedMemoryFiles>
+						<File Id="2567225" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_1EDFC6AF.wem</Path>
+						</File>
+						<File Id="56729568" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_3AE54210.wem</Path>
+						</File>
+						<File Id="285947191" Language="SFX">
+							<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+							<Path>SFX\Dog Sniffs Sound Effect_1B4AA497.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2567225" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_1EDFC6AF.wem</Path>
+				</File>
+				<File Id="19284311" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
+				</File>
+				<File Id="56729568" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_3AE54210.wem</Path>
+				</File>
+				<File Id="137862161" Language="SFX">
+					<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+					<Path>SFX\Dog Growling _ Halloween Sound Effects_091137ED.wem</Path>
+				</File>
+				<File Id="257310149" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
+				</File>
+				<File Id="285947191" Language="SFX">
+					<ShortName>Dog Sniffs Sound Effect.wav</ShortName>
+					<Path>SFX\Dog Sniffs Sound Effect_1B4AA497.wem</Path>
+				</File>
+				<File Id="456918045" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_586152A5.wem</Path>
+				</File>
+				<File Id="528057345" Language="SFX">
+					<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+					<Path>SFX\Dog Growling _ Halloween Sound Effects_12D5AB31.wem</Path>
+				</File>
+				<File Id="542892007" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
+				</File>
+				<File Id="836665503" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
+				</File>
+				<File Id="867442132" Language="SFX">
+					<ShortName>Dog Growling _ Halloween Sound Effects.wav</ShortName>
+					<Path>SFX\Dog Growling _ Halloween Sound Effects_4CFBC8EB.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

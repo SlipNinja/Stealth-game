@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\",
+   "SourceFilesRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "1655619102",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

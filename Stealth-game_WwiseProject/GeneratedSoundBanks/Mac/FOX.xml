@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\Stealth-game\Stealth-game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1083137540" Language="SFX" Hash="2344667616">
+			<ObjectPath>\SoundBanks\Default Work Unit\FOX</ObjectPath>
+			<ShortName>FOX</ShortName>
+			<Path>FOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="648125588" Name="FOX_FOOTSTEPS" ObjectPath="\Events\FOX\FOX_FOOTSTEPS" DurationType="OneShot" DurationMin="0.209700" DurationMax="0.419806">
+					<IncludedMemoryFiles>
+						<File Id="19284311" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
+						</File>
+						<File Id="257310149" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
+						</File>
+						<File Id="456918045" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_586152A5.wem</Path>
+						</File>
+						<File Id="542892007" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
+						</File>
+						<File Id="836665503" Language="SFX">
+							<ShortName>Fox footsteps.wav</ShortName>
+							<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="19284311" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_D9D259A6.wem</Path>
+				</File>
+				<File Id="257310149" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_2695E8A0.wem</Path>
+				</File>
+				<File Id="456918045" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_586152A5.wem</Path>
+				</File>
+				<File Id="542892007" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_6F7A07FF.wem</Path>
+				</File>
+				<File Id="836665503" Language="SFX">
+					<ShortName>Fox footsteps.wav</ShortName>
+					<Path>SFX\Fox footsteps_C2A4881C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

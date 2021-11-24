@@ -1,0 +1,211 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\",
+   "SourceFilesRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Language": "SFX",
+    "Hash": "677673065",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "MUSIC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1244594577",
+      "Name": "LEVEL_MUSIC",
+      "ObjectPath": "\\Events\\MUSIC\\LEVEL_MUSIC",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "161266417",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem"
+       },
+       {
+        "Id": "320531564",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav",
+        "Path": "SFX\\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem"
+       },
+       {
+        "Id": "625866719",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem"
+       },
+       {
+        "Id": "742942269",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem"
+       },
+       {
+        "Id": "945241621",
+        "Language": "SFX",
+        "ShortName": "game_over.wav",
+        "Path": "SFX\\game_over_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "725000905",
+      "Name": "Play_GAME_OVER",
+      "ObjectPath": "\\Events\\MUSIC\\Play_GAME_OVER",
+      "DurationType": "OneShot",
+      "DurationMin": "3.000000",
+      "DurationMax": "3.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "945241621",
+        "Language": "SFX",
+        "ShortName": "game_over.wav",
+        "Path": "SFX\\game_over_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3765695918",
+      "Name": "Play_HEARTBEAT",
+      "ObjectPath": "\\Events\\MUSIC\\Play_HEARTBEAT",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "677186067",
+        "Language": "SFX",
+        "ShortName": "HEARTBEAT.wav",
+        "Path": "SFX\\HEARTBEAT_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "898182510",
+      "Name": "Play_SNEAKING",
+      "ObjectPath": "\\Events\\MUSIC\\Play_SNEAKING",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "161266417",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem"
+       },
+       {
+        "Id": "320531564",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav",
+        "Path": "SFX\\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem"
+       },
+       {
+        "Id": "625866719",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem"
+       },
+       {
+        "Id": "742942269",
+        "Language": "SFX",
+        "ShortName": "SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav",
+        "Path": "SFX\\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3319673256",
+      "Name": "Stop_HEARTBEAT",
+      "ObjectPath": "\\Events\\MUSIC\\Stop_HEARTBEAT",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2991377080",
+      "Name": "Stop_SNEAKING",
+      "ObjectPath": "\\Events\\MUSIC\\Stop_SNEAKING",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "161266417",
+      "Language": "SFX",
+      "ShortName": "SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B.wav",
+      "Path": "SFX\\SNEAK-LOOP-INTRO_80BPM_4-4_2B_P0B_D79FB2B7.wem"
+     },
+     {
+      "Id": "320531564",
+      "Language": "SFX",
+      "ShortName": "SNEAK-LOOP-2_80BPM_4-4_8B_P1B.wav",
+      "Path": "SFX\\SNEAK-LOOP-2_80BPM_4-4_8B_P1B_D79FB2B7.wem"
+     },
+     {
+      "Id": "625866719",
+      "Language": "SFX",
+      "ShortName": "SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B.wav",
+      "Path": "SFX\\SNEAK-LOOP-BRIDGE_80BPM_4-4_24B_P0B_D79FB2B7.wem"
+     },
+     {
+      "Id": "677186067",
+      "Language": "SFX",
+      "ShortName": "HEARTBEAT.wav",
+      "Path": "SFX\\HEARTBEAT_D79FB2B7.wem"
+     },
+     {
+      "Id": "742942269",
+      "Language": "SFX",
+      "ShortName": "SNEAK-LOOP-1_80BPM_4-4_8B_P0B.wav",
+      "Path": "SFX\\SNEAK-LOOP-1_80BPM_4-4_8B_P0B_D79FB2B7.wem"
+     },
+     {
+      "Id": "945241621",
+      "Language": "SFX",
+      "ShortName": "game_over.wav",
+      "Path": "SFX\\game_over_D79FB2B7.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "816373421",
+      "Name": "caught",
+      "ObjectPath": "\\States\\Default Work Unit\\caught",
+      "GUID": "{09A304B8-7740-4E01-B5E5-3264F21A466D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\caught\\None",
+        "GUID": "{3D4407DE-2684-4FFB-AD35-DEB4FEA0D1E7}"
+       },
+       {
+        "Id": "3053630529",
+        "Name": "true",
+        "ObjectPath": "\\States\\Default Work Unit\\caught\\true",
+        "GUID": "{DBFD0D9B-DB1A-428F-9628-E029B5086747}"
+       },
+       {
+        "Id": "2452206122",
+        "Name": "false",
+        "ObjectPath": "\\States\\Default Work Unit\\caught\\false",
+        "GUID": "{B013A831-A0B9-49DE-9689-6FE76C5FD8BC}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

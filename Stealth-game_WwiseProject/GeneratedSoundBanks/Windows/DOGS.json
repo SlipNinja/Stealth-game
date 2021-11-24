@@ -1,0 +1,194 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\",
+   "SourceFilesRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Users\\Matthew\\OneDrive\\Documents\\GitHub\\Stealth-game\\Stealth-game_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2012068516",
+    "Language": "SFX",
+    "Hash": "926442566",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\DOGS",
+    "ShortName": "DOGS",
+    "Path": "DOGS.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4060911613",
+      "Name": "DOG_FOOTSTEPS",
+      "ObjectPath": "\\Events\\DOGS\\DOG_FOOTSTEPS",
+      "MaxAttenuation": "50.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.414583",
+      "DurationMax": "0.783386",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "19284311",
+        "Language": "SFX",
+        "ShortName": "Fox footsteps.wav",
+        "Path": "SFX\\Fox footsteps_D9D259A6.wem"
+       },
+       {
+        "Id": "257310149",
+        "Language": "SFX",
+        "ShortName": "Fox footsteps.wav",
+        "Path": "SFX\\Fox footsteps_2695E8A0.wem"
+       },
+       {
+        "Id": "456918045",
+        "Language": "SFX",
+        "ShortName": "Fox footsteps.wav",
+        "Path": "SFX\\Fox footsteps_586152A5.wem"
+       },
+       {
+        "Id": "542892007",
+        "Language": "SFX",
+        "ShortName": "Fox footsteps.wav",
+        "Path": "SFX\\Fox footsteps_6F7A07FF.wem"
+       },
+       {
+        "Id": "836665503",
+        "Language": "SFX",
+        "ShortName": "Fox footsteps.wav",
+        "Path": "SFX\\Fox footsteps_C2A4881C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1201775887",
+      "Name": "DOG_GROWL",
+      "ObjectPath": "\\Events\\DOGS\\DOG_GROWL",
+      "MaxAttenuation": "50.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.867510",
+      "DurationMax": "3.956915",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "137862161",
+        "Language": "SFX",
+        "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+        "Path": "SFX\\Dog Growling _ Halloween Sound Effects_091137ED.wem"
+       },
+       {
+        "Id": "528057345",
+        "Language": "SFX",
+        "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+        "Path": "SFX\\Dog Growling _ Halloween Sound Effects_12D5AB31.wem"
+       },
+       {
+        "Id": "867442132",
+        "Language": "SFX",
+        "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+        "Path": "SFX\\Dog Growling _ Halloween Sound Effects_4CFBC8EB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "127297048",
+      "Name": "DOG_SNIFF",
+      "ObjectPath": "\\Events\\DOGS\\DOG_SNIFF",
+      "MaxAttenuation": "50.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.750784",
+      "DurationMax": "1.447850",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "2567225",
+        "Language": "SFX",
+        "ShortName": "Dog Sniffs Sound Effect.wav",
+        "Path": "SFX\\Dog Sniffs Sound Effect_1EDFC6AF.wem"
+       },
+       {
+        "Id": "56729568",
+        "Language": "SFX",
+        "ShortName": "Dog Sniffs Sound Effect.wav",
+        "Path": "SFX\\Dog Sniffs Sound Effect_3AE54210.wem"
+       },
+       {
+        "Id": "285947191",
+        "Language": "SFX",
+        "ShortName": "Dog Sniffs Sound Effect.wav",
+        "Path": "SFX\\Dog Sniffs Sound Effect_1B4AA497.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "2567225",
+      "Language": "SFX",
+      "ShortName": "Dog Sniffs Sound Effect.wav",
+      "Path": "SFX\\Dog Sniffs Sound Effect_1EDFC6AF.wem"
+     },
+     {
+      "Id": "19284311",
+      "Language": "SFX",
+      "ShortName": "Fox footsteps.wav",
+      "Path": "SFX\\Fox footsteps_D9D259A6.wem"
+     },
+     {
+      "Id": "56729568",
+      "Language": "SFX",
+      "ShortName": "Dog Sniffs Sound Effect.wav",
+      "Path": "SFX\\Dog Sniffs Sound Effect_3AE54210.wem"
+     },
+     {
+      "Id": "137862161",
+      "Language": "SFX",
+      "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+      "Path": "SFX\\Dog Growling _ Halloween Sound Effects_091137ED.wem"
+     },
+     {
+      "Id": "257310149",
+      "Language": "SFX",
+      "ShortName": "Fox footsteps.wav",
+      "Path": "SFX\\Fox footsteps_2695E8A0.wem"
+     },
+     {
+      "Id": "285947191",
+      "Language": "SFX",
+      "ShortName": "Dog Sniffs Sound Effect.wav",
+      "Path": "SFX\\Dog Sniffs Sound Effect_1B4AA497.wem"
+     },
+     {
+      "Id": "456918045",
+      "Language": "SFX",
+      "ShortName": "Fox footsteps.wav",
+      "Path": "SFX\\Fox footsteps_586152A5.wem"
+     },
+     {
+      "Id": "528057345",
+      "Language": "SFX",
+      "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+      "Path": "SFX\\Dog Growling _ Halloween Sound Effects_12D5AB31.wem"
+     },
+     {
+      "Id": "542892007",
+      "Language": "SFX",
+      "ShortName": "Fox footsteps.wav",
+      "Path": "SFX\\Fox footsteps_6F7A07FF.wem"
+     },
+     {
+      "Id": "836665503",
+      "Language": "SFX",
+      "ShortName": "Fox footsteps.wav",
+      "Path": "SFX\\Fox footsteps_C2A4881C.wem"
+     },
+     {
+      "Id": "867442132",
+      "Language": "SFX",
+      "ShortName": "Dog Growling _ Halloween Sound Effects.wav",
+      "Path": "SFX\\Dog Growling _ Halloween Sound Effects_4CFBC8EB.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
