@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: de311b171a0a4f49b2d3a1540ce1e7f0
     GuidInternal: 
-    m_lastTime: -8585639204854854924
+    m_lastTime: -8585639038992636456
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 919bd4aacb785c4e99b2fd54c686d320
     GuidInternal: 
-    m_lastTime: -8585639204857160600
+    m_lastTime: -8585639038994906983
     List:
     - name: DOGS
       guid: bd3a29c50329ac45bb32e9f00fb63398
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 4a9d13187b14634587f10b94607d4303
     GuidInternal: 
-    m_lastTime: -8585639204854955011
+    m_lastTime: -8585638398952155975
     List:
     - name: DOGS
       guid: dc91e8b05a594c43a543329b63e0a190
@@ -192,7 +192,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc67d906e5894940a29687a8f209a8ef
     GuidInternal: 
-    m_lastTime: -8585639168027583641
+    m_lastTime: -8585639039000568273
     List: []
   - PhysicalPath: Events\DOGS.wwu
     PathAndIcons:
@@ -205,7 +205,7 @@ MonoBehaviour:
     ParentPath: Events\DOGS
     guid: ed64b8f321f93040914876231c3799d7
     GuidInternal: 
-    m_lastTime: -8585639204863755553
+    m_lastTime: -8585639039000578273
     List:
     - name: DOG_FOOTSTEPS
       guid: 92b3d838b1fd374188aafa7ecd965ba9
@@ -285,7 +285,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 70aef93b6507ae4e9af35a4901701872
       Path: Events\ENV\Play_BIRDS
-      maxAttenuation: 90
+      maxAttenuation: 120
       maxDuration: -1
       minDuration: -1
     - name: Play_TUNDRA_WIND
@@ -302,7 +302,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8ffe84bfb760004389c98f25d154245a
       Path: Events\ENV\Play_TUNDRA_WIND
-      maxAttenuation: 90
+      maxAttenuation: 120
       maxDuration: -1
       minDuration: -1
   - PhysicalPath: Events\FOX.wwu
@@ -316,7 +316,7 @@ MonoBehaviour:
     ParentPath: Events\FOX
     guid: 8d79f5ce780d164aa2ef6358a7b41526
     GuidInternal: 
-    m_lastTime: -8585639204863735447
+    m_lastTime: -8585639039000558269
     List:
     - name: FOX_FOOTSTEPS
       guid: f26f74845625ce4387b1d1cbfb2d032e
@@ -346,7 +346,7 @@ MonoBehaviour:
     ParentPath: Events\MUSIC
     guid: 510dde0351cca24d81a3887878080c0b
     GuidInternal: 
-    m_lastTime: -8585639168027513619
+    m_lastTime: -8585638356855552765
     List:
     - name: LEVEL_MUSIC
       guid: a1e91df376530d4482982eb5e01c2cfa
@@ -462,7 +462,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8969f1aa17037a4da5c09a4e268c5669
     GuidInternal: 
-    m_lastTime: -8585639204863715525
+    m_lastTime: -8585639039000538257
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -476,7 +476,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dc8f9b10f18d9e4499e5ced9fa92eb3c
     GuidInternal: 
-    m_lastTime: -8585639184269058999
+    m_lastTime: -8585639038992706473
     List:
     - name: caught
       guid: b804a3094077014eb5e53264f21a466d
@@ -622,7 +622,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: ab6077596fa4444baccbb49b4e91e997
     GuidInternal: 
-    m_lastTime: -8585639204854874939
+    m_lastTime: -8585639038992656472
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -636,10 +636,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2d08dcdc9c69044a994a95f794c6f370
     GuidInternal: 
-    m_lastTime: -8585639204854864931
+    m_lastTime: -8585639038992646472
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000090000000a0000000b0000000c0000000f000000120000001300000014000000150000001c0000001d0000001e0000001f0000002000000021000000
+  ExpandedWaapiItemIds: 01000000090000000a000000100000001300000014000000150000001f0000002000000021000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

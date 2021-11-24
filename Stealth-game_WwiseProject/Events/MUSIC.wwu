@@ -9,6 +9,17 @@
 			<ChildrenList>
 				<Event Name="Play_HEARTBEAT" ID="{3E3DFA82-30D8-45FD-8833-F44F5691E2AA}">
 					<ChildrenList>
+						<Action Name="" ID="{853E9D72-9077-4DDD-931D-2EC022C7D812}" ShortID="763121416">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEARTBEAT" ID="{B97A9BAB-1B12-4EBA-A767-32748426D4DA}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{C74FAE7A-01D9-4B47-9AD6-49612488EE42}" ShortID="901029011">
 							<PropertyList>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
@@ -23,6 +34,17 @@
 				</Event>
 				<Event Name="Play_GAME_OVER" ID="{CCA7216C-5FEE-47F2-A679-6F9A25C61370}">
 					<ChildrenList>
+						<Action Name="" ID="{6504B66C-31E4-4B13-9852-7EC6DB8025F7}" ShortID="90033119">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SNEAKING" ID="{7798E6DC-12CF-4A52-B914-ECA585F44045}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A89F51DA-12B0-4C76-8B4B-347C0B807633}" ShortID="771692329">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -34,6 +56,17 @@
 				</Event>
 				<Event Name="Play_SNEAKING" ID="{B00D7B50-10AD-4DA9-AC3A-C00DB42D107F}">
 					<ChildrenList>
+						<Action Name="" ID="{A83598B9-D6F8-4B3C-8438-70CEE65EE042}" ShortID="640253068">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SNEAKING" ID="{7798E6DC-12CF-4A52-B914-ECA585F44045}" WorkUnitID="{D5DCFFA6-AA30-4006-8F37-FB84147AB234}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3E20E5CA-FBFC-4504-A4A4-2B1CAC69E325}" ShortID="1062844822">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -60,6 +93,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

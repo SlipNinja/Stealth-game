@@ -688,7 +688,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+							<ObjectRef Name="120M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>
@@ -732,7 +732,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
+									<ObjectRef Name="120M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" WorkUnitID="{CB2DB26B-3CE2-4764-9AE3-66EF7938CCF9}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF76E68E-F643-4E05-91EE-23A88EE39CF5}"/>

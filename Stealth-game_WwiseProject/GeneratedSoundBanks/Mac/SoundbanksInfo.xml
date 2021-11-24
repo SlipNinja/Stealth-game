@@ -64,12 +64,12 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1229948536" Language="SFX" Hash="752923111">
+		<SoundBank Id="1229948536" Language="SFX" Hash="3180374430">
 			<ObjectPath>\SoundBanks\Default Work Unit\ENVIRONMENT</ObjectPath>
 			<ShortName>ENVIRONMENT</ShortName>
 			<Path>ENVIRONMENT.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3025897706" Name="Play_BIRDS" ObjectPath="\Events\ENV\Play_BIRDS" MaxAttenuation="90.000000" DurationType="Infinite">
+				<Event Id="3025897706" Name="Play_BIRDS" ObjectPath="\Events\ENV\Play_BIRDS" MaxAttenuation="120.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="370607952" Language="SFX">
 							<ShortName>Ambience, Birdsong, Singing Birds, Early Morning SND11282 2.wav</ShortName>
@@ -77,7 +77,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3278720975" Name="Play_TUNDRA_WIND" ObjectPath="\Events\ENV\Play_TUNDRA_WIND" MaxAttenuation="90.000000" DurationType="Infinite">
+				<Event Id="3278720975" Name="Play_TUNDRA_WIND" ObjectPath="\Events\ENV\Play_TUNDRA_WIND" MaxAttenuation="120.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="862691494" Language="SFX">
 							<ShortName>TUNDRA WIND.wav</ShortName>
@@ -102,7 +102,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2012068516" Language="SFX" Hash="539785629">
+		<SoundBank Id="2012068516" Language="SFX" Hash="926442566">
 			<ObjectPath>\SoundBanks\Default Work Unit\DOGS</ObjectPath>
 			<ShortName>DOGS</ShortName>
 			<Path>DOGS.bnk</Path>
@@ -211,7 +211,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3962150395">
+		<SoundBank Id="3991942870" Language="SFX" Hash="677673065">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>

@@ -67,9 +67,9 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="90M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" ShortID="509429183">
+				<Attenuation Name="120M" ID="{6B35B96E-3C55-4528-8DCE-D200368BF701}" ShortID="509429183">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="90"/>
+						<Property Name="RadiusMax" Type="Real64" Value="120"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -85,7 +85,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>90</XPos>
+											<XPos>120</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -112,7 +112,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>90</XPos>
+											<XPos>120</XPos>
 											<YPos>50</YPos>
 											<Flags>37</Flags>
 										</Point>
